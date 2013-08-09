@@ -85,31 +85,40 @@ MILSIM_fnc_LoadOutMenu = {
 };
 
 MILSIM_var_LoadOutMenu_GOLD_Classes = [
-										["Team Gold Officer","MILSIM\gears\gold_officer_tg.sqf"],
-										["Team Gold Medic","MILSIM\gears\gold_medic_tg.sqf"],
-										["Team Gold Engineer","MILSIM\gears\gold_engineer_tg.sqf"],
-										["Team Gold Support","MILSIM\gears\gold_support_tg.sqf"],
-										["Team Gold Operator","MILSIM\gears\gold_operator_tg.sqf"],
-										["Team Gold Recruit","MILSIM\gears\gold_recruit_tg.sqf"]
+
+										["Team Gold Captain Medic","MILSIM\gears\gold_CPT_Medic_tg.sqf"],
+
+										["Team Gold Lieutenant GL","MILSIM\gears\gold_Liutenent_GL_tg.sqf"],
+										["Team Gold Lieutenant Medic","MILSIM\gears\gold_Liutenent_medic_tg.sqf"],										
+										
+										["Team Gold Sargent Assault","MILSIM\gears\gold_SGT_Assault_tg.sqf"],
+										["Team Gold Sargent Marksman","MILSIM\gears\gold_SGT_Marksman.sqf"],
+										
+										["Team Gold Operator Assault","MILSIM\gears\gold_CPL_Assault.sqf"],
+										["Team Gold Operator Medic","MILSIM\gears\gold_CPL_medic.sqf"],
+										["Team Gold Operator Support","MILSIM\gears\gold_CPL_support.sqf"],
+										["Team Gold Operator Marksman","MILSIM\gears\gold_CPL_marksman.sqf"],
+										["Team Gold Operator Engineer","MILSIM\gears\gold_CPL_Engineer.sqf"],
+										["Team Gold Recruit","MILSIM\gears\gold_REC_Recruit.sqf"]
 										];
 
 MILSIM_var_LoadOutMenu_BLUE_Classes = [
-										["BLUE Team Pilot","MILSIM\gears\blue.sqf"]
+										["BLUE Team Pilot","MILSIM\gears\blue_pilot.sqf"]
 										];
 
 
 MILSIM_var_LoadOutMenu_RED_Classes = [
-										["Team RED Crewman","MILSIM\gears\red.sqf"]
+										["Team RED Crewman","MILSIM\gears\red_crewman.sqf"]
 										];
 										
 MILSIM_var_LoadOutMenu_BLACK_Classes = [
-										["Team Black 01","MILSIM\gears\black_01_tg.sqf"],
-										["Team Black 02","MILSIM\gears\black_02_tg.sqf"],
-										["Team Black 03","MILSIM\gears\black_03_tg.sqf"],
-										["Team Black 04","MILSIM\gears\black_04_tg.sqf"],
-										["Team Black 05","MILSIM\gears\black_05_tg.sqf"],
-										["Team Black 06","MILSIM\gears\black_06_tg.sqf"],
-										["Team Black 07","MILSIM\gears\black_07_tg.sqf"]
+										["Team Black 01","MILSIM\gears\black_01.sqf"],
+										["Team Black 02","MILSIM\gears\black_02.sqf"],
+										["Team Black 03","MILSIM\gears\black_03.sqf"],
+										["Team Black 04","MILSIM\gears\black_04.sqf"],
+										["Team Black 05","MILSIM\gears\black_05.sqf"],
+										["Team Black 06","MILSIM\gears\black_06.sqf"],
+										["Team Black 07","MILSIM\gears\black_07.sqf"]
 										];
 
 										
