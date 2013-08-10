@@ -35,3 +35,5 @@ player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM
 
 //Finish world initialization before mission is launched. 
 finishMissionInit;
+
+["INFO: Mission Init Finished","green"] spawn groo_fnc_consoleMSG;
