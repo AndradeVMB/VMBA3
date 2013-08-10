@@ -2,7 +2,7 @@ titlecut [" ","BLACK IN",1];
 _camera = "camera" camcreate [0,0,0];
 _camera cameraeffect ["internal", "back"];
 
-playmusic "Overdose";
+playmusic "trilhaopsocrates";
 
 titletext ["GROO FRAMEWORK\nFeatures:\nMonsada's UPSMON\nBangabob's EOS\nFHQ Task Tracker\n=BTC= Logistics\n=BTC= Revive\nZuff Group Management\nJamac Vehicle Service","PLAIN"];
 
@@ -19,7 +19,7 @@ _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 10;
 waitUntil {camCommitted _camera;};
 
-titletext ["A Mission By\n The VMB S3 Team\nCpl.OfKings - Mission Editing\nCpl.Andrade - Scripting Sorcery","PLAIN"];
+titletext ["A Mission By\n The VMB S3 Team\nCpl.OfKings - Mission Editing\nSub.Andrade - Scripting Sorcery","PLAIN"];
 
 ;comment "2:13:25";
 _camera camPrepareTarget [-15842.40,93639.35,-43734.88];
@@ -49,7 +49,7 @@ _camera camPrepareFOV 0.490;
 _camera camCommitPrepared 10;
 waitUntil {camCommitted _camera;};
 
-titletext ["OPERACAO SOCRATES Parte 2","PLAIN"];
+titletext ["OPERACAO SOCRATES FINAL","PLAIN"];
 
 ;comment "21:19:02";
 _camera camPrepareTarget [87277.45,-2955.69,-52205.86];
@@ -64,7 +64,7 @@ _camera camPrepareFOV 0.490;
 _camera camCommitPrepared 8;
 waitUntil {camCommitted _camera;};
 
-titletext ["Special Thanks:\nLt.Godspeed\nCdt.Nascimento\nCpl.IronPack\nRc.Abreu\nFor support testing the mission.","PLAIN"];
+titletext ["Special Thanks:\nLt.Godspeed\nLt.Coldshot\nCdt.Nascimento\nCpl.IronPack\nRc.Abreu\nFor support testing the mission.","PLAIN"];
 
 ;comment "21:20:33";
 _camera camPrepareTarget [102176.81,-2204.58,1848.99];
@@ -97,11 +97,11 @@ titletext ["Prepare yourself...","PLAIN"];
 
 sleep 10;
 
-titletext ["IT'S TIME TO ROCK!","PLAIN"];
+titletext ["O que fizemos apenas por nos mesmos morre conosco, o que fizemos pelos outros e pelo mundo permanece e torna se imortal.!","PLAIN"];
 
-playmusic "Doom";
 
-;comment "5:29:11";
+
+comment "5:29:11";
 _camera camPrepareTarget [-81510.02,-52376.75,-10399.63];
 _camera camPreparePos [2650.07,613.21,1.88];
 _camera camPrepareFOV 0.076;
