@@ -68,7 +68,7 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao SOCRATES 2.5";
+		briefingName="Operacao SOCRATES 2.8";
 		overviewText="A alguns dias o Comandante do I.S.A (INDEPENDENT STRATIS ARMY)tomou a ilha com um golpe de estado. Não podemos perder essa enorme fonte de recursos. O alto comando convocou o TATICAL TEAM [MILSIM] para retomar a ilha por ser o grupo mais eficaz em combate. Partindo do posto de infiltrado ao Sul de Stratis,nossas tropas devem romper as linhas inimigas para sabotar os suprimentos de armamento do inimigo e eliminar o comando do I.S.A";
 		resistanceEast=1;
 		startWeather=0.25;
@@ -107,7 +107,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cameraman";
-					init="if false then {[] execVM ""camera.sqs"";};if TRUE then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
+					init="if false then {[] execVM ""camera.sqs"";};if true then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
 				};
 			};
 		};
@@ -380,7 +380,7 @@ class Mission
 					side="WEST";
 					vehicle="B_crew_F";
 					skill=0.60000002;
-					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
+					init="null = ["""",this] execVM ""MILSIM\gears\red_crewman.sqf"";";
 					description="Red Team Crewman";
 				};
 				class Item2
@@ -392,7 +392,7 @@ class Mission
 					side="WEST";
 					vehicle="B_crew_F";
 					skill=0.60000002;
-					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
+					init="null = ["""",this] execVM ""MILSIM\gears\red_crewman.sqf"";";
 					description="Red Team Crewman";
 				};
 			};
@@ -450,7 +450,7 @@ class Mission
 					side="WEST";
 					vehicle="B_crew_F";
 					skill=0.60000002;
-					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
+					init="null = ["""",this] execVM ""MILSIM\gears\red_crewman.sqf"";";
 					description="Red Team Crewman";
 				};
 				class Item2
@@ -462,7 +462,7 @@ class Mission
 					side="WEST";
 					vehicle="B_crew_F";
 					skill=0.60000002;
-					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
+					init="null = ["""",this] execVM ""MILSIM\gears\red_crewman.sqf"";";
 					description="Red Team Crewman";
 				};
 			};
