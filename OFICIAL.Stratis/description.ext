@@ -35,18 +35,12 @@ class Header
 
 class CfgMusic
 {
-   tracks[]={Overdose,Doom};
-   class Overdose
+   tracks[]={trilhaopsocrates};
+   class trilhaopsocrates
   {
-    name = "Overdose";
-    sound[] = {\Music\Overdose.ogg, db+1, 1.0};
-  };
-   class Doom
-  {
-    name = "Doom";
-    sound[] = {\Music\Doom.ogg, db+1, 1.0};
-  };
-   
+    name = "trilhaopsocrates";
+    sound[] = {\Music\trilhaopsocrates.ogg, db+1, 1.0};
+	};
 };
 
 // Include for TAW Viewdistance Script

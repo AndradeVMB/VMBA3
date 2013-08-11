@@ -23,7 +23,7 @@ _unit addWeapon "AR_GoldTeam";
 _unit addWeapon "hgun_P07_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "PEQ15_A3_Top";
-_unit addPrimaryWeaponItem "Muzzle_MK18_L";
+_unit addItem "Muzzle_MK18_L";
 _unit addHandgunItem "muzzle_snds_L";
 _unit addItem "optic_MRCO";
 
