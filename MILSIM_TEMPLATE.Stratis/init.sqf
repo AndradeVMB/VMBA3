@@ -30,6 +30,9 @@ if PARAMEDITMODE then {
 player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 20"];
 player addEventHandler ["Respawn", { player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 20"];}];
 
+// MILSIM playernames
+[] execVM "MILSIM\scripts\playernames.sqf";
+
 // Group Maneagement Script
 ["INFO: Group Maneagement Script Enabled","green"] spawn groo_fnc_consoleMSG;
 [player] execVM "scripts\groupsMenu\initGroups.sqf";
