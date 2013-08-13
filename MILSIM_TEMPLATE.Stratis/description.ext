@@ -26,6 +26,14 @@ class Header
 	respawn = "BASE";
 	respawndelay = 10;
 
+class RscTitles 
+{
+titles[]={};
+
+#include "MILSIM\MILSIM_titles.hpp"
+
+};
+	
 // Include for TAW Viewdistance Script
 #include "taw_vd\dialog.hpp"
 

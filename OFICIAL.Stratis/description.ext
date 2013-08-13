@@ -55,6 +55,7 @@ class RscTitles
 	titles[]={};
 	#include "gvs\stc_displays.hpp"
 	#include "=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
+	
 };
 
 // Include for NORRN_cam
