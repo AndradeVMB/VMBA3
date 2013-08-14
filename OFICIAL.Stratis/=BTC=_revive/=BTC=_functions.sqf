@@ -427,8 +427,8 @@ BTC_player_killed =
 		_pos = getPosATL vehicle _body;
 		if (BTC_lifes != 0 || BTC_active_lifes == 0) then
 		{
-			if {BTC_Revive_Limit == 0} exitWith BTC_player_respawn;
-			BTC_Revive_Limit = BTC_Revive_Limit - 1;
+			if (BTC_Revives == 0) exitWith BTC_player_respawn;
+			BTC_Revives = BTC_Revives - 1;
 		
 			WaitUntil {Alive player};
 			detach player;
@@ -526,6 +526,7 @@ BTC_check_healer =
 BTC_player_respawn =
 {
 	BTC_respawn_cond = true;
+	BTC_Revives = BTC_Revive_limit;
 	if (BTC_active_lifes == 1) then {BTC_lifes = BTC_lifes - 1;};
 	if (BTC_active_lifes == 1 && BTC_lifes == 0) exitWith BTC_out_of_lifes;
 	deTach player;

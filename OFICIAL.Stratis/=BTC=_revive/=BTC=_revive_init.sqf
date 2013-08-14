@@ -16,6 +16,7 @@ BTC_respawn_gear    = 1;
 BTC_active_lifes    = 0;
 BTC_lifes           = 0;
 BTC_Revive_Limit	= 3;
+BTC_Revives			= BTC_Revive_limit;
 BTC_black_screen    = 0;//Black screen + button while unconscious or action wheel and clear view
 BTC_action_respawn  = 0;//if black screen is set to 0 you can choose if you want to use the action wheel or the button. Keep in mind that if you don't use the button, the injured player can use all the action, frag too....
 BTC_respawn_time    = 0;
