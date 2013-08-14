@@ -150,7 +150,7 @@ class Mission
 				class Item0
 				{
 					position[]={1725.0404,5.5,5260.1045};
-					azimut=-71.09864;
+					azimut=-71.098602;
 					special="NONE";
 					id=7;
 					side="WEST";
@@ -162,7 +162,7 @@ class Mission
 				class Item1
 				{
 					position[]={1725.5135,5.5,5261.6128};
-					azimut=-71.09864;
+					azimut=-71.098602;
 					special="NONE";
 					id=8;
 					side="WEST";
@@ -174,7 +174,7 @@ class Mission
 				class Item2
 				{
 					position[]={1727.4614,5.5,5261.0176};
-					azimut=-71.09864;
+					azimut=-71.098602;
 					special="NONE";
 					id=9;
 					side="WEST";
@@ -340,13 +340,13 @@ class Mission
 					leader=1;
 					rank="CAPTAIN";
 					skill=1;
-					init="(group this) setGroupId [""Gold Team Alpha""];null = [this] execVM ""MILSIM\defaultloadout.sqf""; this addeventhandler [""respawn"",""_this execVM 'MILSIM\defaultloadout.sqf'""];";
+					init="(group this) setGroupId [""Gold Team Alpha""];null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
 					description="Gold Cpt. - Médico";
 				};
 				class Item1
 				{
 					position[]={1713.5166,5.5,5260.6235};
-					azimut=98.408607;
+					azimut=98.4086;
 					special="NONE";
 					id=19;
 					side="WEST";
@@ -359,7 +359,7 @@ class Mission
 				class Item2
 				{
 					position[]={1716.5741,5.5,5267.7617};
-					azimut=98.408607;
+					azimut=98.4086;
 					special="NONE";
 					id=20;
 					side="WEST";
