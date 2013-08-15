@@ -34,7 +34,7 @@ _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 10;
 waitUntil {camCommitted _camera;};
 
-titletext ["FEATURING:\nMILSIM Units by Maj.BlackHawk\nLoadOut Scripts by Col.Viper","PLAIN"];
+titletext ["FEATURING:\nMILSIM Units by Maj.BlackHawk\nLoadOut Scripts by Col.Viper\nLoadOut Menu by Sub.Andrade","PLAIN"];
 
 ;comment "4:36:45";
 _camera camPrepareTarget [65746.25,-71230.11,-6701.53];
@@ -147,6 +147,6 @@ waitUntil {camCommitted _camera;};
 _camera cameraeffect ["terminate","back"];
 camdestroy _camera;
 
-[str ("TOMANDO O MORRO") ,  str(date select 1) + "." + str(date select 2) + "." + str(date select 0), str("STRATIS")] spawn BIS_fnc_infoText;
+[str ("PACIFICANDO O MORRO") ,  str(date select 1) + "." + str(date select 2) + "." + str(date select 0), str("STRATIS")] spawn BIS_fnc_infoText;
 
 exit;

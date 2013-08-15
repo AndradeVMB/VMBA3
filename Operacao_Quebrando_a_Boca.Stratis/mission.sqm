@@ -7262,7 +7262,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=19;
+		items=20;
 		class Item0
 		{
 			position[]={3714.2815,195.70711,4954.5688};
@@ -7344,51 +7344,41 @@ class Mission
 		{
 			position[]={3542.8748,159.93353,5048.5317};
 			name="boca";
-			markerType="ELLIPSE";
-			type="mil_objective";
+			text="Boca do Amarelinho";
+			type="mil_warning";
 			colorName="ColorRed";
-			a=50;
-			b=50;
 		};
 		class Item9
 		{
 			position[]={3594.74,110.23469,5195.8774};
 			name="boca_1";
-			markerType="ELLIPSE";
-			type="mil_objective";
+			text="Boca do Barro Solto";
+			type="mil_warning";
 			colorName="ColorRed";
-			a=50;
-			b=50;
 		};
 		class Item10
 		{
-			position[]={3497.8728,90.46431,5358.6343};
+			position[]={3496.6484,89.84124,5349.4487};
 			name="boca_2";
-			markerType="ELLIPSE";
-			type="mil_objective";
+			text="Boca do Asfalto";
+			type="mil_warning";
 			colorName="ColorRed";
-			a=50;
-			b=50;
 		};
 		class Item11
 		{
 			position[]={3711.6975,194.95584,4959.0396};
 			name="boca_3";
-			markerType="ELLIPSE";
-			type="mil_objective";
+			text="Boca do Rato Mulato";
+			type="mil_warning";
 			colorName="ColorRed";
-			a=50;
-			b=50;
 		};
 		class Item12
 		{
 			position[]={3198.8721,159.95155,5063.2456};
 			name="boca_4";
-			markerType="ELLIPSE";
-			type="mil_objective";
+			text="Boca da Feirinha";
+			type="mil_warning";
 			colorName="ColorRed";
-			a=50;
-			b=50;
 		};
 		class Item13
 		{
@@ -7414,7 +7404,7 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={3447.6997,135.5099,5110.1084};
+			position[]={3442.6555,133.84453,5111.4214};
 			name="mkrUrban5";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -7436,7 +7426,7 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={3309.0862,140.2403,5049.5869};
+			position[]={3350.8313,151.96042,5017.2837};
 			name="mkrUrban6";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -7456,6 +7446,13 @@ class Mission
 			b=50;
 			angle=235.759;
 		};
+		class Item19
+		{
+			position[]={3310.5903,60.237968,5567.6899};
+			name="mkrEntrada";
+			text="Entrada da Favela";
+			type="mil_start";
+		};
 	};
 	class Sensors
 	{
@@ -7471,10 +7468,11 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="! alive armazem1";
+			expActiv="""boca"" setMarkerColor ""ColorGreen""";
 			class Effects
 			{
 				titleType="TEXT";
-				title="***BOCADA 1 DESTRUIDA***";
+				title="***BOCA DO AMARELINHO CAIU***";
 			};
 		};
 		class Item1
@@ -7488,10 +7486,11 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="! alive armazem4";
+			expActiv="""boca_4"" setMarkerColor ""ColorGreen""";
 			class Effects
 			{
 				titleType="TEXT";
-				title="***BOCADA 4 DESTRUIDA***";
+				title="***Boca da Feirinha Caiu***";
 			};
 		};
 		class Item2
@@ -7506,10 +7505,11 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="! alive armazem5";
+			expActiv="""boca_3"" setMarkerColor ""ColorGreen""";
 			class Effects
 			{
 				titleType="TEXT";
-				title="***BOCADA 5 DESTRUIDA***";
+				title="***BOCA DO RATO MULATO CAIU***";
 			};
 		};
 		class Item3
@@ -7524,10 +7524,11 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="! alive armazem3";
+			expActiv="""boca_2"" setMarkerColor ""ColorGreen""";
 			class Effects
 			{
 				titleType="TEXT";
-				title="***BOCADA 3 DESTRUIDA***";
+				title="***BOCA DO ASFALTO CAIU***";
 			};
 		};
 		class Item4
@@ -7542,10 +7543,11 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="! alive armazem2";
+			expActiv="""boca_1"" setMarkerColor ""ColorGreen""";
 			class Effects
 			{
 				titleType="TEXT";
-				title="***BOCADA 2 DESTRUIDA***";
+				title="***BOCA DO BARRO SOLTO CAIU***";
 			};
 		};
 		class Item5
@@ -7567,7 +7569,7 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={3362.9314,62.738472,5534.5332};
+			position[]={3347.9727,50.275871,5589.5679};
 			a=200;
 			b=200;
 			activationBy="WEST";
