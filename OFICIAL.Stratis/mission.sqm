@@ -68,7 +68,7 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao SOCRATES 2.9";
+		briefingName="Operacao SOCRATES 2.93";
 		overviewText="A alguns dias o Comandante do I.S.A (INDEPENDENT STRATIS ARMY)tomou a ilha com um golpe de estado. Não podemos perder essa enorme fonte de recursos. O alto comando convocou o TATICAL TEAM [MILSIM] para retomar a ilha por ser o grupo mais eficaz em combate. Partindo do posto de infiltrado ao Sul de Stratis,nossas tropas devem romper as linhas inimigas para sabotar os suprimentos de armamento do inimigo e eliminar o comando do I.S.A";
 		resistanceEast=1;
 		startWeather=0.25;
@@ -503,7 +503,7 @@ class Mission
 					id=27;
 					side="WEST";
 					vehicle="B_medic_F";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					rank="CAPTAIN";
 					skill=1;
@@ -3155,7 +3155,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=97;
+		items=92;
 		class Item0
 		{
 			position[]={1924.4861,19.864199,2789.8667};
@@ -3205,19 +3205,7 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={2089.8726,15.547931,2835.7061};
-			name="mkrHillPatrol2";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorBrown";
-			fillName="Grid";
-			a=200;
-			b=50;
-			angle=-19.4214;
-		};
-		class Item5
-		{
-			position[]={2085.417,7.217063,2747.2959};
+			position[]={2049.842,2.7426088,2750.0327};
 			name="mkrUrban11";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -3226,7 +3214,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item6
+		class Item5
 		{
 			position[]={1999.0065,5.4009862,2751.7612};
 			name="mkrUrban8";
@@ -3237,7 +3225,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item7
+		class Item6
 		{
 			position[]={3632.9465,63.721039,6283.9351};
 			name="mkrTankPatrol7";
@@ -3249,7 +3237,7 @@ class Mission
 			b=100;
 			angle=167.82201;
 		};
-		class Item8
+		class Item7
 		{
 			position[]={6415.2612,8,5363.5957};
 			name="mkrUrban14";
@@ -3261,21 +3249,9 @@ class Mission
 			b=80;
 			angle=38.227699;
 		};
-		class Item9
+		class Item8
 		{
-			position[]={2096.4307,4.764966,5279.6841};
-			name="mkrUrban15";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorBlue";
-			fillName="DiagGrid";
-			a=150;
-			b=90;
-			angle=-256.49399;
-		};
-		class Item10
-		{
-			position[]={2094.012,5.6405416,5760.3687};
+			position[]={2020.6088,5.6999998,5715.5425};
 			name="mkrUrban16";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -3285,9 +3261,9 @@ class Mission
 			b=50;
 			angle=-77.733337;
 		};
-		class Item11
+		class Item9
 		{
-			position[]={2203.6965,6,5735.1973};
+			position[]={2190.8464,6,5711.1035};
 			name="mkrUrban17";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -3297,7 +3273,7 @@ class Mission
 			b=50;
 			angle=191.68843;
 		};
-		class Item12
+		class Item10
 		{
 			position[]={4011.1025,143.12758,7033.4346};
 			name="mkrRoadblock4";
@@ -3309,7 +3285,7 @@ class Mission
 			b=40;
 			angle=-99.816231;
 		};
-		class Item13
+		class Item11
 		{
 			position[]={2794.1851,50.113857,3829.0049};
 			name="mkrRoadblock5";
@@ -3320,7 +3296,7 @@ class Mission
 			a=40;
 			b=40;
 		};
-		class Item14
+		class Item12
 		{
 			position[]={4457.6353,209.14085,4458.9443};
 			name="mkrRoadblock6";
@@ -3331,9 +3307,9 @@ class Mission
 			a=40;
 			b=40;
 		};
-		class Item15
+		class Item13
 		{
-			position[]={2182.6785,6,5638.376};
+			position[]={2170.6316,6,5611.8721};
 			name="mkrUrban20";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -3343,7 +3319,7 @@ class Mission
 			b=50;
 			angle=-167.787;
 		};
-		class Item16
+		class Item14
 		{
 			position[]={4343.8726,177.35001,4362.2168};
 			name="mkrUrban21";
@@ -3354,7 +3330,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item17
+		class Item15
 		{
 			position[]={6429.6616,7.9099998,5350.7827};
 			name="mkrUrban22";
@@ -3366,9 +3342,9 @@ class Mission
 			b=80;
 			angle=130.371;
 		};
-		class Item18
+		class Item16
 		{
-			position[]={2044.6917,5.5052137,2772.4526};
+			position[]={2079.4321,5.1370177,2786.4609};
 			name="mkrHillPatrol7";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -3378,9 +3354,9 @@ class Mission
 			b=120;
 			angle=90.106102;
 		};
-		class Item19
+		class Item17
 		{
-			position[]={2072.1865,6.3876257,5662.4106};
+			position[]={1922.0182,5.6795349,5735.814};
 			name="mkrUrban23";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -3390,7 +3366,7 @@ class Mission
 			b=50;
 			angle=12.486242;
 		};
-		class Item20
+		class Item18
 		{
 			position[]={5539.1807,78.776505,4736.2075};
 			name="mkrRoadblock7";
@@ -3402,7 +3378,7 @@ class Mission
 			b=50;
 			angle=26.771339;
 		};
-		class Item21
+		class Item19
 		{
 			position[]={5996.6519,87.336105,4963.1865};
 			name="mkrRoadblock8";
@@ -3413,7 +3389,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item22
+		class Item20
 		{
 			position[]={5280.6699,210.73672,5161.5518};
 			name="mkrRoadblock9";
@@ -3424,7 +3400,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item23
+		class Item21
 		{
 			position[]={2969.1069,134.71074,4234.772};
 			name="mkrRoadblock10";
@@ -3435,7 +3411,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item24
+		class Item22
 		{
 			position[]={4608.627,129.72737,5301.2568};
 			name="mkrRoadblock11";
@@ -3446,7 +3422,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item25
+		class Item23
 		{
 			position[]={3686.5195,65.846481,5766.1484};
 			name="mkrRoadblock12";
@@ -3457,7 +3433,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item26
+		class Item24
 		{
 			position[]={4071.9153,122.97214,6334.0894};
 			name="mkrRoadblock13";
@@ -3468,7 +3444,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item27
+		class Item25
 		{
 			position[]={6252.4854,14.412696,5337.0854};
 			name="mkrHillPatrol8";
@@ -3480,19 +3456,7 @@ class Mission
 			b=200;
 			angle=217.813;
 		};
-		class Item28
-		{
-			position[]={6042.7969,18.783184,5536.0713};
-			name="mkrHillPatrol9";
-			markerType="ELLIPSE";
-			type="Empty";
-			colorName="ColorBrown";
-			fillName="Grid";
-			a=200;
-			b=200;
-			angle=-321.68399;
-		};
-		class Item29
+		class Item26
 		{
 			position[]={2469.4038,73.778526,5677.5933};
 			name="mkrRoadblock14";
@@ -3504,18 +3468,7 @@ class Mission
 			b=50;
 			angle=209.75565;
 		};
-		class Item30
-		{
-			position[]={4926.2241,195.52679,5904.2041};
-			name="mkrUrban24";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorBlue";
-			fillName="Grid";
-			a=100;
-			b=50;
-		};
-		class Item31
+		class Item27
 		{
 			position[]={5021.231,208.597,5907.7979};
 			name="mkrUrban25";
@@ -3526,7 +3479,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item32
+		class Item28
 		{
 			position[]={4997.0195,207.55067,5882.2349};
 			name="mkrHillPatrol10";
@@ -3537,7 +3490,7 @@ class Mission
 			a=200;
 			b=200;
 		};
-		class Item33
+		class Item29
 		{
 			position[]={3739.9668,212.76965,4888.3423};
 			name="mkrRoadblock15";
@@ -3548,7 +3501,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item34
+		class Item30
 		{
 			position[]={2901.6909,140.71045,4940.6123};
 			name="mkrRoadblock16";
@@ -3559,7 +3512,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item35
+		class Item31
 		{
 			position[]={2894.7686,109.11562,5307.8457};
 			name="mkrRoadblock17";
@@ -3570,7 +3523,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item36
+		class Item32
 		{
 			position[]={2616.2942,82.810539,5447.4199};
 			name="mkrRoadblock18";
@@ -3581,7 +3534,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item37
+		class Item33
 		{
 			position[]={2452.5681,117.89687,4973.8003};
 			name="mkrRoadblock19";
@@ -3592,7 +3545,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item38
+		class Item34
 		{
 			position[]={2027.2988,6.0982471,5589.5518};
 			name="mkrHillPatrol11";
@@ -3604,19 +3557,7 @@ class Mission
 			b=250;
 			angle=12.0467;
 		};
-		class Item39
-		{
-			position[]={2897.7593,11.141226,6123.2275};
-			name="mkrUrban26";
-			markerType="RECTANGLE";
-			type="Empty";
-			colorName="ColorBlue";
-			fillName="Grid";
-			a=50;
-			b=50;
-			angle=212.59778;
-		};
-		class Item40
+		class Item35
 		{
 			position[]={2983.157,7.2595148,6069.3452};
 			name="mkrUrban27";
@@ -3628,7 +3569,7 @@ class Mission
 			b=50;
 			angle=31.516521;
 		};
-		class Item41
+		class Item36
 		{
 			position[]={3252.4712,5.0114002,5808.1274};
 			name="mkrUrban28";
@@ -3640,9 +3581,9 @@ class Mission
 			b=50;
 			angle=120.96744;
 		};
-		class Item42
+		class Item37
 		{
-			position[]={2945.5242,3.49,5975.6934};
+			position[]={2932.2566,3.4957166,5983.9067};
 			name="mkrUrban29";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -3652,7 +3593,7 @@ class Mission
 			b=50;
 			angle=209.47574;
 		};
-		class Item43
+		class Item38
 		{
 			position[]={3066.5017,4.179738,6018.1323};
 			name="mkrUrban30";
@@ -3664,7 +3605,7 @@ class Mission
 			b=50;
 			angle=209.51862;
 		};
-		class Item44
+		class Item39
 		{
 			position[]={3043.4575,3.3550913,5994.5791};
 			name="mkrHillPatrol12";
@@ -3676,7 +3617,7 @@ class Mission
 			b=200;
 			angle=184.2438;
 		};
-		class Item45
+		class Item40
 		{
 			position[]={1962.3657,2.3797154,3505.7847};
 			name="mkrUrban31";
@@ -3687,7 +3628,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item46
+		class Item41
 		{
 			position[]={1946.0096,2.8501446,3559.2568};
 			name="mkrUrban32";
@@ -3698,7 +3639,7 @@ class Mission
 			a=50;
 			b=50;
 		};
-		class Item47
+		class Item42
 		{
 			position[]={2032.3339,2.9113214,4159.6777};
 			name="mkrHillPatrol13";
@@ -3710,7 +3651,7 @@ class Mission
 			b=50;
 			angle=14.5146;
 		};
-		class Item48
+		class Item43
 		{
 			position[]={3301.4258,77.826759,3941.6558};
 			name="mkrSPECOPS1";
@@ -3721,7 +3662,7 @@ class Mission
 			a=100;
 			b=100;
 		};
-		class Item49
+		class Item44
 		{
 			position[]={4899.9414,172.59071,4500.4736};
 			name="mkrSPECOPS2";
@@ -3732,7 +3673,7 @@ class Mission
 			a=100;
 			b=100;
 		};
-		class Item50
+		class Item45
 		{
 			position[]={3912.6465,48.308285,6699.1206};
 			name="mkrSPECOPS3";
@@ -3743,7 +3684,7 @@ class Mission
 			a=100;
 			b=100;
 		};
-		class Item51
+		class Item46
 		{
 			position[]={4713.9629,63.027145,6786.1489};
 			name="mkrSPECOPS4";
@@ -3755,7 +3696,7 @@ class Mission
 			b=100;
 			angle=115.73008;
 		};
-		class Item52
+		class Item47
 		{
 			position[]={2999.5181,80.727646,4499.8823};
 			name="mkrSPECOPS5";
@@ -3766,14 +3707,14 @@ class Mission
 			a=100;
 			b=100;
 		};
-		class Item53
+		class Item48
 		{
 			position[]={2625.8486,64.864677,649.6524};
 			name="respawn_west";
 			type="Empty";
 			angle=232.18324;
 		};
-		class Item54
+		class Item49
 		{
 			position[]={3303.1577,130.38484,4807.2212};
 			name="mkrMortars";
@@ -3784,7 +3725,7 @@ class Mission
 			a=1200;
 			b=1200;
 		};
-		class Item55
+		class Item50
 		{
 			position[]={6111.7363,28.508678,5277.0889};
 			name="mkrEnemyActivitie";
@@ -3796,14 +3737,14 @@ class Mission
 			a=500;
 			b=500;
 		};
-		class Item56
+		class Item51
 		{
 			position[]={3311.7869,140.13278,4827.1509};
 			name="mkrWarning1";
 			text="Mortar Sppoters Zone";
 			type="mil_warning";
 		};
-		class Item57
+		class Item52
 		{
 			position[]={2083.2832,7.2503724,2737.0103};
 			name="mkrEnemyActivitie_1";
@@ -3814,207 +3755,207 @@ class Mission
 			a=250;
 			b=250;
 		};
-		class Item58
+		class Item53
 		{
 			position[]={2068.2856,4.7895288,2735.4507};
 			name="mkrWarning1_2";
 			text="Enemy Activitie Detected";
 			type="mil_warning";
 		};
-		class Item59
+		class Item54
 		{
 			position[]={6147.0405,27.420177,5277.7969};
 			name="mkrWarning1_1";
 			text="Intense Enemy Activitie";
 			type="mil_warning";
 		};
-		class Item60
+		class Item55
 		{
 			position[]={3532.6704,151.7292,2807.7852};
 			name="mkrpath";
 			type="mil_dot";
 		};
-		class Item61
+		class Item56
 		{
 			position[]={3576.5498,154.63197,2846.6021};
 			name="mkrpath_1";
 			type="mil_dot";
 		};
-		class Item62
+		class Item57
 		{
 			position[]={3622.1174,158.98891,2871.9165};
 			name="mkrpath_2";
 			type="mil_dot";
 		};
-		class Item63
+		class Item58
 		{
 			position[]={3662.6218,158.28905,2900.6079};
 			name="mkrpath_3";
 			type="mil_dot";
 		};
-		class Item64
+		class Item59
 		{
 			position[]={3704.8142,164.00081,2932.6733};
 			name="mkrpath_4";
 			type="mil_dot";
 		};
-		class Item65
+		class Item60
 		{
 			position[]={3738.7566,163.62462,2954.0469};
 			name="mkrpath_5";
 			type="mil_dot";
 		};
-		class Item66
+		class Item61
 		{
 			position[]={3765.6978,161.66014,2969.2959};
 			name="mkrpath_6";
 			type="mil_dot";
 		};
-		class Item67
+		class Item62
 		{
 			position[]={3779.4221,165.31052,3006.4038};
 			name="mkrpath_7";
 			type="mil_dot";
 		};
-		class Item68
+		class Item63
 		{
 			position[]={3761.6313,171.97644,3038.9365};
 			name="mkrpath_8";
 			type="mil_dot";
 		};
-		class Item69
+		class Item64
 		{
 			position[]={3746.3811,179.39156,3086.21};
 			name="mkrpath_9";
 			type="mil_dot";
 		};
-		class Item70
+		class Item65
 		{
 			position[]={3739.2649,178.77722,3137.5503};
 			name="mkrpath_10";
 			type="mil_dot";
 		};
-		class Item71
+		class Item66
 		{
 			position[]={3742.823,173.11267,3181.2661};
 			name="mkrpath_11";
 			type="mil_dot";
 		};
-		class Item72
+		class Item67
 		{
 			position[]={3749.4312,168.59741,3215.3232};
 			name="mkrpath_12";
 			type="mil_dot";
 		};
-		class Item73
+		class Item68
 		{
 			position[]={3763.6646,163.9745,3249.8892};
 			name="mkrpath_13";
 			type="mil_dot";
 		};
-		class Item74
+		class Item69
 		{
 			position[]={3782.4724,161.114,3286.9966};
 			name="mkrpath_14";
 			type="mil_dot";
 		};
-		class Item75
+		class Item70
 		{
 			position[]={3798.23,164.41762,3327.6626};
 			name="mkrpath_15";
 			type="mil_dot";
 		};
-		class Item76
+		class Item71
 		{
 			position[]={3832.2878,171.67973,3361.7197};
 			name="mkrpath_16";
 			type="mil_dot";
 		};
-		class Item77
+		class Item72
 		{
 			position[]={3877.0195,180.01521,3380.5278};
 			name="mkrpath_17";
 			type="mil_dot";
 		};
-		class Item78
+		class Item73
 		{
 			position[]={3914.635,189.65372,3413.0605};
 			name="mkrpath_18";
 			type="mil_dot";
 		};
-		class Item79
+		class Item74
 		{
 			position[]={3964.959,197.2758,3438.9849};
 			name="mkrpath_19";
 			type="mil_dot";
 		};
-		class Item80
+		class Item75
 		{
 			position[]={4018.0317,200.20177,3462.5342};
 			name="mkrpath_20";
 			type="mil_dot";
 		};
-		class Item81
+		class Item76
 		{
 			position[]={4078.7749,209.67363,3469.6426};
 			name="mkrpath_21";
 			type="mil_dot";
 		};
-		class Item82
+		class Item77
 		{
 			position[]={4129.1782,214.52733,3498.7212};
 			name="mkrpath_22";
 			type="mil_dot";
 		};
-		class Item83
+		class Item78
 		{
 			position[]={4177.6436,214.16518,3527.8003};
 			name="mkrpath_23";
 			type="mil_dot";
 		};
-		class Item84
+		class Item79
 		{
 			position[]={4222.8779,211.55122,3553.0024};
 			name="mkrpath_24";
 			type="mil_dot";
 		};
-		class Item85
+		class Item80
 		{
 			position[]={4260.3579,214.32384,3578.8501};
 			name="mkrpath_25";
 			type="mil_dot";
 		};
-		class Item86
+		class Item81
 		{
 			position[]={4270.0508,215.23862,3631.8389};
 			name="mkrpath_26";
 			type="mil_dot";
 		};
-		class Item87
+		class Item82
 		{
 			position[]={4270.6968,211.53297,3684.1812};
 			name="mkrpath_27";
 			type="mil_dot";
 		};
-		class Item88
+		class Item83
 		{
 			position[]={4293.3145,212.11011,3728.1226};
 			name="mkrpath_28";
 			type="mil_dot";
 		};
-		class Item89
+		class Item84
 		{
 			position[]={4322.3926,221.10844,3773.3564};
 			name="mkrpath_29";
 			type="mil_dot";
 		};
-		class Item90
+		class Item85
 		{
 			position[]={3503.1099,147.79539,2755.4551};
 			name="mkrpath_30";
 			type="mil_dot";
 		};
-		class Item91
+		class Item86
 		{
 			position[]={3434.3296,172.62637,2769.0415};
 			name="mkrClean";
@@ -4025,7 +3966,7 @@ class Mission
 			a=250;
 			b=250;
 		};
-		class Item92
+		class Item87
 		{
 			position[]={4358.1797,226.65022,3817.4722};
 			name="mkrClean_1";
@@ -4036,14 +3977,14 @@ class Mission
 			a=250;
 			b=250;
 		};
-		class Item93
+		class Item88
 		{
-			position[]={3951.7217,139.14929,3252.2974};
+			position[]={3929.7817,146.50546,3260.7358};
 			name="mkrWarning1_3";
 			text="SafeRoute Established";
 			type="mil_arrow2";
 		};
-		class Item94
+		class Item89
 		{
 			position[]={2603.7283,64.182846,665.50586};
 			name="mkrRepairs";
@@ -4051,7 +3992,7 @@ class Mission
 			type="mil_box";
 			colorName="ColorBlue";
 		};
-		class Item95
+		class Item90
 		{
 			position[]={2618.9656,64.695175,657.00293};
 			name="mkrRepairs_1";
@@ -4059,7 +4000,7 @@ class Mission
 			type="mil_box";
 			colorName="ColorBlue";
 		};
-		class Item96
+		class Item91
 		{
 			position[]={2628.8003,65.323929,644.05615};
 			name="mkrBASE_1";

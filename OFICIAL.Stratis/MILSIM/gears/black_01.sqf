@@ -55,6 +55,7 @@ _unit addmagazine "DemoCharge_Remote_Mag";
 
 _unit addmagazine "SmokeShell";
 _unit addmagazine "SmokeShell";
+_unit addmagazine "SmokeShellOrange";
 _unit addmagazine "REV1_flash";
 _unit addmagazine "REV1_flash";
 
