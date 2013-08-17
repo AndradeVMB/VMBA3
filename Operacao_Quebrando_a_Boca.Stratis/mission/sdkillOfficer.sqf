@@ -8,7 +8,9 @@ private ["_newGroup","_triggerKill","_triggerReact","_mkrName","_posArray","_i",
 _mkrName = "mkrTaskKillOfficer";
 _posArray = [
 
-			[1973.07,5709.56,0.00143957]
+			[3714.12,4961.1,0.00219727],
+			[3540.89,5047.02,0.00106812],
+			[3199.73,5062.48,0.00157166]
 			
 			];
 					
@@ -40,7 +42,7 @@ _mkrName setmarkeralpha 0;
 
 // Create Mission Task
 [west,
-["taskKillOfficer", "Kill the enemy Officer",
+["taskKillOfficer", "Encontre e elimine o traficante Naldinho Batore, chefe do trafico na favela do Galo Rouco. Naldinho Batore e sempre visto nas bocas de fumo da parte alta da favela.",
 "Kill the Officer", ""]
 ] call FHQ_TT_addTasks;
 

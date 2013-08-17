@@ -11,10 +11,10 @@ removeHeadgear _unit;
 removeAllAssignedItems _unit;
 removeallcontainers _unit;
 
-_unit addUniform "MILSIM_BDU";
-_unit addvest "GOLDTEAM_VEST";
-_unit addHeadgear "GoldTeam_Helmet"; 
-_unit addbackpack "GoldTeam_BP_EOD_base";
+_unit addUniform "MILSIM_BlackTGBDU";
+_unit addvest "GOLDTEAM_BLACKVEST";
+_unit addHeadgear "GoldTeam_BlackHelmet"; 
+_unit addbackpack "GoldTeam_BlackBP_EOD_base";
 
 _unit addmagazine "30rnd_556x45_Stanag";
 _unit addmagazine "16Rnd_9x21_Mag";

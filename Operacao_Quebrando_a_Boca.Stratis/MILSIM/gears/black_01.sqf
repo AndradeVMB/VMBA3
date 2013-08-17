@@ -11,10 +11,10 @@ removeHeadgear _unit;
 removeAllAssignedItems _unit;
 removeallcontainers _unit;
 
-_unit addUniform "MILSIM_BDU";
-_unit addvest "BLACKTEAM_VEST";
-_unit addHeadgear "BlackTeam_Helmet_A01"; 
-_unit addbackpack "BlackTeam_BP_Leader_Base";
+_unit addUniform "MILSIM_BlackTGBDU";
+_unit addvest "BLACKTEAM_BLACKVEST";
+_unit addHeadgear "BlackTeam_BlackHelmet_A01"; 
+_unit addbackpack "BlackTeam_BlackBP_Leader_Base";
 _unit addGoggles "G_Tactical_Black";
 
 _unit addmagazine "30rnd_556x45_Stanag";
@@ -55,6 +55,7 @@ _unit addmagazine "DemoCharge_Remote_Mag";
 
 _unit addmagazine "SmokeShell";
 _unit addmagazine "SmokeShell";
+_unit addmagazine "SmokeShellOrange";
 _unit addmagazine "REV1_flash";
 _unit addmagazine "REV1_flash";
 

@@ -10,10 +10,10 @@ removeBackpack _unit;
 removeHeadgear _unit;
 removeAllAssignedItems _unit;
 removeallcontainers _unit;
-_unit addUniform "MILSIM_BDU";
-_unit addvest "GOLDTEAM_VEST";
-_unit addHeadgear "GoldTeam_Helmet_LEADER"; 
-_unit addbackpack "GoldTeam_BP_base";
+_unit addUniform "MILSIM_BlackTGBDU";
+_unit addvest "GOLDTEAM_BLACKVEST";
+_unit addHeadgear "GoldTeam_BlackHelmet_LEADER"; 
+_unit addbackpack "GoldTeam_BlackBP_base";
 
 _unit addWeapon "Binocular";
 _unit addWeapon "srifle_EBR_F";

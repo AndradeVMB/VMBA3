@@ -8,6 +8,10 @@ groo_console_enabled = true;
 call compile preprocessFileLineNumbers "groo\functions\consoleFunctions.sqf";
 
 
+
+
+
+
 // BRIEFING
 player createDiaryRecord ["Diary", 		["Equipamento", 
 										"Os equipamentos Padrão não se encontram na caixa de Munições do MILSIM."+
