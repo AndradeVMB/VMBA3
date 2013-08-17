@@ -50,7 +50,7 @@ player createDiaryRecord ["Diary",
 
 
 // MILSIM LoadOut Script
-MILSIM_Ammo_action = player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 20"];
+MILSIM_Ammo_action = player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 40"];
 
 										
 [] spawn 
@@ -64,7 +64,7 @@ MILSIM_Ammo_action = player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut M
 			_old = player;
 			_old removeAction MILSIM_Ammo_action;
 			waitUntil {alive player};
-			MILSIM_Ammo_action = player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 20"];
+			MILSIM_Ammo_action = player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 40"];
 		};
 		
 		waitUntil {_recorded != vehicle player || !alive player};
