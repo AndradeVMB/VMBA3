@@ -4,30 +4,22 @@ class Mission
 	addOns[]=
 	{
 		"A3_Characters_F_BLUFOR",
-		"A3_Characters_F_OPFOR",
 		"a3_characters_f_beta",
 		"A3_Air_F_Beta_Heli_Transport_01",
 		"A3_Soft_F_MRAP_01",
 		"A3_Structures_F_Mil_Helipads",
-		"A3_Structures_F_Mil_Cargo",
 		"A3_Structures_F_Households_Stone_Shed",
 		"A3_Structures_F_Households_Stone_Small",
 		"A3_Structures_F_Households_Stone_Big",
-		"A3_Structures_F_Mil_BagBunker",
 		"A3_Structures_F_Mil_Fortification",
 		"A3_Air_F_Heli_Light_01",
-		"A3_Armor_F_AMV",
 		"A3_Structures_F_Households_House_Small01",
 		"A3_Structures_F_Households_House_Big02",
 		"A3_Structures_F_Households_Addons",
 		"A3_Structures_F_Households_Slum",
-		"A3_Static_F_Beta_Mortar_01",
 		"milsim_units",
 		"a3_map_stratis",
 		"acre_sys_radio",
-		"acre_sys_antenna",
-		"A3_Air_F_Beta_Heli_Attack_01",
-		"A3_armor_f_beta_APC_Tracked_02",
 		"A3_Armor_F_Panther",
 		"A3_Signs_F",
 		"A3_Structures_F_Households_House_Big01",
@@ -40,7 +32,8 @@ class Mission
 		"A3_Structures_F_Wrecks",
 		"A3_Structures_F_Civ_Lamps",
 		"sup_flash",
-		"mas_afr_rebl_c"
+		"mas_afr_rebl_c",
+		"A3_Soft_F_HEMTT"
 	};
 	addOnsAuto[]=
 	{
@@ -73,13 +66,14 @@ class Mission
 		"htune_objects",
 		"A3_Structures_F_Civ_Lamps",
 		"A3_Armor_F_Panther",
+		"A3_Soft_F_HEMTT",
 		"a3_map_stratis"
 	};
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao quebrando a boca d0.5";
-		overviewText="Operacao Quebrando a Boca d0.5";
+		briefingName="Operacao quebrando a boca 0.7";
+		overviewText="Operacao Quebrando a Boca 0.7";
 		resistanceEast=1;
 		startWeather=0.12;
 		startFog=0.12;
@@ -89,11 +83,11 @@ class Mission
 		forecastFog=0.099999994;
 		forecastWind=0.099999994;
 		forecastWaves=0.099999994;
-		year=2035;
+		year=2013;
 		month=7;
 		day=6;
-		hour=6;
-		minute=0;
+		hour=22;
+		minute=50;
 		startFogBase=0.001;
 		forecastFogBase=0.001;
 		startFogDecay=0.0049999999;
@@ -1444,39 +1438,39 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=693;
+		items=695;
 		class Item0
 		{
 			position[]={2037.5646,5.9759212,5786.1113};
-			azimut=-165.65666;
+			azimut=-165.657;
 			id=81;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_01_F";
 			skill=0.60000002;
 			text="h2";
-			init="0 = [this, 5] execVM ""scripts\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
 		};
 		class Item1
 		{
-			position[]={2134.3157,6.2600002,5703.0811};
+			position[]={2139.7375,6.2600002,5700.9453};
 			azimut=372.52499;
 			id=82;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			skill=0.60000002;
 			text="v2";
-			init="0 = [this, 5] execVM ""scripts\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
 		};
 		class Item2
 		{
-			position[]={2136.417,6.2600002,5712.4092};
+			position[]={2141.8389,6.2597194,5710.2734};
 			azimut=372.46899;
 			id=83;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			skill=0.60000002;
 			text="v1";
-			init="0 = [this, 5] execVM ""scripts\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
 		};
 		class Item3
 		{
@@ -1552,12 +1546,12 @@ class Mission
 		class Item10
 		{
 			position[]={1989.4657,5.964591,5796.8613};
-			azimut=-166.65643;
+			azimut=-166.65601;
 			id=91;
 			side="EMPTY";
 			vehicle="B_Heli_Light_01_armed_F";
 			skill=0.60000002;
-			init="0 = [this, 5] execVM ""scripts\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
 		};
 		class Item11
 		{
@@ -1643,7 +1637,7 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={2012.4423,6.5879841,5790.1494};
+			position[]={2012.3713,6.5778718,5789.9365};
 			azimut=13.854782;
 			id=100;
 			side="EMPTY";
@@ -1663,13 +1657,13 @@ class Mission
 		};
 		class Item21
 		{
-			position[]={2132.3108,6.2600002,5693.7212};
+			position[]={2137.7327,6.2600002,5691.5854};
 			azimut=371.819;
 			id=102;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			skill=0.60000002;
-			init="0 = [this, 5] execVM ""scripts\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
 		};
 		class Item22
 		{
@@ -7781,24 +7775,46 @@ class Mission
 		};
 		class Item691
 		{
-			position[]={2130.3245,6.2690663,5684.3735};
+			position[]={2135.7463,6.2606344,5682.2378};
 			azimut=371.819;
 			id=772;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			skill=0.60000002;
-			init="0 = [this, 5] execVM ""scripts\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
 		};
 		class Item692
 		{
-			position[]={2128.6292,6.27,5674.603};
-			azimut=11.2794;
+			position[]={2121.8926,6.25,5723.0703};
+			azimut=373.64279;
 			id=773;
 			side="EMPTY";
 			vehicle="B_APC_Tracked_01_rcws_F";
 			leader=1;
 			skill=0.60000002;
-			init="0 = [this, 5] execVM ""scripts\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+		};
+		class Item693
+		{
+			position[]={2134.9058,6.1003928,5737.6719};
+			azimut=371.09299;
+			id=774;
+			side="EMPTY";
+			vehicle="B_Truck_01_transport_F";
+			skill=0.60000002;
+			text="v1_1";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+		};
+		class Item694
+		{
+			position[]={2132.5239,6.2315831,5725.4214};
+			azimut=371.09299;
+			id=775;
+			side="EMPTY";
+			vehicle="B_Truck_01_transport_F";
+			skill=0.60000002;
+			text="v1_1_1";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
 		};
 	};
 	class Markers
@@ -8098,7 +8114,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={2012.2217,6.577744,5789.9863};
+			position[]={2012.5107,6.5776806,5789.8828};
 			a=10;
 			b=10;
 			angle=-12.814114;

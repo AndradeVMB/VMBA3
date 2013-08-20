@@ -1,7 +1,7 @@
 // VARIABLES
 // Server Console Messages
 groo_console_enabled = true;
-groo_editmode_enabled = false;
+groo_editmode_enabled = true;
 
 // FUNCTIONS
 

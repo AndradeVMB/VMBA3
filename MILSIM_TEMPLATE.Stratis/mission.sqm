@@ -167,6 +167,7 @@ class Mission
 					id=8;
 					side="WEST";
 					vehicle="B_Helipilot_F";
+					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
 					description="Blue Cdt. - Piloto";
@@ -351,6 +352,7 @@ class Mission
 					id=19;
 					side="WEST";
 					vehicle="B_Soldier_GL_F";
+					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
@@ -372,10 +374,11 @@ class Mission
 				class Item3
 				{
 					position[]={1712.4352,5.5,5261.5229};
-					azimut=98.408607;
+					azimut=98.4086;
 					id=21;
 					side="WEST";
 					vehicle="B_Soldier_F";
+					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
