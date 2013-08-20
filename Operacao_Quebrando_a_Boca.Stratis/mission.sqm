@@ -72,8 +72,8 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao quebrando a boca 0.7";
-		overviewText="Operacao Quebrando a Boca 0.7";
+		briefingName="Operacao quebrando a boca 0.8";
+		overviewText="Operacao Quebrando a Boca 0.8";
 		resistanceEast=1;
 		startWeather=0.12;
 		startFog=0.12;
@@ -86,7 +86,7 @@ class Mission
 		year=2013;
 		month=7;
 		day=6;
-		hour=22;
+		hour=21;
 		minute=50;
 		startFogBase=0.001;
 		forecastFogBase=0.001;
@@ -940,7 +940,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3477.2046,88.221642,5370.1055};
+					position[]={3477.5645,88.278625,5369.9854};
 					azimut=280;
 					special="NONE";
 					id=57;
@@ -961,7 +961,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3478.7942,88.385788,5370.1836};
+					position[]={3478.7942,88.450241,5369.584};
 					azimut=190;
 					special="NONE";
 					id=58;
@@ -982,7 +982,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3480.2478,88.528046,5370.0161};
+					position[]={3480.2478,88.601112,5369.3364};
 					azimut=190;
 					special="NONE";
 					id=59;
@@ -1758,11 +1758,12 @@ class Mission
 		class Item32
 		{
 			position[]={3223.7087,157.07701,5059.6201};
-			azimut=550.56128;
+			azimut=550.56097;
 			id=113;
 			side="EMPTY";
 			vehicle="Land_i_House_Big_02_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item33
 		{
@@ -1803,11 +1804,12 @@ class Mission
 		class Item37
 		{
 			position[]={3244.2185,145.9276,5074.7461};
-			azimut=371.34482;
+			azimut=371.345;
 			id=118;
 			side="EMPTY";
 			vehicle="Land_i_Stone_HouseSmall_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item38
 		{
@@ -1920,11 +1922,12 @@ class Mission
 		class Item50
 		{
 			position[]={3250.6707,135.35518,5102.9175};
-			azimut=190.55713;
+			azimut=190.55701;
 			id=131;
 			side="EMPTY";
 			vehicle="Land_i_Stone_HouseSmall_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item51
 		{
@@ -1974,11 +1977,12 @@ class Mission
 		class Item56
 		{
 			position[]={3399.9116,141.62791,5055.9292};
-			azimut=370.87448;
+			azimut=370.87399;
 			id=137;
 			side="EMPTY";
 			vehicle="Land_i_House_Big_02_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item57
 		{
@@ -2055,11 +2059,12 @@ class Mission
 		class Item65
 		{
 			position[]={3399.0066,133.05026,5082.8921};
-			azimut=459.30371;
+			azimut=459.30399;
 			id=146;
 			side="EMPTY";
 			vehicle="Land_i_House_Big_02_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item66
 		{
@@ -2082,11 +2087,12 @@ class Mission
 		class Item68
 		{
 			position[]={3383.4336,122.36834,5103.0659};
-			azimut=280.08731;
+			azimut=280.08701;
 			id=149;
 			side="EMPTY";
 			vehicle="Land_i_Stone_HouseSmall_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item69
 		{
@@ -2739,20 +2745,22 @@ class Mission
 		class Item141
 		{
 			position[]={3500.7778,127.91432,5141.0464};
-			azimut=8.5105886;
+			azimut=8.5105896;
 			id=222;
 			side="EMPTY";
 			vehicle="Land_i_House_Big_01_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item142
 		{
 			position[]={3498.1843,135.14403,5128.3086};
-			azimut=97.789886;
+			azimut=97.789902;
 			id=223;
 			side="EMPTY";
 			vehicle="Land_i_House_Small_01_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item143
 		{
@@ -2771,6 +2779,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_i_Stone_HouseSmall_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item145
 		{
@@ -2811,29 +2820,32 @@ class Mission
 		class Item149
 		{
 			position[]={3515.9302,132.26027,5120.7334};
-			azimut=-171.0939;
+			azimut=-171.09399;
 			id=230;
 			side="EMPTY";
 			vehicle="Land_i_House_Small_02_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item150
 		{
 			position[]={3519.5022,123.39049,5150.5703};
-			azimut=-172.17554;
+			azimut=-172.17599;
 			id=231;
 			side="EMPTY";
 			vehicle="Land_i_House_Small_03_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item151
 		{
 			position[]={3518.4561,126.1168,5135.0659};
-			azimut=-81.247635;
+			azimut=-81.247597;
 			id=232;
 			side="EMPTY";
 			vehicle="Land_i_Stone_HouseSmall_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item152
 		{
@@ -3819,11 +3831,12 @@ class Mission
 		class Item261
 		{
 			position[]={3499.7817,86.98822,5372.0884};
-			azimut=458.32077;
+			azimut=458.32101;
 			id=342;
 			side="EMPTY";
 			vehicle="Land_i_House_Big_02_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item262
 		{
@@ -3837,11 +3850,12 @@ class Mission
 		class Item263
 		{
 			position[]={3481.2581,87.247742,5377.6758};
-			azimut=189.25731;
+			azimut=189.257;
 			id=344;
 			side="EMPTY";
 			vehicle="Land_i_House_Small_02_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item264
 		{
@@ -6726,11 +6740,12 @@ class Mission
 		class Item584
 		{
 			position[]={3491.5862,87.639954,5325.8569};
-			azimut=188.39513;
+			azimut=188.395;
 			id=665;
 			side="EMPTY";
 			vehicle="Land_i_Shop_01_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item585
 		{
@@ -6744,11 +6759,12 @@ class Mission
 		class Item586
 		{
 			position[]={3461.562,85.648026,5337.1489};
-			azimut=212.12421;
+			azimut=212.12399;
 			id=667;
 			side="EMPTY";
 			vehicle="Land_i_Shop_02_V1_F";
 			skill=0.60000002;
+			init="this setvectorup [0,0,1];";
 		};
 		class Item587
 		{
@@ -7786,7 +7802,7 @@ class Mission
 		class Item692
 		{
 			position[]={2121.8926,6.25,5723.0703};
-			azimut=373.64279;
+			azimut=196.5062;
 			id=773;
 			side="EMPTY";
 			vehicle="B_APC_Tracked_01_rcws_F";
@@ -8252,10 +8268,12 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="trgBarricadas";
-			expCond="trgbarricada1 && trgbarricada2 && trgbarricada3";
+			expCond="(triggeractivated trgbarricada1) && (triggeractivated trgbarricada2) && (triggeractivated trgbarricada3)";
 			expActiv="[""taskRemove"",""succeeded""] call FHQ_TT_setTaskState;";
 			class Effects
 			{
+				titleType="TEXT";
+				title="Todas as Barricadas Removidas Bom Trabalho";
 			};
 		};
 		class Item15
@@ -8265,10 +8283,12 @@ class Mission
 			b=10;
 			interruptable=1;
 			age="UNKNOWN";
-			expCond="trgboca1 && trgboca2 && trgboca3 && trgboca4 && trgboca5";
+			expCond="(triggeractivated trgboca1) && (triggeractivated trgboca2) && (triggeractivated trgboca3) && (triggeractivated trgboca4) && (triggeractivated trgboca5)";
 			expActiv="[""taskRemove"",""succeeded""] call FHQ_TT_setTaskState;";
 			class Effects
 			{
+				titleType="TEXT";
+				title="Todas as Bocadas Destruidas Bom trabalho";
 			};
 		};
 	};

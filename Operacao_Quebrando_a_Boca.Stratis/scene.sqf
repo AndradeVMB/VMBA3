@@ -1,15 +1,6 @@
-titlecut [" ","BLACK IN",1];
+titlecut [" ","BLACK IN",10];
 _camera = "camera" camcreate [0,0,0];
 _camera cameraeffect ["internal", "back"];
-
-// Crakudos
-crakudo1 switchmove "aidlpsitmstpsnonwnondnon_ground00";
-crakudo2 switchmove "aidlpsitmstpsnonwnondnon_ground00";
-crakudo2 playmove "AmovPsitMstpSrasWrflDnon_Smoking";
-
-crakudo3 switchmove "aidlpsitmstpsnonwnondnon_ground00";
-crakudo4 switchmove "AmovPsitMstpSrasWrflDnon_Smoking";
-
 
 playmusic "deixaosgarotobrincar";
 
@@ -82,7 +73,6 @@ _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 5;
 waitUntil {camCommitted _camera;};
 
-
 ;comment "5:07:19";
 _camera camPrepareTarget [63899.16,-73666.22,7618.51];
 _camera camPreparePos [3350.81,5529.14,0.38];
@@ -92,6 +82,13 @@ _camera camCommitPrepared 0;
 titletext ["QUANDO A NOITE CAI O SUBMUNDO GANHA AS RUAS","PLAIN"];
 
 sleep 8;
+
+// Crakudos
+crakudo1 switchmove "aidlpsitmstpsnonwnondnon_ground00";
+crakudo2 switchmove "aidlpsitmstpsnonwnondnon_ground00";
+
+crakudo3 switchmove "aidlpsitmstpsnonwnondnon_ground00";
+crakudo4 switchmove "aidlpsitmstpsnonwnondnon_ground00";
 
 ;comment "18:06:51";
 _camera camPrepareTarget [66018.67,81318.31,-17778.36];
