@@ -67,8 +67,8 @@ KRON_UPS_groupFormation	= ["COLUMN","STAG COLUMN","WEDGE","ECH LEFT","ECH RIGHT"
 
 //% of chance to use smoke by team members when someone wounded or killed in the group in %(default 13 & 35).
 // set both to 0 -> to switch off this function 
-R_USE_SMOKE_wounded = 13;
-R_USE_SMOKE_killed = 35;
+R_USE_SMOKE_wounded = 0;
+R_USE_SMOKE_killed = 0;
 
 //Height that heli will fly this input will be randomised in a 10%
 KRON_UPS_flyInHeight = 90;
