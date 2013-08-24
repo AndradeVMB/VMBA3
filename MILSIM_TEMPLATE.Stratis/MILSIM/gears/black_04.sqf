@@ -4,7 +4,7 @@ _unit = _this select 1;
 
 removeAllItems _unit;
 removeVest _unit;
-removeUniform _unit; 
+removeUniform _unit;
 removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
@@ -13,19 +13,15 @@ removeallcontainers _unit;
 
 _unit addUniform "MILSIM_BDU";
 _unit addvest "BLACKTEAM_VEST";
-_unit addHeadgear "BlackTeam_Helmet_A04"; 
+_unit addHeadgear "BlackTeam_Helmet_A04";
 _unit addbackpack "BlackTeam_BP_EOD_base";
 
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "1Rnd_HE_Grenade_shell";
 _unit addmagazine "16Rnd_9x21_Mag";
 
-_unit addWeapon "FHQ_M4A1_M203_BLK";
-_unit addPrimaryWeaponItem "optic_Hamr";
-_unit addPrimaryWeaponItem "PEQ15_A3_Top";
-_unit addPrimaryWeaponItem "FHQ_M4_muzzle_snds_556_tan";
+_unit addWeapon "AR_BlackTeam_SOPMOD_GL";
 _unit addWeapon "hgun_P07_F";
-_unit addItem "optic_MRCO";
 _unit addHandgunItem "muzzle_snds_L";
 
 _unit addWeapon "rangefinder";
@@ -62,15 +58,15 @@ _unit addmagazine "REV1_flash";
 _unit addmagazine "REV1_flash";
 _unit addmagazine "REV1_flash";
 
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 
 _unit addmagazine "1Rnd_HE_Grenade_shell";
 _unit addmagazine "1Rnd_HE_Grenade_shell";

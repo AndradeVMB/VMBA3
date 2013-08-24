@@ -4,7 +4,7 @@ _unit = _this select 1;
 
 removeAllItems _unit;
 removeVest _unit;
-removeUniform _unit; 
+removeUniform _unit;
 removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
@@ -13,8 +13,7 @@ removeallcontainers _unit;
 
 _unit addUniform "HeliPilot_BDU";
 _unit addvest "Pilot_VEST";
-_unit addHeadgear "HeliPilot_Helmet"; 
-_unit addbackpack "";
+_unit addHeadgear "HeliPilot_Helmet";
 
 _unit addmagazine "30Rnd_9x21_Mag";
 _unit addmagazine "16Rnd_9x21_Mag";

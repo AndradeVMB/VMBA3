@@ -7,7 +7,7 @@ groo_editmode_enabled = true;
 
 //VAR
 _missionName = "MILSIM Template";
-_missionVersion = "0.12";
+_missionVersion = "0.13";
 
 //PARAMS
 
@@ -25,4 +25,3 @@ if groo_editmode_enabled then {
 [] execVM "taw_vd\init.sqf";
 ["INFO: TAW ViewDistance Enabled","green"] spawn groo_fnc_consoleMSG;
 
-				

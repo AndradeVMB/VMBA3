@@ -12,15 +12,18 @@ Features:
 - GROUP Management Actions
 - BRIEFING Topics & Credits Script
 
-
 Planned Features:
 
 - MILSIM Vehicles Template
 - Norrin Camera for Spectating and Capturing
-- Revive Script
+
 
 
 Changelog:
+
+0.13 - Updated with last MILSIM Units ver.
+
+0.12 - 
 
 0.11 - Included MILSIM Squads
 	 - Initial Version of Loadout Menu working
