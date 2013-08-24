@@ -27,7 +27,7 @@ _unit addPrimaryWeaponItem "muzzle_snds_B";
 _unit additem "optic_MRCO";
 _unit additem "acc_flashlight";
 
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addHandgunItem "muzzle_snds_L";
 
 _unit addmagazine "HandGrenade";

@@ -72,8 +72,8 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao quebrando a boca 0.8";
-		overviewText="Operacao Quebrando a Boca 0.8";
+		briefingName="Operacao quebrando a boca 1.1";
+		overviewText="Operacao Quebrando a Boca 1.1";
 		resistanceEast=1;
 		startWeather=0.12;
 		startFog=0.12;

@@ -4,7 +4,7 @@ _unit = _this select 1;
 
 removeAllItems _unit;
 removeVest _unit;
-removeUniform _unit; 
+removeUniform _unit;
 removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
@@ -12,7 +12,7 @@ removeAllAssignedItems _unit;
 removeallcontainers _unit;
 _unit addUniform "MILSIM_BDU";
 _unit addvest "GOLDTEAM_VEST";
-_unit addHeadgear "GoldTeam_Helmet_LEADER"; 
+_unit addHeadgear "GoldTeam_Helmet";
 _unit addbackpack "GoldTeam_BP_base";
 
 _unit addWeapon "Binocular";
@@ -21,7 +21,7 @@ _unit addPrimaryWeaponItem "optic_SOS";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_B";
 _unit additem "optic_MRCO";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addHandgunItem "muzzle_snds_L";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";

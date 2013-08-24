@@ -4,7 +4,7 @@ _unit = _this select 1;
 
 removeAllItems _unit;
 removeVest _unit;
-removeUniform _unit; 
+removeUniform _unit;
 removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
@@ -13,43 +13,43 @@ removeallcontainers _unit;
 
 _unit addUniform "MILSIM_BDU";
 _unit addvest "GOLDTEAM_VEST";
-_unit addHeadgear "GoldTeam_Helmet_LEADER"; 
+_unit addHeadgear "GoldTeam_Helmet_LEADER";
 _unit addbackpack "GoldTeam_BP_Base";
 
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "1Rnd_HE_Grenade_shell";
 _unit addmagazine "Titan_AT";
 _unit addmagazine "16Rnd_9x21_Mag";
 
 _unit addWeapon "AR_GoldTeam";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addWeapon "launch_B_Titan_short_F";
 
 _unit addPrimaryWeaponItem "optic_Hamr";
-_unit addPrimaryWeaponItem "PEQ15_A3_Top";
-_unit addItem "Muzzle_MK18_L";
+_unit addPrimaryWeaponItem "acc_pointer_IR";
+_unit addItem "muzzle_snds_H";
 _unit addHandgunItem "muzzle_snds_L";
 _unit addItem "optic_MRCO";
 
 _unit addmagazine "Titan_AT";
 _unit addmagazine "Titan_AT";
 
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 _unit addmagazine "16Rnd_9x21_Mag";

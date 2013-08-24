@@ -20,7 +20,7 @@ _unit addmagazine "150Rnd_762x51_Box";
 _unit addmagazine "16Rnd_9x21_Mag";
 
 _unit addWeapon "LMG_Zafir_F";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_B";

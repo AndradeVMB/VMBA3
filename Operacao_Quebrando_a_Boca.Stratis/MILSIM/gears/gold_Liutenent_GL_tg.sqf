@@ -16,39 +16,37 @@ _unit addvest "GOLDTEAM_BLACKVEST";
 _unit addHeadgear "GoldTeam_BlackHelmet_LEADER"; 
 _unit addbackpack "GoldTeam_BlackBP_Leader_Base";
 
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";;
 _unit addmagazine "1Rnd_HE_Grenade_shell";
 _unit addmagazine "Titan_AT";
 _unit addmagazine "16Rnd_9x21_Mag";
 
-_unit addWeapon "FHQ_M4A1_M203_TAN";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "arifle_MX_GL_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addWeapon "launch_B_Titan_short_F";
 
 _unit addPrimaryWeaponItem "optic_Hamr";
-_unit addPrimaryWeaponItem "PEQ15_A3_Top";
-_unit additem "FHQ_M4_muzzle_snds_556_tan";
+_unit addPrimaryWeaponItem "acc_pointer_IR";
+_unit additem "muzzle_snds_H";
 _unit addItem "muzzle_snds_L";
 _unit addItem "optic_MRCO";
 
-
-
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 _unit addmagazine "16Rnd_9x21_Mag";

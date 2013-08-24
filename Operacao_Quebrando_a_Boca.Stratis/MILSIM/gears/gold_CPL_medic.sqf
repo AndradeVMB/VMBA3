@@ -16,31 +16,31 @@ _unit addvest "GOLDTEAM_BLACKVEST";
 _unit addHeadgear "GoldTeam_BlackHelmet"; 
 _unit addbackpack "GoldTeam_BlackBP_Medic_base";
 
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 
 _unit addWeapon "AR_GoldTeam";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
-_unit addPrimaryWeaponItem "PEQ15_A3_Top";
-_unit addItem "Muzzle_MK18_L";
+_unit addPrimaryWeaponItem "acc_pointer_IR";
+_unit addItem "muzzle_snds_H";
 _unit addHandgunItem "muzzle_snds_L";
 _unit addItem "optic_MRCO";
 
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 
 _unit addmagazine "16Rnd_9x21_Mag";
 

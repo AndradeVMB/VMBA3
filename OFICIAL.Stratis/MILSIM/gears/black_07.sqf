@@ -4,7 +4,7 @@ _unit = _this select 1;
 
 removeAllItems _unit;
 removeVest _unit;
-removeUniform _unit; 
+removeUniform _unit;
 removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
@@ -13,10 +13,10 @@ removeallcontainers _unit;
 
 _unit addUniform "MILSIM_BDU";
 _unit addvest "BLACKTEAM_VEST";
-_unit addHeadgear "BlackTeam_Helmet_A07"; 
-_unit addbackpack "BlackTeam_BP_Medic_base";
+_unit addHeadgear "BlackTeam_Helmet_A07";
+_unit addbackpack "BlackTeam_BP_base";
 
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 _unit addmagazine "Titan_AT";
 
@@ -24,20 +24,20 @@ _unit addWeapon "AR_BlackTeam_SOPMOD";
 
 _unit addWeapon "launch_B_Titan_short_F";
 
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addHandgunItem "muzzle_snds_L";
 
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
-_unit addmagazine "30rnd_556x45_Stanag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
+_unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 _unit addmagazine "16Rnd_9x21_Mag";
 _unit addmagazine "16Rnd_9x21_Mag";

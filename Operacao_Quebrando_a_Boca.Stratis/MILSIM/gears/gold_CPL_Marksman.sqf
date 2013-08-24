@@ -21,7 +21,7 @@ _unit addPrimaryWeaponItem "optic_SOS";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_B";
 _unit additem "optic_MRCO";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 _unit addHandgunItem "muzzle_snds_L";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";

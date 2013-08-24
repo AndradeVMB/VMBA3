@@ -1,10 +1,10 @@
-waitUntil {!isNull player};
+wwwwaitUntil {!isNull player};
 
 _unit = _this select 1;
 
 removeAllItems _unit;
 removeVest _unit;
-removeUniform _unit; 
+removeUniform _unit;
 removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
@@ -13,13 +13,13 @@ removeallcontainers _unit;
 
 _unit addUniform "U_B_HeliPilotCoveralls";
 _unit addvest "V_PlateCarrierGL_rgr";
-_unit addHeadgear "H_HelmetCrew_B"; 
+_unit addHeadgear "H_HelmetCrew_B";
 
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "30Rnd_9x21_Mag";
 
 _unit addWeapon "FHQ_M4A1_BLK";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_ACPC2_F";
 
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
