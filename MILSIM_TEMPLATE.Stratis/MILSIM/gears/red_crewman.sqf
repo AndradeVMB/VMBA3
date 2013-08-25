@@ -16,7 +16,7 @@ _unit addvest "V_PlateCarrierGL_rgr";
 _unit addHeadgear "H_HelmetCrew_B";
 
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
-_unit addmagazine "30Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "FHQ_M4A1_BLK";
 _unit addWeapon "hgun_ACPC2_F";
@@ -32,8 +32,8 @@ _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 
 _unit addmagazine "SmokeShellBlue";

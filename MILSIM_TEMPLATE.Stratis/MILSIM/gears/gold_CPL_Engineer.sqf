@@ -17,7 +17,7 @@ _unit addHeadgear "GoldTeam_Helmet";
 _unit addbackpack "GoldTeam_BP_EOD_base";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "AR_GoldTeam";
 _unit addWeapon "hgun_ACPC2_F";
@@ -40,9 +40,9 @@ _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "Binocular";
 
