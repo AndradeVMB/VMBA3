@@ -23,6 +23,7 @@ _unit addmagazine "16Rnd_9x21_Mag";
 
 _unit addWeapon "arifle_MX_GL_F";
 _unit addWeapon "hgun_ACPC2_F";
+
 _unit addWeapon "launch_B_Titan_short_F";
 
 _unit addPrimaryWeaponItem "optic_Hamr";

@@ -21,6 +21,7 @@ _unit addmagazine "16Rnd_9x21_Mag";
 
 _unit addWeapon "AR_GoldTeam";
 _unit addWeapon "hgun_ACPC2_F";
+
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_H";
 _unit addHandgunItem "muzzle_snds_L";
