@@ -9,4 +9,5 @@ do Virtual Milsim Brasil:
 Col.Viper
 Cpl.Andrade (Admin)
 Cpl.OfKings
-Cpl.IronPack
+Cpl.Jésus
+Cdt.Nascimento
