@@ -29,7 +29,7 @@ _unit addWeapon "launch_B_Titan_short_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit additem "muzzle_snds_H";
-_unit addItem "muzzle_snds_L";
+_unit addItem "muzzle_snds_acp";
 _unit addItem "optic_MRCO";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";

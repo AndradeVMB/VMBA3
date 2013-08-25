@@ -28,7 +28,7 @@ _unit additem "optic_MRCO";
 _unit additem "acc_flashlight";
 
 _unit addWeapon "hgun_ACPC2_F";
-_unit addHandgunItem "muzzle_snds_L";
+_unit addHandgunItem "muzzle_snds_acp";
 
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";

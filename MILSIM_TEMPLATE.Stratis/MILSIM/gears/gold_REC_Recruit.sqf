@@ -22,7 +22,7 @@ _unit addWeapon "AR_GoldTeam";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addPrimaryWeaponItem "optic_Aco";
 _unit addWeapon "hgun_ACPC2_F";
-_unit addHandgunItem "muzzle_snds_L";
+_unit addHandgunItem "muzzle_snds_acp";
 
 _unit addmagazine "Titan_AT";
 _unit addmagazine "Titan_AT";
