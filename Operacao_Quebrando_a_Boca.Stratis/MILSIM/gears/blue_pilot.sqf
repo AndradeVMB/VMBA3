@@ -23,7 +23,7 @@ _unit addWeapon "SMG_02_F";
 _unit addWeapon "hgun_ACPC2_F";
 _unit addPrimaryWeaponItem "optic_ACO_grn";
 _unit addPrimaryWeaponItem "muzzle_snds_L";
-_unit addHandgunItem "muzzle_snds_L";
+_unit addHandgunItem "muzzle_snds_acp";
 
 _unit addmagazine "30Rnd_9x21_Mag";
 _unit addmagazine "30Rnd_9x21_Mag";

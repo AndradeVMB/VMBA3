@@ -24,7 +24,7 @@ _unit addWeapon "hgun_ACPC2_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_B";
-_unit addHandgunItem "muzzle_snds_L";
+_unit addHandgunItem "muzzle_snds_acp";
 
 _unit addmagazine "150Rnd_762x51_Box";
 _unit addmagazine "150Rnd_762x51_Box";

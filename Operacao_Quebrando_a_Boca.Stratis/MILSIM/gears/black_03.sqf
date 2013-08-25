@@ -24,7 +24,7 @@ _unit addWeapon "AR_BlackTeam_SOPMOD";
 
 
 _unit addWeapon "hgun_ACPC2_F";
-_unit addHandgunItem "muzzle_snds_L";
+_unit addHandgunItem "muzzle_snds_acp";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";

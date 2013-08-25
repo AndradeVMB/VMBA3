@@ -23,7 +23,7 @@ _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addWeapon "AR_BlackTeam_SOPMOD_GL";
 _unit addWeapon "hgun_ACPC2_F";
 
-_unit addHandgunItem "muzzle_snds_L";
+_unit addHandgunItem "muzzle_snds_acp";
 
 _unit addWeapon "rangefinder";
 

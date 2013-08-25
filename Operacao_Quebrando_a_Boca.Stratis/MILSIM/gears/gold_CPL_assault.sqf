@@ -26,7 +26,7 @@ _unit addWeapon "hgun_ACPC2_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_H";
-_unit addHandgunItem "muzzle_snds_L";
+_unit addHandgunItem "muzzle_snds_acp";
 _unit addItem "optic_MRCO";
 
 _unit addmagazine "Titan_AT";
