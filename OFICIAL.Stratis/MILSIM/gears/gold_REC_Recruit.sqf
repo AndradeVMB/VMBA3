@@ -16,7 +16,7 @@ _unit addvest "GOLDTEAM_VEST";
 _unit addbackpack "GoldTeam_BP_Base";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "AR_GoldTeam";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
@@ -48,9 +48,9 @@ _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";

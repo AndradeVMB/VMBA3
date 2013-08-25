@@ -18,7 +18,7 @@ _unit addbackpack "GoldTeam_BP_Base";
 _unit addWeapon "Binocular";
 
 _unit addmagazine "20Rnd_762x51_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "srifle_EBR_F";
 _unit addPrimaryWeaponItem "optic_SOS";
@@ -51,7 +51,7 @@ _unit addmagazine "20Rnd_762x51_Mag";
 _unit addmagazine "20Rnd_762x51_Mag";
 _unit addmagazine "20Rnd_762x51_Mag";
 
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "DemoCharge_Remote_Mag";
 _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";

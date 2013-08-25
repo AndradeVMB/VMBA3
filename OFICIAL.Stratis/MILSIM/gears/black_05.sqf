@@ -17,7 +17,7 @@ _unit addHeadgear "BlackTeam_Helmet_A05";
 _unit addbackpack "BlackTeam_BP_base";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "AR_BlackTeam_SOPMOD";
 _unit addWeapon "hgun_ACPC2_F";
@@ -38,9 +38,9 @@ _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "rangefinder";
 

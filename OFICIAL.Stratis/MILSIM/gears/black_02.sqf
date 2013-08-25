@@ -18,7 +18,7 @@ _unit addbackpack "BlackTeam_BP_base";
 _unit addGoggles "G_Tactical_Black";
 
 _unit addmagazine "20Rnd_762x51_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "srifle_EBR_F";
 _unit addPrimaryWeaponItem "optic_SOS";
@@ -56,7 +56,7 @@ _unit addmagazine "20Rnd_762x51_Mag";
 _unit addmagazine "20Rnd_762x51_Mag";
 _unit addmagazine "20Rnd_762x51_Mag";
 
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
  _unit addmagazine "DemoCharge_Remote_Mag";
 
