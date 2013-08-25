@@ -17,8 +17,6 @@ Planned Features:
 - MILSIM Vehicles Template
 - Norrin Camera for Spectating and Capturing
 
-xxxxx
-
 Changelog:
 
 0.13 - Updated with last MILSIM Units ver.
