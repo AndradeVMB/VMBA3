@@ -18,7 +18,7 @@ _unit addbackpack "BlackTeam_BlackBP_EOD_base";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "1Rnd_HE_Grenade_shell";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "AR_BlackTeam_SOPMOD_GL";
 _unit addWeapon "hgun_ACPC2_F";
@@ -84,9 +84,9 @@ _unit addmagazine "1Rnd_HE_Grenade_shell";
 _unit addmagazine "1Rnd_HE_Grenade_shell";
 _unit addmagazine "1Rnd_HE_Grenade_shell";
 
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit additem "NVGoggles";
 _unit assignItem "NVGoggles";

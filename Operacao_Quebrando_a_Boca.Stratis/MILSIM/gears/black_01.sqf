@@ -18,7 +18,7 @@ _unit addbackpack "BlackTeam_BlackBP_Leader_Base";
 _unit addGoggles "G_Tactical_Black";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "AR_BlackTeam_SOPMOD";
 _unit additem "acc_flashlight";
@@ -43,9 +43,9 @@ _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 
 
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";

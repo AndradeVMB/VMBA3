@@ -17,7 +17,7 @@ _unit addHeadgear "BlackTeam_BlackHelmet_A06";
 _unit addbackpack "BlackTeam_BlackBP_Heavy_Base";
 
 _unit addmagazine "150Rnd_762x51_Box";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "LMG_Zafir_F";
 _unit addWeapon "hgun_ACPC2_F";

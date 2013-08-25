@@ -17,7 +17,7 @@ _unit addHeadgear "HeliPilot_Helmet";
 _unit addbackpack "";
 
 _unit addmagazine "30Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "SMG_02_F";
 _unit addWeapon "hgun_ACPC2_F";
@@ -32,8 +32,8 @@ _unit addmagazine "30Rnd_9x21_Mag";
 _unit addmagazine "30Rnd_9x21_Mag";
 _unit addmagazine "30Rnd_9x21_Mag";
 _unit addmagazine "30Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "rangefinder";
 

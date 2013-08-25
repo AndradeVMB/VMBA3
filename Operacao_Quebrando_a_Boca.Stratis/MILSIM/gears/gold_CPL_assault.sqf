@@ -18,7 +18,7 @@ _unit addbackpack "GoldTeam_BlackBP_base";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "Titan_AT";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "AR_GoldTeam";
 _unit addWeapon "launch_B_Titan_short_F";
@@ -47,9 +47,9 @@ _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 _unit addWeapon "Binocular";
 

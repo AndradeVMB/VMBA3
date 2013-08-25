@@ -32,8 +32,8 @@ _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
 _unit addmagazine "FHQ_30Rnd_556x45_Stanag_Tracer_Yellow";
-_unit addmagazine "16Rnd_9x21_Mag";
-_unit addmagazine "16Rnd_9x21_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addmagazine "9Rnd_45ACP_Mag";
 
 
 _unit addmagazine "SmokeShellBlue";
