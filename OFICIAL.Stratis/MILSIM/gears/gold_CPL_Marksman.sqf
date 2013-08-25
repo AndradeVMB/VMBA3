@@ -17,12 +17,14 @@ _unit addbackpack "GoldTeam_BP_base";
 
 _unit addWeapon "Binocular";
 _unit addWeapon "srifle_EBR_F";
+_unit addmagazine "20Rnd_762x51_Mag";
 _unit addPrimaryWeaponItem "optic_SOS";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_B";
 _unit additem "optic_MRCO";
 _unit addWeapon "hgun_ACPC2_F";
-_unit addHandgunItem "muzzle_snds_L";
+_unit addmagazine "9Rnd_45ACP_Mag";
+_unit addHandgunItem "muzzle_snds_acp";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
