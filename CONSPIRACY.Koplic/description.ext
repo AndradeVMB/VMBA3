@@ -1,0 +1,82 @@
+// MILSIM LOADOUT MENU
+#include "MILSIM\dialog\defines.hpp"
+#include "MILSIM\dialog\dialog.hpp"
+//--
+// GVS Vehicle REPAIR
+#include "gvs\colors_include.hpp"
+#include "gvs\control_include.hpp"
+#include "gvs\stc_include.hpp"
+#include "gvs\sound_include.hpp"
+
+//-------------------------------------------LOADING INFO--------------------------------------------------------------------
+		author = "Virtual MilSim 3º Seção"; 
+		onLoadName = "Op.Conspiracy"; 
+		onLoadMission = "Virtual Milsim Brasil S3 Team"; 
+//		loadScreen = "pictures\sw_ed.jpg";
+		disabledAI = 1;
+		
+		overviewText = "TASK FORCE TALON.";
+//		overviewTextLocked = "Lock Text";
+//		overviewPicture = "";
+		
+//-------------------------------------------GAMETYPE-----------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Header
+	{
+	gameType = Coop;
+	minPlayers = 1; 
+	maxPlayers = 32;
+	};
+//-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	respawn = "3";
+	respawndelay = 10;
+
+
+class CfgMusic
+{
+   tracks[]={NOVATRILHA};
+   class NOVATRILHA
+  {
+    name = "NOVATRILHA";
+    sound[] = {\Music\NOVATRILHA.ogg, db+1, 1.0};
+	};
+};
+
+// Include for TAW Viewdistance Script
+#include "taw_vd\dialog.hpp"
+
+//Include for BTC Revive
+#include "=BTC=_revive\=BTC=_respawn.h"
+
+// Include dor BTC logistics
+class RscTitles 
+{
+	titles[]={};
+	#include "gvs\stc_displays.hpp"
+	#include "=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
+	
+};
+
+// Include for NORRN_cam
+#include "NORRN_cam\NORRN_cam_dialog.hpp"
+
+class Params
+{
+        class ShowIntro
+        {
+        //paramsArray[2]
+                title = "Show Intro";
+                values[] = {1,0};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 1;
+        };
+		class TestMode
+        {
+        //paramsArray[3]
+                title = "TestMode";
+                values[] = {0,1};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 0;
+        };
+};
