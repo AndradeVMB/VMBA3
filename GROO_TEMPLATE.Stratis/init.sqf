@@ -1,14 +1,11 @@
-if ((!isServer) && (player != player)) then
-{
-  waitUntil {player == player};
-};
-
 //VAR
 _missionName = "Groo Framework Template";
 _missionVersion = "0.1";
 
-//PARAMS
-PARAMEDITMODE = true;
+if ((!isServer) && (player != player)) then
+{
+  waitUntil {player == player};
+};
 
 // Init Groo Framework Scripts
 call compile preprocessFileLineNumbers "groo\groo_init.sqf";

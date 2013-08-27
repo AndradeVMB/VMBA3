@@ -72,8 +72,8 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao quebrando a boca 1.1";
-		overviewText="Operacao Quebrando a Boca 1.1";
+		briefingName="Operacao quebrando a boca 1.4";
+		overviewText="Operacao Quebrando a Boca 1.4";
 		resistanceEast=1;
 		startWeather=0.12;
 		startFog=0.12;
@@ -501,7 +501,7 @@ class Mission
 				class Item6
 				{
 					position[]={2113.6428,6.2600002,5705.2319};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					id=25;
 					side="WEST";
 					vehicle="B_medic_F";
@@ -1443,7 +1443,7 @@ class Mission
 				items=37;
 				class Item0
 				{
-					position[]={2117.7976,6.2600002,5713.4478};
+					position[]={2117.7976,6.2600002,5712.6079};
 					azimut=-263.81299;
 					special="NONE";
 					id=81;
@@ -8543,35 +8543,38 @@ class Mission
 		class Item687
 		{
 			position[]={3417.2063,79.372093,5450.291};
-			azimut=780.93927;
+			azimut=780.93903;
 			special="FLY";
 			id=823;
 			side="EMPTY";
 			vehicle="Land_Wreck_Offroad_F";
 			leader=1;
 			skill=0.60000002;
+			text="barricada3v2";
 		};
 		class Item688
 		{
 			position[]={3412.322,79.581741,5447.3335};
-			azimut=780.93927;
+			azimut=780.93903;
 			special="FLY";
 			id=824;
 			side="EMPTY";
 			vehicle="Land_Wreck_Offroad2_F";
 			leader=1;
 			skill=0.60000002;
+			text="barricada3v1";
 		};
 		class Item689
 		{
 			position[]={3416.1042,80.321266,5443.4243};
-			azimut=780.93927;
+			azimut=780.93903;
 			special="FLY";
 			id=825;
 			side="EMPTY";
 			vehicle="Land_Wreck_Car_F";
 			leader=1;
 			skill=0.60000002;
+			text="barricada3v3";
 		};
 		class Item690
 		{
@@ -8853,7 +8856,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=16;
+		items=17;
 		class Item0
 		{
 			position[]={3542.502,160.14923,5047.4595};
@@ -9077,7 +9080,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="trgbarricada3";
-			expCond="(barricada3v1 distance getpos(trgbarricada3) > 8)";
+			expCond="(barricada3v1 distance getpos(trgbarricada3) > 8) && (barricada3v2 distance getpos(trgbarricada3) > 8) && (barricada3v3 distance getpos(trgbarricada3) > 8)";
 			class Effects
 			{
 				titleType="TEXT";
@@ -9113,6 +9116,19 @@ class Mission
 			{
 				titleType="TEXT";
 				title="Todas as Bocadas Destruidas Bom trabalho";
+			};
+		};
+		class Item16
+		{
+			position[]={3536.7334,97.319382,5205.3472};
+			a=1000;
+			b=1000;
+			activationBy="ANY";
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="{ _x addeventhandler [""HandleDamage"",{false}];   _x setvectorup [0,0,1];       } forEach nearestObjects [thisTrigger,[""Building""],triggerArea thisTrigger select 0]";
+			class Effects
+			{
 			};
 		};
 	};

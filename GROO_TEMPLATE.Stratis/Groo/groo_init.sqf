@@ -7,3 +7,5 @@ groo_console_enabled = true;
 // Console Functions
 call compile preprocessFileLineNumbers "groo\functions\consoleFunctions.sqf";
 
+//Ocupation
+#include "mission\occupation.hpp";

@@ -1,3 +1,64 @@
-this addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],-199,false,false,"","_this distance MILSIMBox < 20"];this allowdamage false;
+//-------------------------------------------LOADING INFO--------------------------------------------------------------------
+		author = "Groo (Sub.Andrade)";
+		onLoadName = "GROO TEMPLATE";
+		onLoadMission = "GROO TEMPLATE";
+//		loadScreen = "pictures\sw_ed.jpg";
+		disabledAI = 1;
 
-[title, filename(or Code), (arguments, priority, showWindow, hideOnUse, shortcut, condition)]
+		overviewText = "DEBUG CONSOLE - INTRO & BRIEFING";
+//		overviewTextLocked = "Lock Text";
+//		overviewPicture = "";
+
+//-------------------------------------------GAMETYPE-----------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Header
+	{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 32;
+	};
+//-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	respawn = "3";
+	respawndelay = 10;
+
+
+// GVS Vehicle REPAIR
+#include "gvs\colors_include.hpp"
+#include "gvs\control_include.hpp"
+#include "gvs\stc_include.hpp"
+#include "gvs\sound_include.hpp"
+
+// Include for NORRN_cam
+#include "NORRN_cam\NORRN_cam_dialog.hpp"
+
+//Include for BTC Revive
+#include "=BTC=_revive\=BTC=_respawn.h"
+
+// Titles
+class RscTitles
+{
+	titles[]={};
+	#include "gvs\stc_displays.hpp" // GVS Repair
+	#include "=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h" //BTC_Logistics
+
+};
+
+
+class Params
+{
+        class ShowIntro
+        {
+                title = "Show Intro";
+                values[] = {1,0};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 1;
+        };
+	class EditMode
+        {
+                title = "Edit Mode";
+                values[] = {0,1};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 0;
+        };
+};
