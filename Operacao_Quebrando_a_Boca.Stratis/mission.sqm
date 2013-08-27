@@ -109,10 +109,11 @@ class Mission
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="cameraman";
-					init="if false then {[] execVM ""camera.sqs"";};if true then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
+					init="if false then {[] execVM ""camera.sqs"";};if false then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
 				};
 			};
 		};
@@ -1005,7 +1006,7 @@ class Mission
 				{
 					position[]={3757.2729,195.03296,4953.582};
 					azimut=355;
-					offsetY=7;
+					offsetY=8;
 					special="NONE";
 					id=60;
 					side="EAST";
@@ -1361,7 +1362,7 @@ class Mission
 				{
 					position[]={3569.9299,155.53093,5054.4487};
 					azimut=355;
-					offsetY=8;
+					offsetY=9;
 					special="NONE";
 					id=77;
 					side="EAST";
@@ -1382,7 +1383,7 @@ class Mission
 				{
 					position[]={3561.3345,157.76651,5051.9761};
 					azimut=275;
-					offsetY=8;
+					offsetY=9;
 					special="NONE";
 					id=78;
 					side="EAST";
@@ -8957,10 +8958,10 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={2012.5107,6.5776806,5789.8828};
-			a=10;
-			b=10;
-			angle=-12.814114;
+			position[]={2013.0171,6.563735,5789.376};
+			a=20;
+			b=20;
+			angle=-12.8141;
 			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
