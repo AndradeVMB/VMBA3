@@ -35,35 +35,46 @@ if !isServer exitwith {};
 private ["_garrison","_garrisonRanks","_garrisonSkills","_scouts","_scoutsRanks","_scoutsSkills","_Patrol","_PatrolRanks","_PatrolSkills","_Squad","_SquadRanks","_squadSkills","_Platoon","_PlatoonRanks","_PlatoonSkills","_ATTEAM","_ATTEAMRanks","_ATTEAMSkills","_AATEAM","_AATEAMRanks","_AATEAMSkills","_Snipers","_SniperRanks","_SniperSkills","_SpecOps","_SpecOpsRanks","_specOpsSkills","_Armour","_markerPosition","_mkrName","_enemySide","_loop","_debugHint","_debug","_mkrAreaX","_mkrAreaY","_mkrSize","_detectionDistanceY","_detectionDistanceX","_cacheDistanceY","_cacheDistanceX","_radiusPlacement","_reinforcementPlacement","_SideAdjust","_aiSide","_detectionSide","_sideAdjust","_spotFriendlies","_spotEnemies","_UCthis","_i","_e","_Tanks","_crewTanks","_Groups","_UCThis","_spwnposnew","_ranks","_skills","_upsParam","_patrolRanks","_patrolSkills","_patrol","_spwnposNew","_squad","_platton","_atteamSkills","_atteam","_aateamSkills","_aateam","_snipersSkills","_snipers","_SpecOpsSkills","_newGroup","_param","_mkrname","_tankType","_tank","_tanks","_Tank","_crewTank","_spotFriendlyLeaving","_units"];
 
 _garrison 			= [
-						"O_mas_afr_Soldier_SL_F",
-						"O_mas_afr_Soldier_F",	
-						"O_mas_afr_soldier_MG_F",	
-						"O_mas_afr_soldier_LAT_F"
+						"O_mas_afr_Rebel8a_F",
+						"O_mas_afr_Rebel4_F",	
+						"O_mas_afr_Rebel3_F",	
+						"O_mas_afr_Rebel1_F",
+						"O_mas_afr_Rebel4_F"
+						
 					];
 
 _garrisonRanks 		= [];
 _garrisonSkills 	= [0.1,0.4];
 
-_scouts				=["O_Recon_F","O_Recon_F"];
+_scouts				=["O_mas_rus_Soldier_R_F_u","O_mas_rus_Soldier_R_F_u"];
 _scoutsRanks 		=[];
 _scoutsSkills		=[0.4,0.7];
 
 _Patrol 			=[
-						"O_Soldier_GL_F",
-						"O_Soldier_F",
-						"O_Soldier_GL_F",
-						"O_Soldier_F",
-						"O_Soldier_GL_F"
+						"O_mas_afr_Rebel1_F",
+						"O_mas_afr_Rebel3_F",
+						"O_mas_afr_Rebel4_F",
+						"O_mas_afr_Rebel8a_F",
+						"O_mas_afr_Rebel4_F"
+						
 					];
 						
 _PatrolRanks 		=[];
 _PatrolSkills		=[0.25,0.4];
 
 _Squad 				=[
-						"O_mas_afr_soldier_LAA_F",
-						"O_mas_afr_Soldier_SL_F",
-						"O_mas_afr_soldier_LAT_F",
-						"O_mas_afr_soldier_MG_F"
+						"O_mas_afr_Rebel8a_F",
+						"O_mas_afr_Rebel8a_F",
+						"O_mas_afr_Rebel4_F",
+						"O_mas_afr_Rebel4_F",
+						"O_mas_afr_Rebel3_F",
+						"O_mas_afr_Rebel3_F",
+						"O_mas_afr_Rebel1_F",
+						"O_mas_afr_Rebel1_F",
+						"O_mas_afr_Rebel1_F"
+						
+						
+						
 					];
 					
 _SquadRanks 		=[];
@@ -84,31 +95,30 @@ _PlatoonRanks =[
 
 _PlatoonSkills =[[0.25,0.4],[0.25,0.4],[0.25,0.4]];
 
-_ATTEAM		  =["O_Soldier_TL_F","O_Soldier_LAT_F","O_Soldier_LAT_F","O_Soldier_LAT_F","O_Soldier_LAT_F"];
+_ATTEAM		  =["O_mas_afr_recon_JTAC_F","O_mas_afr_recon_LAT_F","O_mas_afr_recon_LAT_F","O_mas_afr_recon_LAT_F"];
 _ATTEAMRanks  =[];
 _ATTEAMSkills =[0.25,0.4];
 
-_AATEAM		  =["O_Soldier_TL_F","O_Soldier_LAT_F","O_Soldier_LAT_F","O_Soldier_LAT_F","O_Soldier_LAT_F"];
+_AATEAM		  =["O_mas_afr_recon_JTAC_F","O_mas_afr_recon_LAA_F","O_mas_afr_recon_LAA_F","O_mas_afr_recon_LAA_F"];
 _AATEAMRanks  =[];
 _AATEAMSkills =[0.25,0.4];
 
-_Snipers		=["O_Sniper_F","O_Spotter_F"];
+_Snipers		=["O_mas_rus_soldier_Mh_F_u","O_mas_rus_soldier_M_F_u"];
 _SniperRanks = [];
 _SniperSkills = [0.7,0.9];
 
 _SpecOps 	=[
-			"O_recon_TL_F",
-			"O_recon_exp_F",
-			"O_recon_exp_F",
-			"O_recon_M_F",
-			"O_scout_F",
-			"O_scout_F"
+			"O_mas_rus_Soldier_TL_F_u",
+			"O_mas_rus_soldier_exp_F_u",
+			"O_mas_rus_soldier_exp_F_u",
+			"O_mas_rus_soldier_AR_F_u",
+			"O_mas_rus_Soldier_GL_F_u"
 			];
 			
 _SpecOpsRanks = [];
 _specOpsSkills = [0.7,0.9];
 
-_Armour		=["O_APC_Wheeled_02_rcws_F"];
+_Armour		=["O_APC_Tracked_02_cannon_F"];
 
 //--------------------------------------------EXECVM PARAMETERS---------------------------------------------------------------
 
@@ -120,7 +130,7 @@ _mkrName = (_this select 0);
 _enemySide = 0;
 _loop = [];
 _loop = _this;
-_debugHint = PARAMEDITMODE;
+_debugHint = groo_editmode_enabled;
 _debug = false;
 
 //----------------------------------------------USEFUL PARAMETERS--------------------------------------------------------------
