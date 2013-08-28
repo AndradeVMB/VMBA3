@@ -72,8 +72,8 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao quebrando a boca 1.4";
-		overviewText="Operacao Quebrando a Boca 1.4";
+		briefingName="Operacao quebrando a boca 1.5";
+		overviewText="Operacao Quebrando a Boca 1.5";
 		resistanceEast=1;
 		startWeather=0.12;
 		startFog=0.12;
@@ -229,7 +229,7 @@ class Mission
 				class Item0
 				{
 					position[]={2079.9907,5.7894249,5724.0366};
-					azimut=-261.75323;
+					azimut=-261.75299;
 					special="NONE";
 					id=8;
 					side="WEST";
@@ -1454,7 +1454,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=1;
 					init="(group this) setGroupId [""Gold Team Alpha""];null = [this] execVM ""MILSIM\defaultloadout.sqf""; this addeventhandler [""respawn"",""_this execVM 'MILSIM\defaultloadout.sqf'""];";
-					description="Gold Cpt. - Médico";
+					description="A3CN Gold Cpt. - Médico";
 				};
 				class Item1
 				{
@@ -1468,7 +1468,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Lt. - Grenade Launcher - GL";
+					description="A3CN Gold Lt. - Grenade Launcher - GL";
 				};
 				class Item2
 				{
@@ -1482,7 +1482,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Lt. - Médico";
+					description="A3CN Gold Lt. - Médico";
 				};
 				class Item3
 				{
@@ -1495,7 +1495,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Assault";
+					description="A3CN Gold Sgt. - Assault";
 				};
 				class Item4
 				{
@@ -1509,7 +1509,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Suporte MG";
+					description="A3CN Gold Sgt. - Suporte MG";
 				};
 				class Item5
 				{
@@ -1523,7 +1523,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Marksman";
+					description="A3CN Gold Sgt. - Marksman";
 				};
 				class Item6
 				{
@@ -1536,7 +1536,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Médico";
+					description="A3CN Gold Sgt. - Médico";
 				};
 				class Item7
 				{
@@ -1550,7 +1550,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Assault";
+					description="A3CN Gold Cpl. - Assault";
 				};
 				class Item8
 				{
@@ -1564,7 +1564,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Assault";
+					description="A3CN Gold Cpl. - Assault";
 				};
 				class Item9
 				{
@@ -1578,7 +1578,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Mecânico";
+					description="A3CN Gold Cpl. - Mecânico";
 				};
 				class Item10
 				{
@@ -1592,7 +1592,7 @@ class Mission
 					rank="CORPORAL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Suporte - MG";
+					description="A3CN Gold Cpl. - Suporte - MG";
 				};
 				class Item11
 				{
@@ -1606,7 +1606,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Médico";
+					description="A3CN Gold Cpl. - Médico";
 				};
 				class Item12
 				{
@@ -1620,7 +1620,7 @@ class Mission
 					rank="CORPORAL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Marksman";
+					description="A3CN Gold Cpl. - Marksman";
 				};
 				class Item13
 				{
@@ -1634,7 +1634,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Suporte MG";
+					description="A3CN Gold Cpl. - Suporte MG";
 				};
 				class Item14
 				{
@@ -1648,7 +1648,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Engenheiro";
+					description="A3CN Gold Cpl. - Engenheiro";
 				};
 				class Item15
 				{
@@ -1661,7 +1661,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="A3CN Gold Pvt. - Assault";
 				};
 				class Item16
 				{
@@ -1674,7 +1674,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="A3CN Gold Pvt. - Assault";
 				};
 				class Item17
 				{
@@ -1687,7 +1687,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="A3CN Gold Pvt. - Assault";
 				};
 				class Item18
 				{
@@ -1700,7 +1700,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="A3CN Gold Pvt. - Assault";
 				};
 				class Item19
 				{
@@ -1713,7 +1713,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="A3CN Gold Pvt. - Assault";
 				};
 				class Item20
 				{
@@ -1726,7 +1726,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="A3CN Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item21
 				{
@@ -1739,7 +1739,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="A3CN Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item22
 				{
@@ -1752,7 +1752,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="A3CN Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item23
 				{
@@ -1765,7 +1765,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="A3CN Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item24
 				{
@@ -1778,7 +1778,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Médico";
+					description="A3CN Gold Pvt. - Médico";
 				};
 				class Item25
 				{
@@ -1791,7 +1791,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Engenheiro";
+					description="A3CN Gold Pvt. - Engenheiro";
 				};
 				class Item26
 				{
@@ -1804,7 +1804,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Marksman";
+					description="A3CN Gold Pvt. - Marksman";
 				};
 				class Item27
 				{
@@ -1817,7 +1817,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item28
 				{
@@ -1830,7 +1830,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item29
 				{
@@ -1843,7 +1843,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item30
 				{
@@ -1856,7 +1856,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item31
 				{
@@ -1869,7 +1869,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item32
 				{
@@ -1882,7 +1882,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item33
 				{
@@ -1895,7 +1895,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item34
 				{
@@ -1908,7 +1908,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item35
 				{
@@ -1921,7 +1921,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 				class Item36
 				{
@@ -1934,7 +1934,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="A3CN Gold Rc.";
 				};
 			};
 		};
@@ -1956,7 +1956,7 @@ class Mission
 					rank="MAJOR";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 01";
+					description="A3CN Black 01";
 				};
 				class Item1
 				{
@@ -1970,7 +1970,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 02";
+					description="A3CN Black 02";
 				};
 				class Item2
 				{
@@ -1985,7 +1985,7 @@ class Mission
 					rank="COLONEL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 03";
+					description="A3CN Black 03";
 				};
 				class Item3
 				{
@@ -1998,7 +1998,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 04";
+					description="A3CN Black 04";
 				};
 				class Item4
 				{
@@ -2011,7 +2011,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 05";
+					description="A3CN Black 05";
 				};
 				class Item5
 				{
@@ -2025,7 +2025,7 @@ class Mission
 					rank="CORPORAL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 06";
+					description="A3CN Black 06";
 				};
 				class Item6
 				{
@@ -2038,7 +2038,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 07";
+					description="A3CN Black 07";
 				};
 			};
 		};
@@ -2059,7 +2059,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Blue Cdt. - Piloto";
+					description="A3CN Blue Cdt. - Piloto";
 				};
 				class Item1
 				{
@@ -2072,7 +2072,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Blue Cdt. - Piloto";
+					description="A3CN Blue Cdt. - Piloto";
 				};
 				class Item2
 				{
@@ -2087,7 +2087,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Blue Cpt. - Piloto";
+					description="A3CN Blue Cpt. - Piloto";
 				};
 			};
 		};
@@ -2110,7 +2110,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Cpt. ";
+					description="A3CN Red Team Cpt. ";
 				};
 				class Item1
 				{
@@ -2157,7 +2157,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Tripulante";
+					description="A3CN Red Team Tripulante";
 				};
 			};
 		};
@@ -2180,7 +2180,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Sgt.";
+					description="A3CN Red Team Sgt.";
 				};
 				class Item1
 				{
@@ -2226,7 +2226,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Tripulante";
+					description="A3CN Red Team Tripulante";
 				};
 			};
 		};
