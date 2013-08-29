@@ -72,8 +72,8 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao quebrando a boca 1.5";
-		overviewText="Operacao Quebrando a Boca 1.5";
+		briefingName="Operacao quebrando a boca 1.6";
+		overviewText="Operacao Quebrando a Boca 1.6";
 		resistanceEast=1;
 		startWeather=0.12;
 		startFog=0.12;
@@ -134,7 +134,7 @@ class Mission
 					rank="MAJOR";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 01";
+					description="MILSIM Black 01";
 				};
 				class Item1
 				{
@@ -148,7 +148,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 02";
+					description="MILSIM Black 02";
 				};
 				class Item2
 				{
@@ -163,7 +163,7 @@ class Mission
 					rank="COLONEL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 03";
+					description="MILSIM Black 03";
 				};
 				class Item3
 				{
@@ -176,7 +176,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 04";
+					description="MILSIM Black 04";
 				};
 				class Item4
 				{
@@ -189,7 +189,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 05";
+					description="MILSIM Black 05";
 				};
 				class Item5
 				{
@@ -203,7 +203,7 @@ class Mission
 					rank="CORPORAL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 06";
+					description="MILSIM Black 06";
 				};
 				class Item6
 				{
@@ -216,7 +216,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Black 07";
+					description="MILSIM Black 07";
 				};
 			};
 		};
@@ -237,12 +237,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Blue Cdt. - Piloto";
+					description="MILSIM Blue Cdt. - Piloto";
 				};
 				class Item1
 				{
 					position[]={2079.8025,5.8047028,5722.4683};
-					azimut=-261.75323;
+					azimut=-261.75299;
 					special="NONE";
 					id=9;
 					side="WEST";
@@ -250,12 +250,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Blue Cdt. - Piloto";
+					description="MILSIM Blue Cdt. - Piloto";
 				};
 				class Item2
 				{
 					position[]={2077.7803,5.7563524,5722.6963};
-					azimut=-261.75323;
+					azimut=-261.75299;
 					special="NONE";
 					id=10;
 					side="WEST";
@@ -265,7 +265,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Blue Cpt. - Piloto";
+					description="MILSIM Blue Cpt. - Piloto";
 				};
 			};
 		};
@@ -278,7 +278,7 @@ class Mission
 				class Item0
 				{
 					position[]={2078.6577,5.8041091,5720.2334};
-					azimut=-256.78732;
+					azimut=-256.78699;
 					special="NONE";
 					id=11;
 					side="WEST";
@@ -288,7 +288,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Cpt. ";
+					description="MILSIM Red Team Cpt. ";
 				};
 				class Item1
 				{
@@ -325,7 +325,7 @@ class Mission
 				class Item0
 				{
 					position[]={2078.4023,5.8295312,5718.0352};
-					azimut=-256.78732;
+					azimut=-256.78699;
 					special="NONE";
 					id=14;
 					side="WEST";
@@ -335,7 +335,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Tripulante";
+					description="MILSIM Red Team Tripulante";
 				};
 			};
 		};
@@ -348,7 +348,7 @@ class Mission
 				class Item0
 				{
 					position[]={2078.5352,5.8169212,5719.0972};
-					azimut=-256.78732;
+					azimut=-256.78699;
 					special="NONE";
 					id=15;
 					side="WEST";
@@ -358,7 +358,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Sgt.";
+					description="MILSIM Red Team Sgt.";
 				};
 				class Item1
 				{
@@ -395,7 +395,7 @@ class Mission
 				class Item0
 				{
 					position[]={2078.1794,5.8355203,5716.9863};
-					azimut=-256.78732;
+					azimut=-256.78699;
 					special="NONE";
 					id=18;
 					side="WEST";
@@ -404,7 +404,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Red Team Tripulante";
+					description="MILSIM Red Team Tripulante";
 				};
 			};
 		};
@@ -427,12 +427,12 @@ class Mission
 					rank="CAPTAIN";
 					skill=1;
 					init="(group this) setGroupId [""Gold Team Alpha""];null = [this] execVM ""MILSIM\defaultloadout.sqf""; this addeventhandler [""respawn"",""_this execVM 'MILSIM\defaultloadout.sqf'""];";
-					description="Gold Cpt. - Médico";
+					description="MILSIM Gold Cpt. - Médico";
 				};
 				class Item1
 				{
 					position[]={2112.646,6.2600002,5699.1895};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=20;
 					side="WEST";
@@ -441,12 +441,12 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Lt. - Grenade Launcher - GL";
+					description="MILSIM Gold Lt. - Grenade Launcher - GL";
 				};
 				class Item2
 				{
 					position[]={2114.6814,6.2600002,5703.7788};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=21;
 					side="WEST";
@@ -455,12 +455,12 @@ class Mission
 					rank="LIEUTENANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Lt. - Médico";
+					description="MILSIM Gold Lt. - Médico";
 				};
 				class Item3
 				{
 					position[]={2111.5342,6.2600002,5700.0376};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					id=22;
 					side="WEST";
 					vehicle="B_Soldier_F";
@@ -468,12 +468,12 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Assault";
+					description="MILSIM Gold Sgt. - Assault";
 				};
 				class Item4
 				{
 					position[]={2113.1589,6.2600002,5703.897};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=23;
 					side="WEST";
@@ -482,12 +482,12 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Suporte MG";
+					description="MILSIM Gold Sgt. - Suporte MG";
 				};
 				class Item5
 				{
 					position[]={2111.1702,6.2600002,5698.9424};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=24;
 					side="WEST";
@@ -496,7 +496,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Marksman";
+					description="MILSIM Gold Sgt. - Marksman";
 				};
 				class Item6
 				{
@@ -509,12 +509,12 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Sgt. - Médico";
+					description="MILSIM Gold Sgt. - Médico";
 				};
 				class Item7
 				{
 					position[]={2111.6589,6.2600002,5703.1772};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=26;
 					side="WEST";
@@ -523,12 +523,12 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Assault";
+					description="MILSIM Gold Cpl. - Assault";
 				};
 				class Item8
 				{
 					position[]={2112.0005,6.2600002,5704.291};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=27;
 					side="WEST";
@@ -537,12 +537,12 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Assault";
+					description="MILSIM Gold Cpl. - Assault";
 				};
 				class Item9
 				{
 					position[]={2112.6912,6.2600002,5706.5752};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=28;
 					side="WEST";
@@ -551,12 +551,12 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Mecânico";
+					description="MILSIM Gold Cpl. - Mecânico";
 				};
 				class Item10
 				{
 					position[]={2112.3472,6.2600002,5705.4473};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=29;
 					side="WEST";
@@ -565,12 +565,12 @@ class Mission
 					rank="CORPORAL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Suporte - MG";
+					description="MILSIM Gold Cpl. - Suporte - MG";
 				};
 				class Item11
 				{
 					position[]={2110.7222,6.2600002,5701.5342};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=30;
 					side="WEST";
@@ -579,12 +579,12 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Médico";
+					description="MILSIM Gold Cpl. - Médico";
 				};
 				class Item12
 				{
 					position[]={2110.3633,6.2600002,5700.4868};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=31;
 					side="WEST";
@@ -593,12 +593,12 @@ class Mission
 					rank="CORPORAL";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Marksman";
+					description="MILSIM Gold Cpl. - Marksman";
 				};
 				class Item13
 				{
 					position[]={2109.9614,6.2600002,5699.4712};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=32;
 					side="WEST";
@@ -607,12 +607,12 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Suporte MG";
+					description="MILSIM Gold Cpl. - Suporte MG";
 				};
 				class Item14
 				{
 					position[]={2109.2891,6.2600002,5697.2612};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=33;
 					side="WEST";
@@ -621,12 +621,12 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Cpl. - Engenheiro";
+					description="MILSIM Gold Cpl. - Engenheiro";
 				};
 				class Item15
 				{
 					position[]={2108.3083,6.2600002,5700.2363};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=34;
 					side="WEST";
@@ -634,12 +634,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="MILSIM Gold Pvt. - Assault";
 				};
 				class Item16
 				{
 					position[]={2108.5708,6.2600002,5701.0986};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=35;
 					side="WEST";
@@ -647,12 +647,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="MILSIM Gold Pvt. - Assault";
 				};
 				class Item17
 				{
 					position[]={2108.7344,6.2600002,5701.896};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=36;
 					side="WEST";
@@ -660,12 +660,12 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="MILSIM Gold Pvt. - Assault";
 				};
 				class Item18
 				{
 					position[]={2108.9939,6.2600002,5702.7979};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=37;
 					side="WEST";
@@ -673,12 +673,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="MILSIM Gold Pvt. - Assault";
 				};
 				class Item19
 				{
 					position[]={2109.2195,6.2600002,5703.7734};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=38;
 					side="WEST";
@@ -686,12 +686,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Assault";
+					description="MILSIM Gold Pvt. - Assault";
 				};
 				class Item20
 				{
 					position[]={2109.4817,6.2600002,5704.6045};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=39;
 					side="WEST";
@@ -699,12 +699,12 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="MILSIM Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item21
 				{
 					position[]={2107.2261,6.2600002,5700.7251};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=40;
 					side="WEST";
@@ -712,12 +712,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="MILSIM Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item22
 				{
 					position[]={2107.5105,6.2600002,5701.6772};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=41;
 					side="WEST";
@@ -725,12 +725,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="MILSIM Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item23
 				{
 					position[]={2107.825,6.2600002,5702.542};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=42;
 					side="WEST";
@@ -738,12 +738,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Granade Launcher - GL";
+					description="MILSIM Gold Pvt. - Granade Launcher - GL";
 				};
 				class Item24
 				{
 					position[]={2107.9421,6.2600002,5703.3418};
-					azimut=-263.81241;
+					azimut=-263.81201;
 					special="NONE";
 					id=43;
 					side="WEST";
@@ -751,12 +751,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Médico";
+					description="MILSIM Gold Pvt. - Médico";
 				};
 				class Item25
 				{
 					position[]={2108.2004,6.2600002,5704.1333};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=44;
 					side="WEST";
@@ -764,12 +764,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Engenheiro";
+					description="MILSIM Gold Pvt. - Engenheiro";
 				};
 				class Item26
 				{
 					position[]={2108.407,6.2600002,5704.9375};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=45;
 					side="WEST";
@@ -777,12 +777,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Pvt. - Marksman";
+					description="MILSIM Gold Pvt. - Marksman";
 				};
 				class Item27
 				{
 					position[]={2104.1108,6.2600002,5698.4751};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=46;
 					side="WEST";
@@ -790,12 +790,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item28
 				{
 					position[]={2104.4426,6.2600002,5699.4487};
-					azimut=-263.81241;
+					azimut=-263.81201;
 					special="NONE";
 					id=47;
 					side="WEST";
@@ -803,12 +803,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item29
 				{
 					position[]={2104.6387,6.2600002,5700.46};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=48;
 					side="WEST";
@@ -816,12 +816,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item30
 				{
 					position[]={2104.8374,6.2600002,5701.4575};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=49;
 					side="WEST";
@@ -829,12 +829,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item31
 				{
 					position[]={2105.0852,6.2600002,5702.5117};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=50;
 					side="WEST";
@@ -842,12 +842,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item32
 				{
 					position[]={2105.4033,6.2600002,5703.6865};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=51;
 					side="WEST";
@@ -855,12 +855,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item33
 				{
 					position[]={2105.7253,6.2600002,5704.8931};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=52;
 					side="WEST";
@@ -868,12 +868,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item34
 				{
 					position[]={2105.9868,6.2600002,5705.9414};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=53;
 					side="WEST";
@@ -881,12 +881,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item35
 				{
 					position[]={2106.3027,6.2600002,5707.0615};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=54;
 					side="WEST";
@@ -894,12 +894,12 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 				class Item36
 				{
 					position[]={2106.5432,6.2600002,5707.9976};
-					azimut=-263.81339;
+					azimut=-263.81299;
 					special="NONE";
 					id=55;
 					side="WEST";
@@ -907,7 +907,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="null = [this] execVM ""MILSIM\defaultloadout.sqf"";";
-					description="Gold Rc.";
+					description="MILSIM Gold Rc.";
 				};
 			};
 		};
