@@ -3,11 +3,11 @@ if ((!isServer) && (player != player)) then
   waitUntil {player == player};
 };
 
-_missionName = "Operation Socrates";
-_missionVersion = "2.3";
+_missionName = "Conspiracy Koplic";
+_missionVersion = "0.1";
 
 //PARAMS
-PARAMEDITMODE = false;
+PARAMEDITMODE = true;
 PARAMSHOWINTRO = false;
 // Init Groo Framework Scripts
 call compile preprocessFileLineNumbers "groo\groo_init.sqf";
@@ -74,6 +74,8 @@ if (isNil "Public_Banned_Vehicle_Service_List") then {Public_Banned_Vehicle_Serv
 if (isNil "Public_GVS_Delay") then {Public_GVS_Delay = 500};
 if (isNil "Public_Servicepoint") then {Public_Servicepoint = 0};
 if (isServer) then {execVM "gvs\gvs_watcher.sqf"};
+
+
 
 //Finish world initialization before mission is launched. 
 finishMissionInit;
