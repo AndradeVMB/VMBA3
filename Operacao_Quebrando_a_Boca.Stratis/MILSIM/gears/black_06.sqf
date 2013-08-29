@@ -16,22 +16,22 @@ _unit addvest "BLACKTEAM_BLACKVEST";
 _unit addHeadgear "BlackTeam_BlackHelmet_A06"; 
 _unit addbackpack "BlackTeam_BlackBP_Heavy_Base";
 
-_unit addmagazine "150Rnd_762x51_Box";
+_unit addmagazine "200Rnd_65x39_cased_Box";
 _unit addmagazine "9Rnd_45ACP_Mag";
 
-_unit addWeapon "LMG_Zafir_F";
+_unit addWeapon "LMG_Mk200_F";
 _unit addWeapon "hgun_ACPC2_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
-_unit addItem "muzzle_snds_B";
+_unit addPrimaryWeaponItem "muzzle_snds_H_MG";
 _unit addHandgunItem "muzzle_snds_acp";
 
-_unit addmagazine "150Rnd_762x51_Box";
-_unit addmagazine "150Rnd_762x51_Box";
-_unit addmagazine "150Rnd_762x51_Box";
-_unit addmagazine "150Rnd_762x51_Box";
-_unit addmagazine "150Rnd_762x51_Box";
-_unit addmagazine "150Rnd_762x51_Box";
+_unit addmagazine "200Rnd_65x39_cased_Box";
+_unit addmagazine "200Rnd_65x39_cased_Box";
+_unit addmagazine "200Rnd_65x39_cased_Box";
+_unit addmagazine "200Rnd_65x39_cased_Box";
+_unit addmagazine "200Rnd_65x39_cased_Box";
+_unit addmagazine "200Rnd_65x39_cased_Box";
 
 _unit additem "acc_flashlight";
 _unit addGoggles "G_Tactical_Black";
