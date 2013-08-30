@@ -464,7 +464,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6539.7856,3.9803925,5797.6943};
+					position[]={6532.8975,3.9803925,5797.356};
 					azimut=-419.4071;
 					id=20;
 					side="EAST";
@@ -478,7 +478,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={6512.5254,3.9803925,5902.4565};
+					position[]={6502.6152,3.9803925,5970.2275};
 					speed="LIMITED";
 					class Effects
 					{
@@ -518,7 +518,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={6286.4121,4.3558693,5813.9355};
+					position[]={6312.3623,3.9803925,5816.5889};
 					speed="LIMITED";
 					class Effects
 					{
@@ -1208,7 +1208,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={6526.3633,3.9803925,5814.1802};
+					position[]={6518.9531,3.9803925,5825.396};
 					speed="LIMITED";
 					class Effects
 					{
@@ -1341,7 +1341,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={706.05634,4.0906696,1132.3269};
+					position[]={645.64319,3.2677195,1248.186};
 					azimut=88.264069;
 					special="FLY";
 					id=67;
@@ -1356,7 +1356,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={6255.312,3.3950689,4392.9575};
+					position[]={6889.3491,-0.00033223015,3297.135};
 					speed="LIMITED";
 					combat="SAFE";
 					class Effects
@@ -1386,7 +1386,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={670.82343,3.135397,1040.1384};
+					position[]={610.41028,4.0782614,1155.9976};
 					type="CYCLE";
 					speed="LIMITED";
 					combat="SAFE";
@@ -3052,7 +3052,7 @@ class Mission
 		};
 		class Item98
 		{
-			position[]={6065.7051,12.282834,5301.0171};
+			position[]={6105.6167,11.15309,5322.8247};
 			azimut=28.570007;
 			id=212;
 			side="EMPTY";
@@ -3061,7 +3061,7 @@ class Mission
 		};
 		class Item99
 		{
-			position[]={6092.7095,10.925879,5311.0049};
+			position[]={6132.6211,10.330478,5332.8125};
 			azimut=-67.516754;
 			id=213;
 			side="EMPTY";
@@ -3070,7 +3070,7 @@ class Mission
 		};
 		class Item100
 		{
-			position[]={6056.751,12.611197,5313.1011};
+			position[]={6096.6626,12.147613,5334.9087};
 			azimut=89.659317;
 			id=214;
 			side="EMPTY";
@@ -3079,7 +3079,7 @@ class Mission
 		};
 		class Item101
 		{
-			position[]={6061.6006,12.546255,5328.5713};
+			position[]={6101.5122,9.463583,5350.3789};
 			azimut=136.81969;
 			id=215;
 			side="EMPTY";
@@ -3088,7 +3088,7 @@ class Mission
 		};
 		class Item102
 		{
-			position[]={6076.2656,10.364304,5335.8135};
+			position[]={6116.1772,9.8173094,5357.6211};
 			azimut=181.82573;
 			id=216;
 			side="EMPTY";
@@ -3097,7 +3097,7 @@ class Mission
 		};
 		class Item103
 		{
-			position[]={6089.4683,11.968854,5327.5747};
+			position[]={6129.3799,10.877349,5349.3823};
 			azimut=-105.75757;
 			id=217;
 			side="EMPTY";
@@ -3106,7 +3106,7 @@ class Mission
 		};
 		class Item104
 		{
-			position[]={6082.5869,10.805766,5300.6729};
+			position[]={6122.4985,8.7509651,5322.4805};
 			azimut=-32.788452;
 			id=218;
 			side="EMPTY";
@@ -7237,7 +7237,7 @@ class Mission
 		};
 		class Item24
 		{
-			position[]={6074.8022,11.671281,5315.3564};
+			position[]={6114.7139,11.578824,5337.1641};
 			name="mkrRoadblock4";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -7394,14 +7394,14 @@ class Mission
 		};
 		class Item39
 		{
-			position[]={6491.5444,3.9803925,5867.1821};
+			position[]={6254.3271,3.9803925,6234.5996};
 			name="mkrHillPatrol3";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorOrange";
-			a=100;
-			b=80;
-			angle=270.091;
+			a=50;
+			b=50;
+			angle=206.67026;
 		};
 		class Item40
 		{
@@ -7438,14 +7438,14 @@ class Mission
 		};
 		class Item43
 		{
-			position[]={6496.6235,3.9803925,5887.3853};
+			position[]={6486.7734,3.9803925,5809.9912};
 			name="mkrHillPatrol6";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorOrange";
-			a=150;
-			b=100;
-			angle=90.342339;
+			a=100;
+			b=80;
+			angle=180.2189;
 		};
 		class Item44
 		{
@@ -7668,14 +7668,14 @@ class Mission
 		};
 		class Item64
 		{
-			position[]={6505.3872,3.9803925,5883.9487};
+			position[]={6487.3477,3.9803925,5943.9321};
 			name="mkrHillPatrol21";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorOrange";
-			a=160;
-			b=100;
-			angle=451.32172;
+			a=100;
+			b=80;
+			angle=359.98492;
 		};
 	};
 	class Sensors
