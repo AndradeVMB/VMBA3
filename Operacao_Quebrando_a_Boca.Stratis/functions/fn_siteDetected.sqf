@@ -65,6 +65,25 @@ if (count _validSites > 0) then {
 		private "_group";
 		_group = [position _nearestSite, EAST, configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSentry"] call BIS_fnc_spawnGroup;
 		
+		//Init group
+		[_group] call BIS_fnc_sn_initGroup;
+		
+		//Send the enemy group to the site where player has been detected
+		private "_wp";
+		_wp = _group addWaypoint [position _logic, 50];
+		_wp setWaypointType "GUARD";
+		_wp setWaypointSpeed "FULL";
+		_wp setWaypointCombatMode "RED";
+		_wp setWaypointBehaviour "AWARE";
+		
+		//Log
+		[
+			"Enemy group sent from %2 to investigate site %1",
+			_logic,
+			_nearestSite
+		] call BIS_fnc_logFormat;
+	};
+};
 
 //Log
 [
