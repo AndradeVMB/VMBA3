@@ -19,7 +19,7 @@ nul=["mkrURBAN15",700,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN16",700,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN17",700,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN18",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrURBAN119",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrURBAN19",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
 
 
 
@@ -66,12 +66,15 @@ nul=["mkrHillPatrol17",700,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol18",700,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol19",700,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol20",700,"squad"] execVM "scripts\GrooEOS.sqf";
-
+nul=["mkrHillPatrol21",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol22",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol23",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol24",700,"squad"] execVM "scripts\GrooEOS.sqf";
 
 
 
 nul=["mkr1Specop",700,"SpecOps"] execVM "scripts\GrooEOS.sqf";
-nul=["mkr2Specop",700,"SpecOps"] execVM "scripts\GrooEOS.sqf";
+nul=["mkr1Specop2",700,"SpecOps","SpecOps"] execVM "scripts\GrooEOS.sqf";
 
 
 
