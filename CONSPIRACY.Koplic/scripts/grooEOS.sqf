@@ -1,4 +1,3 @@
-//
 //grooEOS.SQF FOR ARMA III
 //
 //Place a 50x50 Red Rectangle marker and name it
