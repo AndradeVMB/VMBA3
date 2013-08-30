@@ -19,6 +19,10 @@ nul=["mkrURBAN15",700,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN16",700,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN17",700,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN18",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrURBAN19",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
+
+
+
 
 
 nul=["mkrRoadblock1",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
@@ -40,12 +44,38 @@ nul=["mkrRoadblock16",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrRoadblock17",700,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
 
 
-nul=["mkrHillPatrol1",900,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol2",900,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol3",900,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol4",900,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol5",900,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol6",900,"squad"] execVM "scripts\GrooEOS.sqf";
+
+
+nul=["mkrHillPatrol1",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol2",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol3",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol4",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol5",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol6",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol7",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol8",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol9",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol10",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol11",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol12",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol13",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol14",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol15",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol16",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol17",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol18",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol19",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol20",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol21",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol22",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol23",700,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol24",700,"squad"] execVM "scripts\GrooEOS.sqf";
+
+
+
+nul=["mkr1Specop",700,"SpecOps"] execVM "scripts\GrooEOS.sqf";
+nul=["mkr1Specop2",700,"SpecOps","SpecOps"] execVM "scripts\GrooEOS.sqf";
+
 
 
 nul=[] execVM "mission\sdKillOfficer.sqf";
