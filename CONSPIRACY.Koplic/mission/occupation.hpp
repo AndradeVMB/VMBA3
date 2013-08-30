@@ -46,7 +46,13 @@ nul=["mkrHillPatrol3",900,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol4",900,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol5",900,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol6",900,"squad"] execVM "scripts\GrooEOS.sqf";
-
+nul=["mkrHillPatrol7",900,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol8",900,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol9",900,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol10",900,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol11",900,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol12",900,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol13",900,"squad"] execVM "scripts\GrooEOS.sqf";
 
 nul=[] execVM "mission\sdKillOfficer.sqf";
 

@@ -41,7 +41,10 @@ class Mission
 		"arp_objects",
 		"A3_Modules_F_LiveFeed",
 		"A3_Misc_F_Helpers",
-		"A3_Structures_F_Civ_InfoBoards"
+		"A3_Structures_F_Civ_InfoBoards",
+		"A3_Structures_F_Households_House_Big02",
+		"A3_Structures_F_Households_House_Small01",
+		"A3_Structures_F_Households_House_Small03"
 	};
 	addOnsAuto[]=
 	{
@@ -81,6 +84,9 @@ class Mission
 		"arp_objects",
 		"A3_Misc_F_Helpers",
 		"A3_Structures_F_Civ_InfoBoards",
+		"A3_Structures_F_Households_House_Small01",
+		"A3_Structures_F_Households_House_Big02",
+		"A3_Structures_F_Households_House_Small03",
 		"koplic"
 	};
 	randomSeed=5893733;
@@ -124,7 +130,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cameraman";
-					init="if false then {[] execVM ""camera.sqs"";};if true then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
+					init="if false then {[] execVM ""camera.sqs"";};if false then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
 				};
 			};
 		};
@@ -2189,7 +2195,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3983.5178,3.9803925,7445.4526};
+					position[]={4480.7754,5.0249462,1922.6282};
 					azimut=368.19528;
 					offsetY=0.5;
 					id=120;
@@ -2204,7 +2210,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=407;
+		items=413;
 		class Item0
 		{
 			position[]={3939.6072,3.9803925,7525.437};
@@ -6055,10 +6061,63 @@ class Mission
 			vehicle="TapeSign_F";
 			skill=0.60000002;
 		};
+		class Item407
+		{
+			position[]={4229.9736,3.9803925,2720.6294};
+			azimut=56.126545;
+			id=528;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_01_V2_F";
+			skill=0.60000002;
+		};
+		class Item408
+		{
+			position[]={4186.168,3.9803925,2756.2659};
+			id=529;
+			side="EMPTY";
+			vehicle="Land_i_House_Big_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item409
+		{
+			position[]={4178.0483,3.9803925,2713.0095};
+			azimut=40.283791;
+			id=530;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_03_V1_F";
+			skill=0.60000002;
+		};
+		class Item410
+		{
+			position[]={6935.9517,3.9803925,4764.7832};
+			azimut=154.50368;
+			id=531;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_01_V2_F";
+			skill=0.60000002;
+		};
+		class Item411
+		{
+			position[]={6867.6636,3.9803925,4821.1992};
+			azimut=62.969891;
+			id=532;
+			side="EMPTY";
+			vehicle="Land_i_House_Big_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item412
+		{
+			position[]={6894.77,3.9803925,4795.1914};
+			azimut=60.336571;
+			id=533;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_03_V1_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
-		items=44;
+		items=51;
 		class Item0
 		{
 			position[]={3983.8127,3.9803925,7516.6538};
@@ -6245,13 +6304,13 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={3995.8945,3.5644331,2043.5063};
+			position[]={4201.4438,3.9803925,2728.2705};
 			name="mkrURBAN17";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorBlue";
-			a=30;
-			b=30;
+			a=50;
+			b=50;
 		};
 		class Item20
 		{
@@ -6397,14 +6456,14 @@ class Mission
 		};
 		class Item34
 		{
-			position[]={7115.7246,3.9803925,3345.853};
+			position[]={6857.5762,3.9803925,3873.1069};
 			name="mkrRoadblock14";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorRed";
 			a=50;
 			b=50;
-			angle=-224.993;
+			angle=-159.2554;
 		};
 		class Item35
 		{
@@ -6504,6 +6563,83 @@ class Mission
 			a=100;
 			b=40;
 			angle=178.819;
+		};
+		class Item44
+		{
+			position[]={2956.7502,4.4804802,2666.4329};
+			name="mkrHillPatrol7";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			a=500;
+			b=40;
+			angle=297.66165;
+		};
+		class Item45
+		{
+			position[]={7028.5449,3.9803925,3442.1057};
+			name="mkrHillPatrol8";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			a=400;
+			b=40;
+			angle=46.063828;
+		};
+		class Item46
+		{
+			position[]={3799.0447,4.2537656,3029.3931};
+			name="mkrHillPatrol10";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			a=400;
+			b=40;
+			angle=217.42271;
+		};
+		class Item47
+		{
+			position[]={4598.6079,3.4882312,2064.7693};
+			name="mkrHillPatrol9";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			a=400;
+			b=40;
+			angle=253.53708;
+		};
+		class Item48
+		{
+			position[]={4040.1775,3.6027541,1311.5608};
+			name="mkrHillPatrol11";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			a=500;
+			b=40;
+			angle=359.23999;
+		};
+		class Item49
+		{
+			position[]={6607.7388,4.19941,4280.4365};
+			name="mkrHillPatrol12";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			a=500;
+			b=40;
+			angle=105.8311;
+		};
+		class Item50
+		{
+			position[]={2485.3975,3.9803925,1939.4426};
+			name="mkrHillPatrol13";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			a=200;
+			b=100;
+			angle=161.78123;
 		};
 	};
 	class Sensors
