@@ -35,11 +35,11 @@ class Header
 
 class CfgMusic
 {
-   tracks[]={NOVATRILHA};
-   class NOVATRILHA
+   tracks[]={menu4};
+   class menu4
   {
-    name = "NOVATRILHA";
-    sound[] = {\Music\NOVATRILHA.ogg, db+1, 1.0};
+    name = "menu4";
+    sound[] = {\Music\menu4.ogg, db+1, 1.0};
 	};
 };
 

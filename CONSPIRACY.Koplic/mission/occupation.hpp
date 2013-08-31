@@ -76,8 +76,6 @@ nul=["mkrHillPatrol24",600,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkr1Specop",700,"SpecOps"] execVM "scripts\GrooEOS.sqf";
 nul=["mkr1Specop2",700,"SpecOps","SpecOps"] execVM "scripts\GrooEOS.sqf";
 
-
-
 nul=[] execVM "mission\sdKillOfficer.sqf";
 
 
