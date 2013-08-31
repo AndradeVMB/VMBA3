@@ -51,19 +51,6 @@ class CfgSounds
 
 };
 
-class CfgFunctions {
-	class BIS {
-		class Showcase_Night {
-			class sn_chaos 			{ file = "functions\fn_chaos.sqf"; };
-			class sn_flare 			{ file = "functions\fn_flare.sqf"; };
-			class sn_initGroup		{ file = "functions\fn_initGroup.sqf"; };
-			class sn_site 			{ file = "functions\fn_site.sqf"; };
-			class sn_siteCleared		{ file = "functions\fn_siteCleared.sqf"; };
-			class sn_siteDetected		{ file = "functions\fn_siteDetected.sqf"; };
-		};
-	};
-};
-
 // MILSIM LOADOUT MENU
 #include "MILSIM\dialog\defines.hpp"
 #include "MILSIM\dialog\dialog.hpp"
