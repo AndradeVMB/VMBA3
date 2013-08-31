@@ -8981,7 +8981,7 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="playsound ""fogos""";
+			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -8995,7 +8995,7 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="playsound ""fogos""";
+			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -9009,7 +9009,7 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="playsound ""fogos""";
+			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -9023,7 +9023,7 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="playsound ""fogos""";
+			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -9037,7 +9037,7 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="playsound ""fogos""";
+			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
