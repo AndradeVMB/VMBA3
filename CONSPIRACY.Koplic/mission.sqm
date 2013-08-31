@@ -99,8 +99,6 @@ class Mission
 	randomSeed=5893733;
 	class Intel
 	{
-		briefingName="Conspiracy Koplic 0.3";
-		overviewText="Conspiracy Koplic 0.3";
 		resistanceEast=1;
 		startWeather=0.44999999;
 		startFog=0.099999994;
@@ -430,10 +428,10 @@ class Mission
 				class Item0
 				{
 					position[]={7142.0244,3.6246748,4035.1687};
-					azimut=105.185;
+					azimut=105.18525;
 					id=18;
 					side="EAST";
-					vehicle="O_mas_afr_soldier_AR_F";
+					vehicle="O_mas_afr_Soldier_AR_F";
 					leader=1;
 					skill=0.2;
 				};
@@ -448,10 +446,10 @@ class Mission
 				class Item0
 				{
 					position[]={7143.1978,3.6422904,4033.0234};
-					azimut=12.4485;
+					azimut=12.448481;
 					id=19;
 					side="EAST";
-					vehicle="O_mas_afr_soldier_AR_F";
+					vehicle="O_mas_afr_Soldier_AR_F";
 					leader=1;
 					skill=0.2;
 				};
@@ -1304,7 +1302,7 @@ class Mission
 				class Item0
 				{
 					position[]={6157.6821,3.9803925,4801.2642};
-					azimut=57.361;
+					azimut=57.36097;
 					id=65;
 					side="EAST";
 					vehicle="O_mas_rus_Soldier_off_F_u";
@@ -1507,7 +1505,7 @@ class Mission
 					side="WEST";
 					vehicle="B_officer_F";
 					leader=1;
-					skill=0.2;
+					skill=0.60000002;
 				};
 			};
 		};
@@ -1525,7 +1523,7 @@ class Mission
 					side="WEST";
 					vehicle="B_officer_F";
 					leader=1;
-					skill=0.2;
+					skill=0.60000002;
 				};
 			};
 			class Waypoints

@@ -74,7 +74,11 @@
 "mkrHillPatrol21",
 "mkrHillPatrol22",
 "mkrHillPatrol23",
-"mkrHillPatrol24"
+"mkrHillPatrol24",
+
+"mkr1Specop",
+"mkr1Specop2"
+
 
 
 ];

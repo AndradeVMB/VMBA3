@@ -51,7 +51,6 @@ for [{_x=1},{_x<=10},{_x=_x+1}] do
 	_spawnpos = [_start, random 10, random 359] call BIS_fnc_relPos;
 	if (isserver) then {_flare = _class createVehicle _spawnpos;};
 	sleep 4;
-
 	private "_logic";
 
 	_logic = _group createUnit ["LOGIC",_spawnpos , [], 0, ""];
@@ -64,4 +63,5 @@ sleep 20;
 deletecenter _center;
 deletegroup _group;
 {deleteVehicle _x} foreach _logicarray;
+
 
