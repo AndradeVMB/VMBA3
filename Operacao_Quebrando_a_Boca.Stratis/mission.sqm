@@ -112,7 +112,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="cameraman";
-					init="if false then {[] execVM ""camera.sqs"";};if true then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
+					init="if false then {[] execVM ""camera.sqs"";};if false then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
 				};
 			};
 		};
@@ -8981,7 +8981,8 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
+			name="trgfogos1";
+			expActiv="0 =[  [position trgfogos1 select 0,position trgfogos1 select 1,(getposatl trgfogos1 select 2)+75],  [position trgfogos1 select 0,position trgfogos1 select 1,(getposatl trgfogos1 select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -8995,7 +8996,8 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
+			name="trgfogos5";
+			expActiv="0 =[  [position trgfogos5 select 0,position trgfogos5 select 1,(getposatl trgfogos5 select 2)+75],  [position trgfogos5 select 0,position trgfogos5 select 1,(getposatl trgfogos5 select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -9009,7 +9011,8 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
+			name="trgfogos3";
+			expActiv="0 =[  [position trgfogos3 select 0,position trgfogos3 select 1,(getposatl trgfogos3 select 2)+75],  [position trgfogos3 select 0,position trgfogos3 select 1,(getposatl trgfogos3 select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -9023,7 +9026,8 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
+			name="trgfogos4";
+			expActiv="0 =[  [position trgfogos4 select 0,position trgfogos4 select 1,(getposatl trgfogos4 select 2)+75],  [position trgfogos4 select 0,position trgfogos4 select 1,(getposatl trgfogos4 select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};
@@ -9037,7 +9041,8 @@ class Mission
 			activationType="EAST D";
 			interruptable=1;
 			age="UNKNOWN";
-			expActiv="0 =[  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+75],  [position trgteste select 0,position trgteste select 1,(getposatl trgteste select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
+			name="trgfogos2";
+			expActiv="0 =[  [position trgfogos2 select 0,position trgfogos2 select 1,(getposatl trgfogos2 select 2)+75],  [position trgfogos2 select 0,position trgfogos2 select 1,(getposatl trgfogos2 select 2)+55],  25,  25  ] execVM ""functions\fn_flare.sqf""; ";
 			class Effects
 			{
 			};

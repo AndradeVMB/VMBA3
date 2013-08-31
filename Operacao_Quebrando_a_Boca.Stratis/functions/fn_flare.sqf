@@ -27,6 +27,8 @@ _verticalSpeed 		= [_this, 3, 30, [0]] call BIS_fnc_param;
 _center = createCenter sideLogic;
 _group = createGroup _center;
 
+sleep 5;
+
 _logicarray = [];
 for [{_x=1},{_x<=10},{_x=_x+1}] do
 {
@@ -59,5 +61,7 @@ for [{_x=1},{_x<=10},{_x=_x+1}] do
 }
 
 sleep 20;
+deletecenter _center;
+deletegroup _group;
 {deleteVehicle _x} foreach _logicarray;
 
