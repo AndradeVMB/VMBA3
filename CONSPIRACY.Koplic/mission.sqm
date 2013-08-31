@@ -47,7 +47,8 @@ class Mission
 		"A3_Structures_F_Households_House_Small03",
 		"A3_Air_F_Beta_Heli_Attack_02",
 		"A3_Air_F_Heli_Light_01",
-		"A3_Structures_F_Walls"
+		"A3_Structures_F_Walls",
+		"A3_Air_F_Heli_Light_02"
 	};
 	addOnsAuto[]=
 	{
@@ -57,7 +58,7 @@ class Mission
 		"mas_afr_rebl_o",
 		"A3_Armor_F_Marid",
 		"A3_Soft_F_MRAP_02",
-		"A3_Air_F_Beta_Heli_Attack_02",
+		"A3_Air_F_Heli_Light_02",
 		"A3_Air_F_Beta_Heli_Transport_01",
 		"A3_Soft_F_MRAP_01",
 		"A3_Structures_F_Mil_Fortification",
@@ -1340,11 +1341,11 @@ class Mission
 				class Item0
 				{
 					position[]={645.64319,3.2677195,1248.186};
-					azimut=88.264069;
+					azimut=88.264099;
 					special="FLY";
 					id=67;
 					side="EAST";
-					vehicle="O_Heli_Attack_02_black_F";
+					vehicle="O_Heli_Light_02_unarmed_F";
 					leader=1;
 					skill=0.94568962;
 				};
