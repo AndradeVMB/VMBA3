@@ -4,6 +4,8 @@ _camera cameraeffect ["internal", "back"];
 
 playmusic "menu4";
 
+titletext ["GROO FRAMEWORK\nFeatures:\nMonsada's UPSMON\nBangabob's EOS\nFHQ Task Tracker\n=BTC= Logistics\n=BTC= Revive\nZuff Group Management\nJamac Vehicle Service","PLAIN"];
+
 ;comment "4:31:21";
 _camera camPrepareTarget [97818.73,-25333.70,0.57];
 _camera camPreparePos [1897.74,2189.88,0.28];
@@ -17,7 +19,7 @@ _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 10;
 waitUntil {camCommitted _camera;};
 
-titletext ["A Mission By\n The VMB S3 Team\nCpl.OfKings - Mission Editing\nSub.Andrade - Scripting Sorcery","PLAIN"];
+titletext ["A Mission By\n The VMB S3 Team\nCpl.OfKings - Mission Editing\nLt.Andrade - Scripting Sorcery","PLAIN"];
 
 ;comment "4:34:41";
 _camera camPrepareTarget [96015.15,-25294.38,-18709.15];
@@ -92,7 +94,7 @@ _camera camCommitPrepared 0;
 waitUntil {camCommitted _camera;};
 
 
-titletext ["A MELHOR ARMA DO MUNDO É UM SOLDADO BEM TREINADO, FERRO E AÇO NÃO É NADA COMPARADO A CORAGEM E HONRA"];
+titletext ["A MELHOR ARMA DO MUNDO É UM SOLDADO BEM TREINADO, FERRO E AÇO NÃO É NADA COMPARADO A CORAGEM E HONRA","PLAIN"];
 
 
 
@@ -117,5 +119,3 @@ _camera cameraeffect ["terminate","back"];
 camdestroy _camera;
 
 [str ("Operation Pasha") ,  str(date select 1) + "." + str(date select 2) + "." + str(date select 0), str("Koplic")] spawn BIS_fnc_infoText;
-
-exit;
