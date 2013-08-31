@@ -1,20 +1,20 @@
 ﻿//-------------------------------------------LOADING INFO--------------------------------------------------------------------
-		author = "Virtual MilSim 3º Seção"; 
-		onLoadName = "Operação Quebrando o Trafico"; 
-		onLoadMission = "Virtual Milsim Brasil S3 Team"; 
+		author = "Virtual MilSim 3º Seção";
+		onLoadName = "Operação Quebrando o Trafico";
+		onLoadMission = "Virtual Milsim Brasil S3 Team";
 //		loadScreen = "pictures\sw_ed.jpg";
 		disabledAI = 1;
-		
+
 		overviewText = "Destrua os Recursos dos traficantes. E mate o dono do morro.";
 //		overviewTextLocked = "Lock Text";
 //		overviewPicture = "";
-		
+
 //-------------------------------------------GAMETYPE-----------------------------------------------------------------------
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 class Header
 	{
 	gameType = Coop;
-	minPlayers = 1; 
+	minPlayers = 1;
 	maxPlayers = 32;
 	};
 //-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
@@ -36,16 +36,16 @@ class CfgMusic
 class CfgSounds
 {
 	sounds[]={};
-	class NoSound 
+	class NoSound
 	{
 		name = "NoSound";
 		sound[] = {"gvs\Dummy.ogg", 0, 1};
 		titles[] = {};
 	};
-	class Fogos 
+	class Fogos
 	{
 		name = "fogos";
-		sound[] = {"mission\fogos.ogg", 2, 1};
+		sound[] = {"mission\fogos.ogg", 5, 1};
 		titles[] = {};
 	};
 
@@ -70,7 +70,7 @@ class CfgSounds
 // Include for NORRN_cam
 #include "NORRN_cam\NORRN_cam_dialog.hpp"
 
-class RscTitles 
+class RscTitles
 {
 	titles[]={};
 	#include "gvs\stc_displays.hpp"
