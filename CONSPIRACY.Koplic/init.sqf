@@ -7,8 +7,8 @@ _missionName = "Conspiracy Koplic";
 _missionVersion = "0.1";
 
 //PARAMS
-PARAMEDITMODE = false;
-PARAMSHOWINTRO = true;
+PARAMEDITMODE = true;
+PARAMSHOWINTRO = false;
 // Init Groo Framework Scripts
 call compile preprocessFileLineNumbers "groo\groo_init.sqf";
 [format["INFO: Starting %1 version %2 init Script",_missionName,_missionVersion],"green"] spawn groo_fnc_consoleMSG;
