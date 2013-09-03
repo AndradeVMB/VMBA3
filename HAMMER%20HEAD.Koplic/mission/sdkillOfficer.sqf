@@ -8,12 +8,14 @@ private ["_newGroup","_triggerKill","_triggerReact","_mkrName","_posArray","_i",
 _mkrName = "mkrTaskKillOfficer";
 _posArray = [
 
-			[3714.12,4961.1,0.00219727],
-			[3540.89,5047.02,0.00106812],
-			[3199.73,5062.48,0.00157166]
-			
+			[5217.29,2731.34,0.00143886],
+			[6837.12,1984.63,0.00143886],
+			[2871.44,1361.37,0.00143886],
+			[1613.55,2413.15,0.00143886]
+
+
 			];
-					
+
 _i = floor(random (count _posArray));
 _newSpawnpos = _posArray select _i;
 
@@ -47,14 +49,14 @@ _mkrName setmarkeralpha 0;
 ] call FHQ_TT_addTasks;
 
 
-	_triggerreact = createTrigger ["EmptyDetector",_newSpawnpos]; 
-	_triggerreact setTriggerArea [20,20,0,true]; 
-	_triggerreact setTriggerActivation ["WEST","PRESENT",false]; 
-	_triggerreact setTriggerStatements ["this","Officer addMagazine ""16Rnd_9x21_Mag"";Officer addMagazine ""16Rnd_9x21_Mag"";Officer addWeapon ""hgun_Rook40_F"";Officer enableai ""MOVE""",""]; 
-	_triggerreact setTriggerType "NONE"; 
+	_triggerreact = createTrigger ["EmptyDetector",_newSpawnpos];
+	_triggerreact setTriggerArea [20,20,0,true];
+	_triggerreact setTriggerActivation ["WEST","PRESENT",false];
+	_triggerreact setTriggerStatements ["this","Officer addMagazine ""16Rnd_9x21_Mag"";Officer addMagazine ""16Rnd_9x21_Mag"";Officer addWeapon ""hgun_Rook40_F"";Officer enableai ""MOVE""",""];
+	_triggerreact setTriggerType "NONE";
 	_triggerreact;
 	sleep 1;
-	
+
 waituntil {!alive Officer};
 
 hint "Mission Suceeded";

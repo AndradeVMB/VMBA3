@@ -82,7 +82,7 @@ Sleep 120;
 // Tasks
 // Procurar e Matar o Coronel Abdulau Kalan
 [west,
-["taskDestroy", "Procurar e Matar o Coronel Abdulau Kalan"]
+["taskKill", "Procurar e Matar o Coronel Abdulau Kalan"]
 ] call FHQ_TT_addTasks;
 
 sleep 10;
@@ -96,7 +96,7 @@ sleep 10;
 
 //Destruir 3 Torres de Radio Inimigo
 [west,
-["taskDestroy", "Incapacitar Comunicacao do Inimigo"]
+["taskDestroyTower", "Incapacitar Comunicacao do Inimigo"]
 ] call FHQ_TT_addTasks;
 
 

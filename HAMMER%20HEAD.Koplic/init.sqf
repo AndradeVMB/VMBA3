@@ -13,10 +13,10 @@ MAC_fnc_switchMove = {
     _anim = _this select 1;
 
     _object switchMove _anim;
-    
+
 };
 //PARAMS
-PARAMEDITMODE = false;
+PARAMEDITMODE = true;
 PARAMSHOWINTRO = false;
 
 // Init Groo Framework Scripts
