@@ -21,6 +21,20 @@ groo_var_execQueue = 0;
 
 // BRIEFING
 
+player createDiaryRecord ["Diary",
+										["Créditos",
+										"Groo Framework V2<br/>"+
+										"UPSMON Arma3<br/>"+
+										"GrooEOS<br/>"+
+										"TAWViewDistance<br/>"+
+										"FHQ Task Tracker<br/>"+
+										"Jamac Vehicle Service<br/>"+
+										"Farooq Revive<br/>"+
+										"Vehicle Respawn<br/>"+
+										"Player Markers<br/>"+
+										"<br/><br/>"]
+										];
+
 // TASKS
 
 // INICIALIZACAO
@@ -71,8 +85,12 @@ call compile preprocessFileLineNumbers "scripts\=BTC=_Logistic\=BTC=_logistic_In
 // Farooq'a Revive
 call compileFinal preprocessFileLineNumbers "scripts\FAR_revive\FAR_revive_init.sqf";
 
+// Groo playernames
+[] execVM "scripts\playernames.sqf";
 
-
+// Zuff Group Maneagement Script
+["INFO: Group Maneagement Script Enabled","green"] spawn groo_fnc_consoleMSG;
+[player] execVM "scripts\groupsMenu\initGroups.sqf";
 
 
 

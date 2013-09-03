@@ -277,7 +277,7 @@ for [{_i=2},{_i<count _UCthis},{_i=_i+1}] do {
 		if !((_UCThis Select _i) == "ARMOUR") then {
 			if (isServer) then {
 
-						#include "..\groo\execQueue.hpp"
+						#include "execQueue.hpp"
 						_upsParam = _upsParam + ["SHOWMARKER","SPAWNED","DELETE:",60];
 						_newGroup = [_spwnposnew,_sideAdjust,_units,[],[],_skills]call BIS_fnc_spawnGroup;
 
@@ -292,7 +292,7 @@ for [{_i=2},{_i<count _UCthis},{_i=_i+1}] do {
 		} else {
 					if (isServer) then {
 
-						#include "..\groo\execQueue.hpp"
+						#include "execQueue.hpp"
 						_tankType = _Armour select (floor(random(count _Armour)));
 						_spwnposNew = [_markerPosition, random _radiusPlacement, random 359] call BIS_fnc_relPos;
 						_upsParam = ["SHOWMARKER","SPAWNED","DELETE:",60];

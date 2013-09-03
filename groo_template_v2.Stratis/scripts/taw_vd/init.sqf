@@ -1,7 +1,7 @@
 if(isDedicated) exitWith {};
 waitUntil {!isNull player && player == player};
 [] execVM "scripts\taw_vd\functions.sqf";
-tawvd_action = player addAction["<t color='#FF0000'>Settings</t>","taw_vd\open.sqf",[],-99,false,false,"",''];
+tawvd_action = player addAction["<t color='#FF0000'>Settings</t>","scripts\taw_vd\open.sqf",[],-99,false,false,"",''];
 
 if(isNil {tawvd_foot}) then
 {

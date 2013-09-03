@@ -17,7 +17,7 @@ BTC_Liftable     = ["LandVehicle","Air","ReammoBox","Strategic","Land_HBarrier_l
 BTC_Hud_Cond     = false;
 BTC_HUD_x        = (SafeZoneW+2*SafeZoneX) + 0.045;
 BTC_HUD_y        = (SafeZoneH+2*SafeZoneY) + 0.045;
-_lift = [] execVM "=BTC=_Logistic\=BTC=_Lift\=BTC=_LiftInit.sqf";
+_lift = [] execVM "scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_LiftInit.sqf";
 //Cargo System
 BTC_Obj_Dragged      = objNull;
 BTC_Veh_Selected     = objNull;

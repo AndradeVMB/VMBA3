@@ -205,7 +205,7 @@ _side = side _npc;
 
 
 // Dormindo até o groo mandar acordar
-#include "..\groo\execQueue.hpp"
+#include "execQueue.hpp"
 
 
 
