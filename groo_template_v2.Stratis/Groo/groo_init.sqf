@@ -1,10 +1,10 @@
 //PARAMS
 // Mission Params
 if isMultiplayer then {
-	groo_param_showintro =  [paramsarray, 0, true] call BIS_fnc_param;
-	groo_param_editmode = [paramsarray, 1, true] call BIS_fnc_param;
-	groo_param_timeofday = [paramsarray, 2, 00] call BIS_fnc_param;
-	groo_param_weather = [paramsarray, 3, 1] call BIS_fnc_param;
+	groo_param_showintro =  if ((paramsarray select 0) == 1) then {true} else {false};
+	groo_param_editmode = if ((paramsarray select 1) == 1) then {true} else {false};
+	groo_param_timeofday = paramsarray select 2;
+	groo_param_weather = paramsarray select 3;
 }else{
 	groo_param_showintro =  true;
 	groo_param_editmode = true;
@@ -52,7 +52,7 @@ skiptime (((groo_param_timeofday) - daytime + 24) % 24);
 
 
 // param_weather
-switch (groo_param_weather) do {
+switch groo_param_weather do {
   case 1: { 0 setOvercast 0; 0 setRain 0; 0 setFog 0 };
   case 2: { 0 setOvercast 1; 0 setRain 1; 0 setFog 0.2 };
   case 3: { 0 setOvercast 0.7; 0 setRain 0; 0 setFog 0 };
@@ -102,12 +102,11 @@ call compileFinal preprocessFileLineNumbers "scripts\FAR_revive\FAR_revive_init.
 //#include "mission\occupation.hpp";
 
 // Intro
-	[] spawn {
+//	[] spawn {
 
-			if !isJIP then {0 = execVM "scene.sqf";};
 
 //			scriptName "initMission.hpp: mission start";
 //			["core\DWSIntro.ogv", false] spawn BIS_fnc_titlecard;
 //			waitUntil {!(isNil "BIS_fnc_titlecard_finished")};
-	};
+//	};
 

@@ -35,7 +35,7 @@ KRON_UPS_Debug = if groo_param_editmode then {1} else {0};
 
 //1=Enable or 0=disable. In game display global chat info about who just killed a civilian.
 //numbers of Civilians killed by players could be read from array 'KILLED_CIV_COUNTER' -> [Total, by West, by East, by Res, The killer]
-R_WHO_IS_CIV_KILLER_INFO = 0;
+R_WHO_IS_CIV_KILLER_INFO = 1;
 
 // if you are spotted by AI group, how close the other AI group have to be to You , to be informed about your present position. over this, will lose target
 KRON_UPS_sharedist = 1100; // org value 800 => increased for ArmA3 map sizes for less predictable missions..

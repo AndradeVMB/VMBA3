@@ -28,7 +28,7 @@ call compile preprocessFile "scripts\FAR_revive\FAR_revive_funcs.sqf";
 FAR_isDragging = false;
 FAR_isDragging_EH = [];
 FAR_deathMessage = [];
-FAR_Debugging = true;
+FAR_Debugging = groo_param_editmode;
 
 if (isDedicated) exitWith {};
 
