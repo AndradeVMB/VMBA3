@@ -1,8 +1,11 @@
+// JIP Check (This code should be placed first line of init.sqf file)
+if (!isServer && isNull player) then {isJIP=true;} else {isJIP=false;};
 
-if ((!isServer) && (player != player)) then
-{
-  waitUntil {player == player};
-};
+// Wait until player is initialized
+if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
+
+// Wait until BIS Functions Initialized
+waitUntil{!isNil "BIS_fnc_init"};
 
 //groo_INIT
 #include "groo\groo_init.sqf"

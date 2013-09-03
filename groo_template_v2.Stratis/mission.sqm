@@ -12,7 +12,6 @@ class Mission
 	addOnsAuto[]=
 	{
 		"A3_Characters_F_BLUFOR",
-		"A3_Structures_F_Mil_Fortification",
 		"A3_Structures_F_Mil_Helipads",
 		"A3_Signs_F",
 		"a3_map_stratis"
@@ -63,32 +62,22 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3;
+		items=2;
 		class Item0
 		{
-			position[]={1869.6964,5.5,5667.4541};
-			azimut=-37.064575;
+			position[]={1832.3124,5.5,5699.7583};
+			azimut=735.94891;
 			id=1;
-			side="EMPTY";
-			vehicle="Land_HBarrier_5_F";
-			leader=1;
-			skill=1;
-		};
-		class Item1
-		{
-			position[]={1859.5453,5.5,5676.7993};
-			azimut=26.6689;
-			id=2;
 			side="EMPTY";
 			vehicle="Land_HelipadSquare_F";
 			leader=1;
 			skill=0.60000002;
 		};
-		class Item2
+		class Item1
 		{
-			position[]={1849.4203,5.5,5668.9321};
-			azimut=476.96619;
-			id=3;
+			position[]={1823.826,5.5,5690.1431};
+			azimut=1186.246;
+			id=2;
 			side="EMPTY";
 			vehicle="Land_Sign_WarningMilitaryVehicles_F";
 			leader=1;
@@ -100,11 +89,12 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={1859.9357,5.5,5676.8076};
+			position[]={1832.6974,5.5,5699.8364};
 			name="mkrRepairs";
 			text="Vehicle Service";
 			type="mil_box";
 			colorName="ColorBlue";
+			angle=709.28003;
 		};
 	};
 	class Sensors
@@ -112,9 +102,10 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={1859.2948,5.5,5676.6909};
+			position[]={1832.0875,5.5,5699.6045};
 			a=10;
 			b=10;
+			angle=709.28003;
 			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
