@@ -31,7 +31,8 @@ player createDiaryRecord ["Diary",
 										"Jamac Vehicle Service<br/>"+
 										"Farooq Revive<br/>"+
 										"Vehicle Respawn<br/>"+
-										"Player Markers<br/>"+
+										"Groo Player Markers<br/>"+
+										"Zuff Groups Menu<br/>"+
 										"<br/><br/>"]
 										];
 
@@ -101,9 +102,12 @@ call compileFinal preprocessFileLineNumbers "scripts\FAR_revive\FAR_revive_init.
 //#include "mission\occupation.hpp";
 
 // Intro
-//		[] spawn {
+	[] spawn {
+
+			if !isJIP then {0 = execVM "scene.sqf";};
+
 //			scriptName "initMission.hpp: mission start";
 //			["core\DWSIntro.ogv", false] spawn BIS_fnc_titlecard;
 //			waitUntil {!(isNil "BIS_fnc_titlecard_finished")};
-//		};
+	};
 
