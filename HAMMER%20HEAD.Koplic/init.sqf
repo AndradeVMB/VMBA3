@@ -16,7 +16,7 @@ MAC_fnc_switchMove = {
 
 };
 //PARAMS
-PARAMEDITMODE = true;
+PARAMEDITMODE = false;
 PARAMSHOWINTRO = false;
 
 // Init Groo Framework Scripts

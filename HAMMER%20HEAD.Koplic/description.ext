@@ -5,7 +5,7 @@
 //		loadScreen = "pictures\sw_ed.jpg";
 		disabledAI = 1;
 
-		overviewText = "Procurar e Destruir";
+		overviewText = "Procurar e destruir os depositos de armamentos, Eliminar o oficial inimigo e destruir as torres de comunicação.";
 //		overviewTextLocked = "Lock Text";
 //		overviewPicture = "";
 
