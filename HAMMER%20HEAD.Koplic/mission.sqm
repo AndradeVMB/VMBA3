@@ -1426,17 +1426,17 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=561;
+		items=560;
 		class Item0
 		{
 			position[]={4586.0601,3.9803925,7521.312};
-			azimut=-179.79016;
+			azimut=-179.78999;
 			id=74;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_01_F";
 			skill=0.60000002;
 			text="h2";
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";nul = [this] execVM ""doors\addaction.sqf"";";
 		};
 		class Item1
 		{
@@ -4701,12 +4701,12 @@ class Mission
 		class Item345
 		{
 			position[]={4560.3599,3.9803925,7521.0259};
-			azimut=-180.78891;
+			azimut=-180.789;
 			id=419;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_01_F";
 			skill=0.60000002;
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";nul = [this] execVM ""doors\addaction.sqf"";";
 		};
 		class Item346
 		{
@@ -6149,7 +6149,7 @@ class Mission
 		};
 		class Item490
 		{
-			position[]={4318.709,3.4401715,3955.7136};
+			position[]={4347.7236,3.1170208,4020.7278};
 			azimut=155.424;
 			id=564;
 			side="EMPTY";
@@ -6846,17 +6846,6 @@ class Mission
 			vehicle="Land_CampingChair_V2_F";
 			skill=0.60000002;
 			init="this addAction [""<t color='#0099FF'>Sit Down</t>"",""Chair\sitdown.sqf""]";
-		};
-		class Item560
-		{
-			position[]={4777.0884,4.6142268,7395.3003};
-			azimut=240.94664;
-			offsetY=0.5;
-			id=634;
-			side="EMPTY";
-			vehicle="ARP_Objects_flag_blue";
-			leader=1;
-			skill=0.60000002;
 		};
 	};
 	class Markers
