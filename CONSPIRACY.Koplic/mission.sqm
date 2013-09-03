@@ -24,7 +24,6 @@ class Mission
 		"A3_Structures_F_Ind_AirPort",
 		"A3_Structures_F_Ind_Transmitter_Tower",
 		"A3_Structures_F_Wrecks",
-		"A3_Weapons_F_Ammoboxes",
 		"A3_Structures_F_Civ_Garbage",
 		"A3_Structures_F_Civ_Lamps",
 		"A3_Armor_F_AMV",
@@ -48,8 +47,7 @@ class Mission
 		"A3_Air_F_Beta_Heli_Attack_02",
 		"A3_Air_F_Heli_Light_01",
 		"A3_Structures_F_Walls",
-		"A3_Air_F_Heli_Light_02",
-		"a3_weapons_f_beta_ammoboxes"
+		"A3_Air_F_Heli_Light_02"
 	};
 	addOnsAuto[]=
 	{
@@ -95,8 +93,6 @@ class Mission
 		"A3_Structures_F_Households_House_Big02",
 		"A3_Structures_F_Households_House_Small03",
 		"A3_Structures_F_Walls",
-		"A3_Weapons_F_Ammoboxes",
-		"a3_weapons_f_beta_ammoboxes",
 		"koplic"
 	};
 	randomSeed=5893733;
@@ -139,7 +135,7 @@ class Mission
 					leader=1;
 					skill=0.2;
 					text="cameraman";
-					init="if false then {[] execVM ""camera.sqs"";};if true then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
+					init="if false then {[] execVM ""camera.sqs"";};if false then {[] execVM ""scene.sqf"";}; this setcaptive true; this allowdamage false;";
 				};
 			};
 		};
@@ -2089,10 +2085,33 @@ class Mission
 				};
 			};
 		};
+<<<<<<< HEAD
+=======
+		class Item34
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4182.7104,19.259735,2378.9321};
+					azimut=2.6753442;
+					offsetY=0.5;
+					id=114;
+					side="WEST";
+					vehicle="B_Soldier_A_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+>>>>>>> 1149fd0d121478ce4fdf6a7f04f159f92d4051ae
 	};
 	class Vehicles
 	{
-		items=521;
+		items=520;
 		class Item0
 		{
 			position[]={3939.6072,3.9803925,7525.437};
@@ -7054,6 +7073,7 @@ class Mission
 			vehicle="Land_i_House_Small_03_V1_F";
 			skill=0.60000002;
 		};
+<<<<<<< HEAD
 		class Item520
 		{
 			position[]={4008.3274,8.5572624,2032.257};
@@ -7064,6 +7084,8 @@ class Mission
 			vehicle="B_FieldPack_oucamo";
 			skill=0.60000002;
 		};
+=======
+>>>>>>> 1149fd0d121478ce4fdf6a7f04f159f92d4051ae
 	};
 	class Markers
 	{

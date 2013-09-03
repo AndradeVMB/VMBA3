@@ -1,0 +1,98 @@
+﻿//-------------------------------------------LOADING INFO--------------------------------------------------------------------
+		author = "Virtual MilSim 3º Seção";
+		onLoadName = "HAMMER HEAD";
+		onLoadMission = "Virtual Milsim Brasil S3 Team";
+//		loadScreen = "pictures\sw_ed.jpg";
+		disabledAI = 1;
+
+		overviewText = "Procurar e Destruir";
+//		overviewTextLocked = "Lock Text";
+//		overviewPicture = "";
+
+//-------------------------------------------GAMETYPE-----------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Header
+	{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 32;
+	};
+//-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	respawn = "3";
+	respawndelay = 10;
+
+
+class CfgMusic
+{
+   tracks[]={menu3};
+   class menu3
+  {
+    name = "menu3";
+    sound[] = {\Music\menu3.ogg, db+1, 1.0};
+	};
+};
+
+class CfgSounds
+{
+	sounds[]={};
+	class NoSound
+	{
+		name = "NoSound";
+		sound[] = {"gvs\Dummy.ogg", 0, 1};
+		titles[] = {};
+	};
+	class Fogos
+	{
+		name = "fogos";
+		sound[] = {"mission\fogos.ogg", 5, 1};
+		titles[] = {};
+	};
+
+};
+
+// MILSIM LOADOUT MENU
+#include "MILSIM\dialog\defines.hpp"
+#include "MILSIM\dialog\dialog.hpp"
+//--
+// GVS Vehicle REPAIR
+#include "gvs\colors_include.hpp"
+#include "gvs\control_include.hpp"
+#include "gvs\stc_include.hpp"
+#include "gvs\sound_include.hpp"
+
+// Include for TAW Viewdistance Script
+#include "taw_vd\dialog.hpp"
+
+//Include for BTC Revive
+#include "=BTC=_revive\=BTC=_respawn.h"
+
+// Include for NORRN_cam
+#include "NORRN_cam\NORRN_cam_dialog.hpp"
+
+class RscTitles
+{
+	titles[]={};
+	#include "gvs\stc_displays.hpp"
+	#include "=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
+};
+
+class Params
+{
+        class ShowIntro
+        {
+        //paramsArray[2]
+                title = "Show Intro";
+                values[] = {1,0};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 1;
+        };
+		class TestMode
+        {
+        //paramsArray[3]
+                title = "TestMode";
+                values[] = {0,1};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 0;
+        };
+};

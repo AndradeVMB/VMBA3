@@ -15,6 +15,7 @@
 
 			"mkrURBAN1",
 			"mkrURBAN2",
+			"mkrURBAN3",
 			"mkrURBAN4",
 			"mkrURBAN5",
 			"mkrURBAN6",
@@ -31,19 +32,6 @@
 			"mkrURBAN17",
 			"mkrURBAN18",
 			"mkrURBAN19",
-			"mkrURBAN20",
-			"mkrURBAN21",
-			"mkrURBAN22",
-			"mkrURBAN23",
-			"mkrURBAN24",
-			"mkrURBAN25",
-			"mkrURBAN26",
-			"mkrURBAN27",
-			"mkrURBAN28",
-			"mkrURBAN29",
-			"mkrURBAN30",
-			"mkrURBAN31",
-			"mkrURBAN32",
 
 			"mkrRoadblock1",
 			"mkrRoadblock2",
@@ -62,14 +50,6 @@
 			"mkrRoadblock15",
 			"mkrRoadblock16",
 			"mkrRoadblock17",
-			"mkrRoadblock18",
-			"mkrRoadblock19",
-
-			"mkrTankPatrol1",
-			"mkrTankPatrol2",
-			"mkrTankPatrol3",
-			"mkrTankPatrol4",
-			"mkrTankPatrol7",
 
 
 
@@ -77,6 +57,8 @@
 			"mkrHillPatrol2",
 			"mkrHillPatrol3",
 			"mkrHillPatrol4",
+			"mkrHillPatrol5",
+			"mkrHillPatrol6",
 			"mkrHillPatrol7",
 			"mkrHillPatrol8",
 			"mkrHillPatrol9",
@@ -84,11 +66,19 @@
 			"mkrHillPatrol11",
 			"mkrHillPatrol12",
 			"mkrHillPatrol13",
-
-			"mkrSPECOPS1",
-			"mkrSPECOPS2",
-			"mkrSPECOPS3",
-			"mkrSPECOPS4",
-			"mkrSPECOPS5"
+			"mkrHillPatrol14",
+			"mkrHillPatrol15",
+			"mkrHillPatrol16",
+			"mkrHillPatrol17",
+			"mkrHillPatrol18",
+			"mkrHillPatrol19",
+			"mkrHillPatrol20",
+			"mkrHillPatrol21",
+			"mkrHillPatrol22",
+			"mkrHillPatrol23",
+			"mkrHillPatrol24",
+			
+			"mkrSpecop1",
+			"mkrSpecop2"
 
 ]; 
