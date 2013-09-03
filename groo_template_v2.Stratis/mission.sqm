@@ -7,26 +7,27 @@ class Mission
 		"a3_map_stratis",
 		"A3_Structures_F_Mil_Fortification",
 		"A3_Structures_F_Mil_Helipads",
-		"A3_Signs_F"
+		"A3_Signs_F",
+		"A3_Soft_F_MRAP_01"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F_BLUFOR",
 		"A3_Structures_F_Mil_Helipads",
 		"A3_Signs_F",
+		"A3_Soft_F_MRAP_01",
 		"a3_map_stratis"
 	};
 	randomSeed=5572081;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startWeather=0.29999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
 		year=2035;
 		month=7;
 		day=6;
@@ -62,7 +63,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2;
+		items=4;
 		class Item0
 		{
 			position[]={1832.3124,5.5,5699.7583};
@@ -82,6 +83,28 @@ class Mission
 			vehicle="Land_Sign_WarningMilitaryVehicles_F";
 			leader=1;
 			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={1803.9385,5.5,5709.2778};
+			azimut=377.29691;
+			id=3;
+			side="EMPTY";
+			vehicle="B_MRAP_01_hmg_F";
+			skill=0.60000002;
+			text="v2";
+			init="0 = [this, 15, 0] execVM ""scripts\vehicle_respawn.sqf"";";
+		};
+		class Item3
+		{
+			position[]={1807.923,5.5,5708.0293};
+			azimut=377.84393;
+			id=4;
+			side="EMPTY";
+			vehicle="B_MRAP_01_gmg_F";
+			skill=0.60000002;
+			text="v1";
+			init="0 = [this, 15, 0] execVM ""scripts\vehicle_respawn.sqf"";";
 		};
 	};
 	class Markers
@@ -112,7 +135,7 @@ class Mission
 			age="UNKNOWN";
 			name="Servicepoint";
 			expCond="Public_Servicepoint == 0 and (thislist select 0) isKindOf ""Air"" or (thislist select 0) isKindOf ""LandVehicle"" and player == driver (thislist select 0)";
-			expActiv="_nul = [""Public_Servicepoint"", (thislist select 0), getPos Servicepoint,20,200,30,2,10,5] execVM ""gvs\generic_vehicle_service.sqf"";";
+			expActiv="_nul = [""Public_Servicepoint"", (thislist select 0), getPos Servicepoint,20,200,30,2,10,5] execVM ""scripts\gvs\generic_vehicle_service.sqf"";";
 			class Effects
 			{
 			};

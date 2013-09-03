@@ -42,14 +42,14 @@ switch (true) do
 
 clearMagazineCargoGlobal _obj;
 clearWeaponCargoGlobal _obj;
-if ((count (_ammo_cont select 0)) > 0) then 
+if ((count (_ammo_cont select 0)) > 0) then
 {
 	for "_i" from 0 to (count (_ammo_cont select 0) - 1) do
 	{
 		_obj addMagazineCargoGlobal [(_ammo_cont select 0) select _i,(_ammo_cont select 1) select _i];
 	};
 };
-if ((count (_weapon_cont select 0)) > 0) then 
+if ((count (_weapon_cont select 0)) > 0) then
 {
 	for "_i" from 0 to (count (_weapon_cont select 0) - 1) do
 	{
@@ -61,5 +61,5 @@ _veh setVariable ["BTC_Veh_ammo",[],true];
 _veh setVariable ["BTC_Veh_weapon",[],true];
 _veh setVariable ["BTC_Veh_Full",0,true];
 _name = getText (configFile >> "cfgVehicles" >> typeof _obj >> "displayName");
-_text_action = "this addAction [" + """" + "<t color=""""#ED2744"""">" + "Drag " + (_name) + "</t>" + """" + ",""=BTC=_Logistic\=BTC=_Cargo_System\=BTC=_Drag.sqf"", """", 7, true, true]";
+_text_action = "this addAction [" + """" + "<t color=""""#ED2744"""">" + "Drag " + (_name) + "</t>" + """" + ",""scripts\=BTC=_Logistic\=BTC=_Cargo_System\=BTC=_Drag.sqf"", """", 7, true, true]";
 _obj setVehicleInit _text_action;ProcessInitCommands;

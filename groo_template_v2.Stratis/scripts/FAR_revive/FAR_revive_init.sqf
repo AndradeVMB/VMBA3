@@ -7,7 +7,7 @@
 //------------------------------------------//
 
 // Seconds until unconscious unit bleeds out and dies. Set to 0 to disable.
-FAR_BleedOut = 500;	
+FAR_BleedOut = 500;
 
 // Enable teamkill notifications
 FAR_EnableDeathMessages = true;
@@ -21,7 +21,7 @@ FAR_ReviveMode = 0;
 
 //------------------------------------------//
 
-call compile preprocessFile "FAR_revive\FAR_revive_funcs.sqf";
+call compile preprocessFile "scripts\FAR_revive\FAR_revive_funcs.sqf";
 
 #define SCRIPT_VERSION "1.4d"
 
@@ -42,16 +42,16 @@ if (isDedicated) exitWith {};
 	// Public event handlers
 	"FAR_isDragging_EH" addPublicVariableEventHandler FAR_public_EH;
 	"FAR_deathMessage" addPublicVariableEventHandler FAR_public_EH;
-	
+
 	[] spawn FAR_Player_Init;
-	
+
 	hintSilent format["Farooq's Revive %1 is initialized.", SCRIPT_VERSION];
 
 	// Event Handlers
-	player addEventHandler 
+	player addEventHandler
 	[
-		"Respawn", 
-		{ 
+		"Respawn",
+		{
 			[] spawn FAR_Player_Init;
 		}
 	];
@@ -73,7 +73,7 @@ if (isDedicated) exitWith {};
 				player switchMove "amovpknlmstpsraswrfldnon";
 			};
 		};
-			
+
 		sleep 3;
 	}
 };
@@ -87,27 +87,27 @@ FAR_Player_Init =
 	player removeAllEventHandlers "HandleDamage";
 
 	player addEventHandler ["HandleDamage", FAR_HandleDamage_EH];
-	player addEventHandler 
+	player addEventHandler
 	[
 		"Killed",
 		{
 			// Remove dead body of player (for missions with respawn enabled)
 			_body = _this select 0;
-			
-			[_body] spawn 
+
+			[_body] spawn
 			{
-			
+
 				waitUntil { alive player };
 				_body = _this select 0;
 				deleteVehicle _body;
 			}
 		}
 	];
-	
+
 	player setVariable ["FAR_isUnconscious", 0, true];
 	player setVariable ["FAR_isDragged", 0, true];
 	FAR_isDragging = false;
-	
+
 	[] spawn FAR_Player_Actions;
 };
 
@@ -117,7 +117,7 @@ FAR_Player_Init =
 if (!FAR_Debugging || isMultiplayer) exitWith {};
 
 {
-	if (!isPlayer _x) then 
+	if (!isPlayer _x) then
 	{
 		_x addEventHandler ["HandleDamage", FAR_HandleDamage_EH];
 		_x setVariable ["FAR_isUnconscious", 0, true];
