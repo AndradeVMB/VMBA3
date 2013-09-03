@@ -25,14 +25,15 @@ player createDiaryRecord ["Diary",
 										["Créditos",
 										"Groo Framework V2<br/>"+
 										"UPSMON Arma3<br/>"+
-										"GrooEOS<br/>"+
-										"TAWViewDistance<br/>"+
-										"FHQ Task Tracker<br/>"+
-										"Jamac Vehicle Service<br/>"+
-										"Farooq Revive<br/>"+
+										"Bangabob/Groo EOS<br/>"+
+										"TAW's ViewDistance<br/>"+
+										"FHQ's Task Tracker<br/>"+
+										"Jamac's Vehicle Service<br/>"+
+										"Farooq's Revive<br/>"+
 										"Vehicle Respawn<br/>"+
-										"Groo Player Markers<br/>"+
-										"Zuff Groups Menu<br/>"+
+										"Groo's Player Markers<br/>"+
+										"Zuff's Groups Menu<br/>"+
+										"MarKer's Vehicle HUD<br/>"+
 										"<br/><br/>"]
 										];
 

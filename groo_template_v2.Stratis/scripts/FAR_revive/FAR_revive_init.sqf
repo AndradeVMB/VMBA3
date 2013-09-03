@@ -9,6 +9,9 @@
 // Seconds until unconscious unit bleeds out and dies. Set to 0 to disable.
 FAR_BleedOut = 500;
 
+// Revive Limit
+FAR_ReviveLimit = 3;
+
 // Enable teamkill notifications
 FAR_EnableDeathMessages = true;
 
@@ -18,6 +21,7 @@ FAR_EnableDeathMessages = true;
 	2 = Same as 1 but a medikit is required to revive
 */
 FAR_ReviveMode = 0;
+
 
 //------------------------------------------//
 

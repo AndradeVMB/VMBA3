@@ -38,6 +38,9 @@ class Header
 // Include for NORRN_cam
 #include "scripts\NORRN_cam\NORRN_cam_dialog.hpp"
 
+// Include for Vehicle HUD
+#include "scripts\veh_hud\dialogs\common.hpp"
+
 
 // ----------------------------------------DEFINE MUSIC-------------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -74,6 +77,7 @@ class RscTitles
 	titles[]={};
 	#include "scripts\gvs\stc_displays.hpp"
 	#include "scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
+	#include "scripts\veh_hud\dialogs\namesright.hpp"
 };
 
 
