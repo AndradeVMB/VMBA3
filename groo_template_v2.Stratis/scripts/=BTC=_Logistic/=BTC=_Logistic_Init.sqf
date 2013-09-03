@@ -24,7 +24,7 @@ BTC_Veh_Selected     = objNull;
 BTC_Dragging         = false;
 BTC_Draggable        = ["ReammoBox"];
 BTC_Load_In_Vehicles = ["Tank","Wheeled_APC","Truck","Car","Helicopter","C130J","C130J_US_EP1"];
-{if (format ["%1", _x getVariable "BTC_Cannot_Drag"] != "1") then {_name = getText (configFile >> "cfgVehicles" >> typeof _x >> "displayName");_x addAction [("<t color=""#ED2744"">" + "Drag " + (_name) + "</t>"),"=BTC=_Logistic\=BTC=_Cargo_System\=BTC=_Drag.sqf", "", 7, true, true];};} foreach (nearestObjects [player, BTC_Draggable, 50000]);
+{if (format ["%1", _x getVariable "BTC_Cannot_Drag"] != "1") then {_name = getText (configFile >> "cfgVehicles" >> typeof _x >> "displayName");_x addAction [("<t color=""#ED2744"">" + "Drag " + (_name) + "</t>"),"scripts\=BTC=_Logistic\=BTC=_Cargo_System\=BTC=_Drag.sqf", "", 7, true, true];};} foreach (nearestObjects [player, BTC_Draggable, 50000]);
 //Functions
 BTC_get_liftable_array =
 {
@@ -49,7 +49,7 @@ BTC_obj_fall =
 	_obj    = _this select 0;
 	_height = getPos _obj select 2;
 	_fall   = 0.09;
-	while {(getPos _obj select 2) > 1} do 
+	while {(getPos _obj select 2) > 1} do
 	{
 
 		_fall = (_fall * 1.1);
@@ -68,7 +68,7 @@ BTC_paradrop =
 	_dropped_type = typeOf _dropped;
 	if (typeOf _Veh == "MH6J_EP1") then {_chute = createVehicle [_chute_type, [((position _Veh) select 0) - 5,((position _Veh) select 1) - 10,((position _Veh) select 2)- 4], [], 0, "NONE"];} else {_chute = createVehicle [_chute_type, [((position _Veh) select 0) - 5,((position _Veh) select 1) - 3,((position _Veh) select 2)- 4], [], 0, "NONE"];};
 	_smoke        = "SmokeshellGreen" createVehicle position _Veh;
-    _smoke attachto [_dropped,[0,0,0]]; 
+    _smoke attachto [_dropped,[0,0,0]];
 	_dropped attachTo [_chute,[0,0,0]];
 	while {getPos _chute select 2 > 2} do {sleep 1;};
 	detach _dropped;

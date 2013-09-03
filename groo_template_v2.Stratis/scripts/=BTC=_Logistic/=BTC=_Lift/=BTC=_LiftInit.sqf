@@ -7,7 +7,7 @@ You are not allowed to modify this file and redistribute it without permission g
 */
 if (isDedicated) exitwith {};
 _cond = true;
-if ((count BTC_lift_pilot) > 0) then 
+if ((count BTC_lift_pilot) > 0) then
 {
 	if ((BTC_lift_pilot find (typeof player)) == - 1) exitWith {hint "No lift";_cond = false;};
 };
@@ -25,12 +25,12 @@ _obj_name  = _ui displayCtrl 1005;
 _array_hud = [_radar,_obj_img,_obj_pic,_arrow,_obj_name];
 {_x ctrlShow false} foreach _array_hud;
 _chopper = objNull;_cargo_pos = [];_rel_pos = [];_cargo_x = 0;_cargo_y = 0;_cargo_z = 0;
-while {true} do 
+while {true} do
 {
 	if (!Alive player) then {{_x ctrlShow false} foreach _array_hud;};
 	if (BTC_Hud_Cond) then {{_x ctrlShow false} foreach _array_hud;BTC_Hud_Cond = false;};
 	waitUntil {sleep 1; (vehicle player != player && vehicle player iskindof "Helicopter" && ((count([vehicle player] call BTC_Get_liftable_array)) > 0))};
-	if (!(vehicle player == player) && driver vehicle player == player) then {_chopper = vehicle player;BTC_liftHudId = _chopper addAction [("<t color=""#ED2744"">" + ("Hud On\Off") + "</t>"),"=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.sqf", "", 0, false, false];};
+	if (!(vehicle player == player) && driver vehicle player == player) then {_chopper = vehicle player;BTC_liftHudId = _chopper addAction [("<t color=""#ED2744"">" + ("Hud On\Off") + "</t>"),"scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.sqf", "", 0, false, false];};
 	_array = [vehicle player] call BTC_get_liftable_array;
 	while {!(vehicle player == player) && driver vehicle player == player} do
 	{
@@ -52,7 +52,7 @@ while {true} do
 		if (!isNull _cargo && BTC_Hud_Cond) then
 		{
 			if !(BTC_Hud_Shown) then {{_x ctrlShow true} foreach _array_hud;BTC_Hud_Shown = true;};
-			if (_can_lift) then 
+			if (_can_lift) then
 			{
 				_obj_img ctrlShow true;
 				_hud_x   = (_rel_pos select 0) / 100;
@@ -77,8 +77,8 @@ while {true} do
 			if ((abs _cargo_z) < BTC_lift_min_h) then {_arrow ctrlSetText "\ca\ui\data\arrow_up_ca.paa";};
 			if ((abs _cargo_z) > BTC_lift_min_h && (abs _cargo_z) < BTC_lift_max_h) then {_arrow ctrlSetText "\ca\ui\data\objective_complete_ca.paa";};
 			if (!_can_lift && BTC_Hud_Cond) then {_arrow ctrlSetText "\ca\ui\data\objective_incomplete_ca.paa";};
-		} else {{_x ctrlShow false} foreach _array_hud;BTC_Hud_Shown = false;};		
-		if (!isNull _cargo && BTC_lifted == 0 && _can_lift && format ["%1", _cargo getVariable "BTC_Cannot_Lift"] != "1") then 
+		} else {{_x ctrlShow false} foreach _array_hud;BTC_Hud_Shown = false;};
+		if (!isNull _cargo && BTC_lifted == 0 && _can_lift && format ["%1", _cargo getVariable "BTC_Cannot_Lift"] != "1") then
 		{
 			if (((abs _cargo_z) < BTC_lift_max_h) && ((abs _cargo_z) > BTC_lift_min_h) && ((abs _cargo_x) < BTC_lift_radius) && ((abs _cargo_y) < BTC_lift_radius)) then
 			{
@@ -88,11 +88,11 @@ while {true} do
 				if (BTC_lifted == 1) then {_chopper removeAction BTC_liftActionId;};
 				if (BTC_lifted == 0 && BTC_lift == 1) then
 				{
-					BTC_liftActionId = _chopper addAction [_text_action,"=BTC=_Logistic\=BTC=_Lift\=BTC=_attachCargo.sqf", "", 7, true, true];
+					BTC_liftActionId = _chopper addAction [_text_action,"scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_attachCargo.sqf", "", 7, true, true];
 					BTC_lift = 0;
 				};
 			};
-			if (BTC_lift == 0 && (((abs _cargo_z) > BTC_lift_max_h) || ((abs _cargo_z) < BTC_lift_min_h) || ((abs _cargo_x) > BTC_lift_radius) || ((abs _cargo_y) > BTC_lift_radius))) then 
+			if (BTC_lift == 0 && (((abs _cargo_z) > BTC_lift_max_h) || ((abs _cargo_z) < BTC_lift_min_h) || ((abs _cargo_x) > BTC_lift_radius) || ((abs _cargo_y) > BTC_lift_radius))) then
 			{
 				_chopper removeAction BTC_liftActionId;
 				BTC_lift = 1;
@@ -104,4 +104,4 @@ while {true} do
 	if (BTC_lift == 0) then {_chopper removeAction BTC_liftActionId;BTC_lift = 1;};
 };
 
-if (true) exitWith {}; 
+if (true) exitWith {};

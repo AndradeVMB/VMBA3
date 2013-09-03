@@ -6,14 +6,14 @@ if (count _this > 0) then {_unit = _this select 0};
 if (_unit != player) exitWith {};
 _curVcl 	  = vehicle player;
 _oldVcl 	  = _curVcl;
-NORRN_sMCam	  = _curVcl addAction ["Switch on cam", "NORRN_cam\init_NORRNCam.sqf", "", 0, false, true];
-Nor_MCAM 	  = compile PreprocessFile "NORRN_cam\NORRN_cam.sqf";
-Nor_MCAM_KEY  = compile preprocessfile "NORRN_cam\CAM_KEY_pressed.sqf";
-Nor_MCAM_hint = compile preprocessfile "NORRN_cam\CAM_hint.sqf";
+NORRN_sMCam	  = _curVcl addAction ["Switch on cam", "scripts\NORRN_cam\init_NORRNCam.sqf", "", 0, false, true];
+Nor_MCAM 	  = compile PreprocessFile "scripts\NORRN_cam\NORRN_cam.sqf";
+Nor_MCAM_KEY  = compile preprocessfile "scripts\NORRN_cam\CAM_KEY_pressed.sqf";
+Nor_MCAM_hint = compile preprocessfile "scripts\NORRN_cam\CAM_hint.sqf";
 while {true} do
-{	
-	while {alive player && _curVcl == _oldVcl} do 
-	{	
+{
+	while {alive player && _curVcl == _oldVcl} do
+	{
 		_oldVcl = _curVcl;
 		sleep 0.5;
 		_curVcl = vehicle player;
@@ -24,5 +24,5 @@ while {true} do
 	while {!alive player} do {sleep 0.5};
 	_curVcl = vehicle player;
 	_oldVcl = _curVcl;
-	NORRN_sMCam  = _curVcl addAction ["Switch on cam", "NORRN_cam\init_NORRNCam.sqf", "", 0, false, true];
+	NORRN_sMCam  = _curVcl addAction ["Switch on cam", "scripts\NORRN_cam\init_NORRNCam.sqf", "", 0, false, true];
 };

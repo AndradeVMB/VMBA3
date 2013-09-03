@@ -16,5 +16,5 @@ BTC_cargo_lifted attachTo [_chopper, [0,0,_height]];
 _name_cargo  = getText (configFile >> "cfgVehicles" >> typeof BTC_cargo_lifted >> "displayName");
 vehicle player vehicleChat format ["%1 lifted", _name_cargo];
 _text_action = ("<t color=""#ED2744"">" + "Drop " + (_name_cargo) + "</t>");
-BTC_SganciaActionId = _chopper addAction [_text_action,"=BTC=_Logistic\=BTC=_Lift\=BTC=_detachCargo.sqf", "", 7, false, false];
-if (true) exitWith {}; 
+BTC_SganciaActionId = _chopper addAction [_text_action,"scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_detachCargo.sqf", "", 7, false, false];
+if (true) exitWith {};

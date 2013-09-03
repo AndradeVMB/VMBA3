@@ -203,8 +203,9 @@ _side = side _npc;
 //_rnd = _grpid;
 //sleep _rnd ;
 
+
 // Dormindo até o groo mandar acordar
-#include "groo\execQueue.hpp"
+#include "..\groo\execQueue.hpp"
 
 
 

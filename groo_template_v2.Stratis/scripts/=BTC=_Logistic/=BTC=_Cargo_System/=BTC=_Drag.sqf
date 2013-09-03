@@ -22,19 +22,19 @@ While {BTC_Dragging && vehicle player == player && Alive player && (animationsta
 {
 	_array = nearestObjects [player, BTC_Load_In_Vehicles, 5];
 	if (count _array == 0) then {BTC_Veh_Selected = objNull;};
-	if (count _array > 0 && BTC_Veh_Selected != _array select 0) then 
+	if (count _array > 0 && BTC_Veh_Selected != _array select 0) then
 	{
 		BTC_Veh_Selected = _array select 0;
 		_name_veh        = getText (configFile >> "cfgVehicles" >> typeof BTC_Veh_Selected >> "displayName");
 		_text_action     = ("<t color=""#ED2744"">" + "Load in " + (_name_veh) + "</t>");
-		BTC_loadActionId = player addAction [_text_action,"=BTC=_Logistic\=BTC=_Cargo_System\=BTC=_Load.sqf", "", 7, true, true];
+		BTC_loadActionId = player addAction [_text_action,"scripts\=BTC=_Logistic\=BTC=_Cargo_System\=BTC=_Load.sqf", "", 7, true, true];
 		_act  = 1;
 	};
 	if (count _array == 0 && _act == 1) then {player removeAction BTC_loadActionId;_act = 0;};
 	sleep 0.1;
 };
 if (_act == 1) then {player removeAction BTC_loadActionId;_act = 0;BTC_Veh_Selected = objNull;};
-if !(isNull BTC_Obj_Dragged) then 
+if !(isNull BTC_Obj_Dragged) then
 {
 	detach BTC_Obj_Dragged;
 	_rel_pos = player modelToWorld [0,1,0];

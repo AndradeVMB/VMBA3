@@ -11,3 +11,5 @@ groo_var_execQueue = groo_var_execQueue + 1;
 
 // Remove da fila de execução.
 groo_var_execQueue = groo_var_execQueue - 1;
+
+

@@ -31,7 +31,7 @@ if (!isServer && hasInterface ) exitWith {};
 //ace_sys_wounds_noai = false; // set it as required // Not used (yet?) in ArmA 3
 
 //1=Enable or 0=disable debug. In debug could see a mark positioning de leader and another mark of the destination of movement, very useful for editing mission
-KRON_UPS_Debug = groo_param_editmode;
+KRON_UPS_Debug = if groo_param_editmode then {1} else {0};
 
 //1=Enable or 0=disable. In game display global chat info about who just killed a civilian.
 //numbers of Civilians killed by players could be read from array 'KILLED_CIV_COUNTER' -> [Total, by West, by East, by Res, The killer]
