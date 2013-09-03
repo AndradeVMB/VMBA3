@@ -1,0 +1,100 @@
+//-------------------------------------------LOADING INFO--------------------------------------------------------------------
+		author = "Groo";
+		onLoadName = "Groo Template V2";
+		onLoadMission = "Groo Template V2";
+//		loadScreen = "pictures\sw_ed.jpg";
+		disabledAI = 1;
+
+		overviewText = "Groo Template para edicao de missoes.";
+//		overviewTextLocked = "Lock Text";
+//		overviewPicture = "";
+
+//-------------------------------------------GAMETYPE-----------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Header
+	{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 32;
+	};
+//-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	respawn = "BIRD";
+	respawndelay = 10;
+
+
+// ----------------------------------------DEFINE MUSIC-------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//class CfgMusic
+//{
+//   tracks[]={deixaosgarotobrincar};
+//   class deixaosgarotobrincar
+//  {
+//    name = "deixaosgarotobrincar";
+//    sound[] = {\Music\deixaosgarotobrincar.ogg, db+1, 1.0};
+//	};
+//};
+
+
+//--------------------------------------------DEFINE SOUNDS-------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class CfgSounds
+{
+	sounds[]={NoSOund};
+	class NoSound
+	{
+		name = "NoSound";
+		sound[] = {"scripts\gvs\Dummy.ogg", 0, 1};
+		titles[] = {};
+	};
+
+};
+
+
+//-------------------------------------------------DEFINE TITLE RESOURCES-----------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class RscTitles
+{
+	titles[]={};
+	#include "scripts\gvs\stc_displays.hpp"
+	#include "scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
+};
+
+
+//-----------------------------------------------DEFINE PARAMS----------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Params
+{
+        class ShowIntro
+        {
+        //paramsArray[2]
+                title = "Show Intro";
+                values[] = {1,0};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 1;
+        };
+		class TestMode
+        {
+        //paramsArray[3]
+                title = "TestMode";
+                values[] = {0,1};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 0;
+        };
+};
+
+//----------------------------------------------SCRIPT INCLUDES---------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// GVS Vehicle REPAIR
+#include "scripts\gvs\colors_include.hpp"
+#include "scripts\gvs\control_include.hpp"
+#include "scripts\gvs\stc_include.hpp"
+#include "scripts\gvs\sound_include.hpp"
+
+// Include for TAW Viewdistance Script
+#include "scripts\taw_vd\dialog.hpp"
+
+// Include for NORRN_cam
+#include "scripts\NORRN_cam\NORRN_cam_dialog.hpp"
+

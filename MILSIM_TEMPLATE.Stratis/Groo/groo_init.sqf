@@ -23,5 +23,5 @@ if groo_editmode_enabled then {
 
 // TAW Viewdistance
 [] execVM "taw_vd\init.sqf";
-["INFO: TAW ViewDistance Enabled","green"] spawn groo_fnc_consoleMSG;
+
 
