@@ -90,8 +90,10 @@ call compileFinal preprocessFileLineNumbers "scripts\FAR_revive\FAR_revive_init.
 // Groo playernames
 [] execVM "scripts\playernames.sqf";
 
+// Vehicle Hud
+[] execvm "scripts\Veh_Hud\crew.sqf";
+
 // Zuff Group Maneagement Script
-["INFO: Group Maneagement Script Enabled","green"] spawn groo_fnc_consoleMSG;
 [player] execVM "scripts\groupsMenu\initGroups.sqf";
 
 

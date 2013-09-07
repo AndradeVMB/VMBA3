@@ -17,21 +17,29 @@ FAR_Player_Actions =
 ////////////////////////////////////////////////
 FAR_HandleDamage_EH =
 {
-	private ["_unit", "_killer", "_amountOfDamage", "_isUnconscious"];
+	private ["_unit", "_killer", "_amountOfDamage", "_isUnconscious","_revivesLeft"];
 
 	_unit = _this select 0;
 	_amountOfDamage = _this select 2;
 	_killer = _this select 3;
 	_isUnconscious = _unit getVariable "FAR_isUnconscious";
+	_revivesLeft = _unit getVariable "FAR_revivesLeft";
 
 	if (alive _unit && {_amountOfDamage >= 1} && {_isUnconscious == 0}) then
 	{
-		_unit setDamage 0;
-		_unit allowDamage false;
 
-		[_unit, _killer] spawn FAR_Player_Unconscious;
+		if (_revivesLeft > 0) then {
 
-		_amountOfDamage = 0;
+			_revivesLeft = _revivesLeft - 1;
+			_unit setvariable ["FAR_revivesLeft",_revivesLeft,true];
+
+			_unit setDamage 0;
+			_unit allowDamage false;
+
+			[_unit, _killer] spawn FAR_Player_Unconscious;
+
+			_amountOfDamage = 0;
+		};
 	};
 
 	_amountOfDamage
@@ -139,6 +147,7 @@ FAR_Player_Unconscious =
 			_unit setDamage 1;
 			_unit setVariable ["FAR_isUnconscious", 0, true];
 			_unit setVariable ["FAR_isDragged", 0, true];
+			_unit setvariable ["FAR_revivesLeft",FAR_reviveLimit,true];
 		}
 	};
 };

@@ -54,7 +54,7 @@ class RscTitles
 				sizeEx = 0.04;
 				colorBackground[] = {0, 0, 0, 0};
 				colorText[] = {1, 1, 1, 1};
-				text = "=BTC=_Logistic\=BTC=_Lift\=BTC=_Obj.paa";
+				text = "scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_Obj.paa";
 			};
 			class Pic_Obj
 			{
