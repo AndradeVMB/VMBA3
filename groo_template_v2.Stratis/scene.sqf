@@ -2,7 +2,7 @@ titlecut [" ","BLACK IN",10];
 _camera = "camera" camcreate [0,0,0];
 _camera cameraeffect ["internal", "back"];
 
-playmusic "deixaosgarotobrincar";
+//playmusic "deixaosgarotobrincar";
 
 titletext ["GROO FRAMEWORK\nFeatures:\nMonsada's UPSMON\nBangabob's EOS\nFHQ Task Tracker\n=BTC= Logistics\nFarooq Revive\nZuff Group Management\nJamac Vehicle Service\nGroo PlayerTags","PLAIN"];
 
@@ -18,6 +18,7 @@ _camera camPreparePos [2763.79,6149.87,9.62];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 10;
 waitUntil {camCommitted _camera;};
+
 
 
 _camera cameraeffect ["terminate","back"];

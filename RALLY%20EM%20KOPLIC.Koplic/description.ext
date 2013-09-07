@@ -1,0 +1,46 @@
+// GID
+#include "LxOPS\lxOPS_dlg.hpp"
+
+//-------------------------------------------LOADING INFO--------------------------------------------------------------------
+		author = "Groo";
+		onLoadName = "World Rally 2013";
+		onLoadMission = "World Rally 2013";
+//		loadScreen = "pictures\sw_ed.jpg";
+		disabledAI = 1;
+
+		overviewText = "World Rally 2013 etapa Koplic";
+		overviewTextLocked = "Lock Text";
+//		overviewPicture = "";
+
+
+//-------------------------------------------GAMETYPE-----------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Header
+	{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 8;
+	};
+
+//-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	respawn = "BASE";
+	respawndelay = 10;
+
+// Include for TAW Viewdistance Script
+#include "taw_vd\dialog.hpp"
+
+// Include for NORRN_cam
+#include "NORRN_cam\NORRN_cam_dialog.hpp"
+
+// ----------------------------------------DEFINE MUSIC-------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class CfgMusic
+{
+   tracks[]={intro};
+   class intro
+  {
+    name = "intro";
+    sound[] = {\Music\intro.ogg, db+1, 1.0};
+	};
+};

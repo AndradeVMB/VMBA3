@@ -110,6 +110,7 @@ FAR_Player_Init =
 
 	player setVariable ["FAR_isUnconscious", 0, true];
 	player setVariable ["FAR_isDragged", 0, true];
+	player setVariable ["FAR_revivesLeft", FAR_ReviveLimit, true];
 	FAR_isDragging = false;
 
 	[] spawn FAR_Player_Actions;
@@ -126,5 +127,6 @@ if (!FAR_Debugging || isMultiplayer) exitWith {};
 		_x addEventHandler ["HandleDamage", FAR_HandleDamage_EH];
 		_x setVariable ["FAR_isUnconscious", 0, true];
 		_x setVariable ["FAR_isDragged", 0, true];
+		_x setVariable ["FAR_revivesLeft", FAR_ReviveLimit, true];
 	};
 } forEach switchableUnits;

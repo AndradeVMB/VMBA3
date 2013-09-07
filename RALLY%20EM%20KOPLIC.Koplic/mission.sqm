@@ -1,0 +1,8076 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Soft_F_MRAP_03",
+		"koplic",
+		"A3_Structures_F_Mil_Flags",
+		"A3_Structures_F_Mil_TentHangar",
+		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_MRAP_02",
+		"A3_Characters_F_Civil",
+		"A3_Structures_F_Civ_Lamps",
+		"A3_Structures_F_Mil_Helipads",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Structures_F_Dominants_Lighthouse",
+		"A3_Structures_F_Ind_Cargo",
+		"A3_Soft_F_HEMTT",
+		"A3_Soft_F_TruckHeavy",
+		"acre_sys_radio",
+		"A3_Soft_F_Offroad_01",
+		"A3_Structures_F_Civ_Camping",
+		"A3_Structures_F_Ind_Transmitter_Tower",
+		"A3_Boat_F_Boat_Armed_01",
+		"A3_Boat_F_Beta_Boat_Armed_01",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f_beta",
+		"A3_Soft_F_Quadbike",
+		"a3_soft_f_beta_quadbike",
+		"mbg_killhouses_a3",
+		"A3_Signs_F",
+		"A3_Boat_F_Boat_Transport_01"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_Civil",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f_beta",
+		"A3_Structures_F_Mil_Flags",
+		"A3_Structures_F_Mil_TentHangar",
+		"A3_Soft_F_MRAP_03",
+		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_MRAP_02",
+		"A3_Structures_F_Civ_Lamps",
+		"A3_Structures_F_Mil_Helipads",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Structures_F_Dominants_Lighthouse",
+		"A3_Structures_F_Ind_Cargo",
+		"acre_sys_radio",
+		"A3_Soft_F_Offroad_01",
+		"A3_Structures_F_Civ_Camping",
+		"A3_Structures_F_Ind_Transmitter_Tower",
+		"A3_Boat_F_Boat_Armed_01",
+		"A3_Boat_F_Beta_Boat_Armed_01",
+		"A3_Soft_F_Quadbike",
+		"a3_soft_f_beta_quadbike",
+		"mbg_killhouses_a3",
+		"A3_Signs_F",
+		"A3_Boat_F_Boat_Transport_01",
+		"koplic"
+	};
+	randomSeed=14754447;
+	class Intel
+	{
+		briefingName="World Rally 2013 Etapa Koplic 0.2";
+		overviewText="World Rally 2013 Etapa Koplic 0.2";
+		startWeather=0.89999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.89999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		month=7;
+		day=6;
+		hour=10;
+		minute=0;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+	class Groups
+	{
+		items=7;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={4820.2124,3.9803925,7597.8794};
+					azimut=179.661;
+					id=0;
+					side="CIV";
+					vehicle="C_man_polo_1_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+				class Item1
+				{
+					position[]={4818.0313,3.9803925,7600.7036};
+					azimut=179.66148;
+					id=1;
+					side="CIV";
+					vehicle="C_man_polo_1_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+				class Item2
+				{
+					position[]={4822.4121,3.9803925,7600.6763};
+					azimut=179.66148;
+					id=2;
+					side="CIV";
+					vehicle="C_man_polo_1_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={4788.6528,3.9803925,7597.0117};
+					azimut=179.66148;
+					id=3;
+					side="CIV";
+					vehicle="C_man_polo_3_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+				class Item1
+				{
+					position[]={4790.7183,3.9803925,7600.0444};
+					azimut=179.66148;
+					id=4;
+					side="CIV";
+					vehicle="C_man_polo_3_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+				class Item2
+				{
+					position[]={4786.7734,3.9803925,7599.8882};
+					azimut=179.66148;
+					id=5;
+					side="CIV";
+					vehicle="C_man_polo_3_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+			};
+		};
+		class Item2
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={4762.1431,3.9803925,7596.6606};
+					azimut=179.661;
+					id=6;
+					side="CIV";
+					vehicle="C_man_polo_2_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+				class Item1
+				{
+					position[]={4764.1948,3.9803925,7599.644};
+					azimut=179.66148;
+					id=7;
+					side="CIV";
+					vehicle="C_man_polo_2_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+				class Item2
+				{
+					position[]={4760.083,3.9803925,7599.8569};
+					azimut=179.661;
+					id=8;
+					side="CIV";
+					vehicle="C_man_polo_2_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					init="this additem ""ItemGPS"";this assignItem ""ItemGPS"";  this additem ""ItemCompass"";  this assignItem ""ItemCompass"";  this additem ""ItemWatch"";  this assignItem ""ItemWatch"";";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4895.709,3.9803925,7487.0586};
+					azimut=179.661;
+					id=9;
+					side="WEST";
+					vehicle="B_Helipilot_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="removeallweapons this;";
+					description="Support team Medic";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4894.7739,3.9803925,7488.6875};
+					azimut=179.661;
+					id=10;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="removeallweapons this;";
+					description="Support team Medic";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4896.644,3.9803925,7488.7476};
+					azimut=179.661;
+					id=11;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="removeallweapons this;";
+					description="Support team Medic";
+				};
+			};
+		};
+		class Item6
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4738.6519,3.9803925,7604.5449};
+					azimut=179.661;
+					id=12;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="0 = this execVM ""scene.sqf"";";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=939;
+		class Item0
+		{
+			position[]={4771.8662,3.9803925,7602.999};
+			azimut=179.66148;
+			id=13;
+			side="EMPTY";
+			vehicle="Flag_FD_Red_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={4849.7969,3.9803925,7472.2217};
+			azimut=118.7535;
+			id=14;
+			side="EMPTY";
+			vehicle="Flag_FD_Orange_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={4835.9868,3.9803925,7496.8652};
+			azimut=344.6239;
+			id=15;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={4847.4048,3.9803925,7481.9063};
+			azimut=118.7535;
+			id=16;
+			side="EMPTY";
+			vehicle="Flag_ION_F";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={4801.6621,3.9803925,7603.4058};
+			azimut=179.66148;
+			id=17;
+			side="EMPTY";
+			vehicle="Flag_FD_Green_F";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={4837.3745,3.9803925,7472.6333};
+			azimut=118.7535;
+			id=18;
+			side="EMPTY";
+			vehicle="Flag_FD_Blue_F";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={4836.4385,3.9803925,7478.2266};
+			azimut=118.7535;
+			id=19;
+			side="EMPTY";
+			vehicle="Flag_ION_F";
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={4789.9868,3.9803925,7617.063};
+			azimut=359.81976;
+			id=20;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item8
+		{
+			position[]={4818.7549,3.9803925,7617.0879};
+			azimut=359.81976;
+			id=21;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item9
+		{
+			position[]={4761.0669,3.9803925,7616.748};
+			azimut=359.81976;
+			id=22;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={4830.6655,3.9803925,7603.3901};
+			azimut=179.66148;
+			id=23;
+			side="EMPTY";
+			vehicle="Flag_FD_Blue_F";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={4848.7266,3.9803925,7476.8052};
+			azimut=118.7535;
+			id=24;
+			side="EMPTY";
+			vehicle="Flag_FD_Green_F";
+			skill=0.60000002;
+		};
+		class Item12
+		{
+			position[]={4838.7949,3.9803925,7467.9897};
+			azimut=118.7535;
+			id=25;
+			side="EMPTY";
+			vehicle="Flag_FD_Red_F";
+			skill=0.60000002;
+		};
+		class Item13
+		{
+			position[]={4792.4453,3.9803925,7620.8193};
+			azimut=179.66148;
+			id=26;
+			side="EMPTY";
+			vehicle="I_MRAP_03_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item14
+		{
+			position[]={4796.6753,3.9803925,7620.3745};
+			azimut=179.66148;
+			id=27;
+			side="EMPTY";
+			vehicle="I_MRAP_03_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item15
+		{
+			position[]={4821.2329,3.9803925,7620.5933};
+			azimut=179.66148;
+			id=28;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item16
+		{
+			position[]={4825.7842,3.9803925,7620.5459};
+			azimut=179.66148;
+			id=29;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item17
+		{
+			position[]={4763.7349,3.9803925,7620.252};
+			azimut=179.661;
+			id=30;
+			side="EMPTY";
+			vehicle="O_MRAP_02_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item18
+		{
+			position[]={4768.687,3.9803925,7620.2837};
+			azimut=179.661;
+			id=31;
+			side="EMPTY";
+			vehicle="O_MRAP_02_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item19
+		{
+			position[]={4818.2246,3.9803925,7508.229};
+			azimut=161.74588;
+			id=32;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={4845.9912,3.9803925,7516.918};
+			azimut=-14.484019;
+			id=33;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={4833.1831,3.9803925,7603.2339};
+			azimut=360.42252;
+			id=34;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={4804.3926,3.9803925,7602.8271};
+			azimut=360.42252;
+			id=35;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={4800.8428,3.9803925,7542.3223};
+			azimut=180.13188;
+			id=36;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={4873.7402,3.9803925,7483.186};
+			azimut=118.7535;
+			id=37;
+			side="EMPTY";
+			vehicle="Land_HelipadSquare_F";
+			skill=0.60000002;
+		};
+		class Item25
+		{
+			position[]={4873.5811,3.9803925,7482.8994};
+			azimut=118.7535;
+			id=38;
+			side="EMPTY";
+			vehicle="B_Heli_Light_01_F";
+			skill=0.60000002;
+		};
+		class Item26
+		{
+			position[]={4775.6851,3.9803925,7602.4175};
+			azimut=360.42252;
+			id=39;
+			side="EMPTY";
+			vehicle="Land_LampHalogen_F";
+			skill=0.60000002;
+		};
+		class Item27
+		{
+			position[]={4863.855,3.9803925,7463.2871};
+			azimut=118.7535;
+			id=40;
+			side="EMPTY";
+			vehicle="Land_LightHouse_F";
+			skill=0.60000002;
+		};
+		class Item28
+		{
+			position[]={4836.3975,3.9803925,7480.0269};
+			azimut=161.36809;
+			id=41;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item29
+		{
+			position[]={4837.6992,3.9803925,7475.4595};
+			azimut=161.36809;
+			id=42;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item30
+		{
+			position[]={4839.0044,3.9803925,7471.0659};
+			azimut=161.36809;
+			id=43;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item31
+		{
+			position[]={4840.2227,3.9803925,7466.1055};
+			azimut=161.36809;
+			id=44;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item32
+		{
+			position[]={4848.8071,3.9803925,7474.4692};
+			azimut=-16.067213;
+			id=45;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item33
+		{
+			position[]={4847.7319,3.9803925,7478.6421};
+			azimut=-14.792308;
+			id=46;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item34
+		{
+			position[]={4846.5615,3.9803925,7483.4443};
+			azimut=-16.067213;
+			id=47;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item35
+		{
+			position[]={4850.6587,3.9803925,7469.4614};
+			azimut=-16.067213;
+			id=48;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+		};
+		class Item36
+		{
+			position[]={4810.8809,3.9803925,7619.0713};
+			azimut=269.66141;
+			id=49;
+			side="EMPTY";
+			vehicle="Land_Cargo40_military_green_F";
+			skill=0.60000002;
+		};
+		class Item37
+		{
+			position[]={4781.9624,3.9803925,7619.3359};
+			azimut=269.66141;
+			id=50;
+			side="EMPTY";
+			vehicle="Land_Cargo40_military_green_F";
+			skill=0.60000002;
+		};
+		class Item38
+		{
+			position[]={4753.5308,3.9803925,7619.0215};
+			azimut=269.66141;
+			id=51;
+			side="EMPTY";
+			vehicle="Land_Cargo40_military_green_F";
+			skill=0.60000002;
+		};
+		class Item39
+		{
+			position[]={4775.9229,3.9803925,7586.8843};
+			azimut=118.7535;
+			id=52;
+			side="EMPTY";
+			vehicle="ACRE_RadioBox";
+			skill=0.60000002;
+		};
+		class Item40
+		{
+			position[]={4803.8169,3.9803925,7586.4307};
+			azimut=118.7535;
+			id=53;
+			side="EMPTY";
+			vehicle="ACRE_RadioBox";
+			skill=0.60000002;
+		};
+		class Item41
+		{
+			position[]={4757.9521,3.9803925,7621.2988};
+			azimut=180;
+			special="NONE";
+			id=54;
+			side="EMPTY";
+			vehicle="C_Offroad_01_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro2.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item42
+		{
+			position[]={4787.7935,3.9803925,7620.3975};
+			azimut=180;
+			special="NONE";
+			id=55;
+			side="EMPTY";
+			vehicle="C_Offroad_01_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro2.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item43
+		{
+			position[]={4815.332,3.9803925,7621.2983};
+			azimut=180;
+			special="NONE";
+			id=56;
+			side="EMPTY";
+			vehicle="C_Offroad_01_F";
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro2.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+		};
+		class Item44
+		{
+			position[]={4829.7524,3.7355945,7380.4741};
+			azimut=324.45111;
+			special="NONE";
+			id=57;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item45
+		{
+			position[]={4814.8413,2.5770202,7369.6792};
+			azimut=324.45111;
+			special="NONE";
+			id=58;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item46
+		{
+			position[]={4782.252,3.9803925,7580.1519};
+			azimut=180;
+			special="NONE";
+			id=59;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item47
+		{
+			position[]={4799.188,3.9803925,7580.2642};
+			azimut=180;
+			special="NONE";
+			id=60;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item48
+		{
+			position[]={4813.6406,3.9803925,7579.9258};
+			azimut=180;
+			special="NONE";
+			id=61;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item49
+		{
+			position[]={4828.2056,3.9803925,7579.9258};
+			azimut=180;
+			special="NONE";
+			id=62;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item50
+		{
+			position[]={4705.3467,3.9803925,7555.5601};
+			azimut=180;
+			special="NONE";
+			id=63;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item51
+		{
+			position[]={4705.0713,3.9803925,7476.5957};
+			azimut=180;
+			special="NONE";
+			id=64;
+			side="EMPTY";
+			vehicle="Land_Sunshade_F";
+			skill=0.60000002;
+		};
+		class Item52
+		{
+			position[]={4751.8813,3.9803925,7515.6426};
+			azimut=270;
+			special="NONE";
+			id=65;
+			side="EMPTY";
+			vehicle="Land_TTowerBig_1_F";
+			skill=0.60000002;
+		};
+		class Item53
+		{
+			position[]={4824.6279,-0.014926193,7354.1831};
+			azimut=157.96748;
+			special="NONE";
+			id=66;
+			side="EMPTY";
+			vehicle="B_Boat_Armed_01_minigun_F";
+			skill=0.60000002;
+		};
+		class Item54
+		{
+			position[]={4838.7012,0.0022486814,7359.4688};
+			azimut=157.96768;
+			special="NONE";
+			id=67;
+			side="EMPTY";
+			vehicle="I_Boat_Armed_01_minigun_F";
+			skill=0.60000002;
+		};
+		class Item55
+		{
+			position[]={4848.4912,0,7364.02};
+			azimut=157.96768;
+			special="NONE";
+			id=68;
+			side="EMPTY";
+			vehicle="O_Boat_Armed_01_hmg_F";
+			skill=0.60000002;
+		};
+		class Item56
+		{
+			position[]={4873.4521,3.9803925,7493.2456};
+			azimut=120;
+			id=69;
+			side="EMPTY";
+			vehicle="C_Quadbike_01_F";
+			leader=1;
+			skill=0.60000002;
+			description="Support team Medic";
+		};
+		class Item57
+		{
+			position[]={4875.0981,3.9803925,7495.7573};
+			azimut=120;
+			id=70;
+			side="EMPTY";
+			vehicle="C_Quadbike_01_F";
+			leader=1;
+			skill=0.60000002;
+			description="Support team Medic";
+		};
+		class Item58
+		{
+			position[]={4752.2188,3.9803925,7608.1802};
+			azimut=180;
+			id=71;
+			side="EMPTY";
+			vehicle="C_Quadbike_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro3.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+			description="Support team Medic";
+		};
+		class Item59
+		{
+			position[]={4780.4121,3.9803925,7609.1709};
+			azimut=180;
+			id=72;
+			side="EMPTY";
+			vehicle="C_Quadbike_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro3.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+			description="Support team Medic";
+		};
+		class Item60
+		{
+			position[]={4809.5957,3.9803925,7609.0605};
+			azimut=180;
+			id=73;
+			side="EMPTY";
+			vehicle="C_Quadbike_01_F";
+			leader=1;
+			skill=0.60000002;
+			init="this addEventHandler [""getin"", {    if ((_this select 1) == ""driver"") then {     actionIDNitro = _this select 0 addAction [""Nitro"", ""scripts\nitro\cliS_actionNitro3.sqf""];    };   }];   this addEventHandler [""getout"", {_this select 0 removeAction actionIDNitro;}];";
+			description="Support team Medic";
+		};
+		class Item61
+		{
+			position[]={4699.6909,3.9803925,7516.7856};
+			id=74;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item62
+		{
+			position[]={4694.665,3.9803925,7516.7637};
+			id=75;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item63
+		{
+			position[]={4689.6431,3.9803925,7516.7681};
+			id=76;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item64
+		{
+			position[]={4684.6172,3.9803925,7516.7651};
+			id=77;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item65
+		{
+			position[]={4679.5952,3.9803925,7516.7695};
+			id=78;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item66
+		{
+			position[]={4674.5688,3.9803925,7516.7637};
+			id=79;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item67
+		{
+			position[]={4669.5469,3.9803925,7516.7681};
+			id=80;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item68
+		{
+			position[]={4664.5195,3.9803925,7516.7476};
+			id=81;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item69
+		{
+			position[]={4659.4976,3.9803925,7516.752};
+			id=82;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item70
+		{
+			position[]={4654.4717,3.9803925,7516.73};
+			id=83;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item71
+		{
+			position[]={4649.4497,3.9803925,7516.7344};
+			id=84;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item72
+		{
+			position[]={4644.4063,3.9803925,7516.7319};
+			id=85;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item73
+		{
+			position[]={4639.3843,3.9803925,7516.7363};
+			id=86;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item74
+		{
+			position[]={4634.3579,3.9803925,7516.7305};
+			id=87;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item75
+		{
+			position[]={4629.3359,3.9803925,7516.7349};
+			id=88;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item76
+		{
+			position[]={4624.3086,3.9803925,7516.7144};
+			id=89;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item77
+		{
+			position[]={4619.2866,3.9803925,7516.7188};
+			id=90;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item78
+		{
+			position[]={4614.2607,3.9803925,7516.6968};
+			id=91;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item79
+		{
+			position[]={4609.2388,3.9803925,7516.7012};
+			id=92;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item80
+		{
+			position[]={4604.2129,3.9803925,7516.6982};
+			id=93;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item81
+		{
+			position[]={4599.1909,3.9803925,7516.7026};
+			id=94;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item82
+		{
+			position[]={4594.1646,3.9803925,7516.6968};
+			id=95;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item83
+		{
+			position[]={4589.1426,3.9803925,7516.7012};
+			id=96;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item84
+		{
+			position[]={4584.1152,3.9803925,7516.6807};
+			id=97;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item85
+		{
+			position[]={4579.0933,3.9803925,7516.6851};
+			id=98;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item86
+		{
+			position[]={4574.0674,3.9803925,7516.6631};
+			id=99;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item87
+		{
+			position[]={4569.0454,3.9803925,7516.6675};
+			id=100;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item88
+		{
+			position[]={4564.0142,3.9803925,7516.6494};
+			id=101;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item89
+		{
+			position[]={4558.9922,3.9803925,7516.6538};
+			id=102;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item90
+		{
+			position[]={4553.9658,3.9803925,7516.6479};
+			id=103;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item91
+		{
+			position[]={4548.9438,3.9803925,7516.6523};
+			id=104;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item92
+		{
+			position[]={4543.9165,3.9803925,7516.6318};
+			id=105;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item93
+		{
+			position[]={4538.8945,3.9803925,7516.6362};
+			id=106;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item94
+		{
+			position[]={4533.8687,3.9803925,7516.6143};
+			id=107;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item95
+		{
+			position[]={4528.8467,3.9803925,7516.6187};
+			id=108;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item96
+		{
+			position[]={4523.8208,3.9803925,7516.6157};
+			id=109;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item97
+		{
+			position[]={4518.7988,3.9803925,7516.6201};
+			id=110;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item98
+		{
+			position[]={4513.7725,3.9803925,7516.6143};
+			id=111;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item99
+		{
+			position[]={4508.7505,3.9803925,7516.6187};
+			id=112;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item100
+		{
+			position[]={4503.7231,3.9803925,7516.5981};
+			id=113;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item101
+		{
+			position[]={4498.7012,3.9803925,7516.6025};
+			id=114;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item102
+		{
+			position[]={4493.6753,3.9803925,7516.5806};
+			id=115;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item103
+		{
+			position[]={4488.6533,3.9803925,7516.585};
+			id=116;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item104
+		{
+			position[]={4483.6128,3.9803925,7516.5859};
+			id=117;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item105
+		{
+			position[]={4478.5908,3.9803925,7516.5903};
+			id=118;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item106
+		{
+			position[]={4473.5645,3.9803925,7516.5845};
+			id=119;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item107
+		{
+			position[]={4468.5425,3.9803925,7516.5889};
+			id=120;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item108
+		{
+			position[]={4463.5151,3.9803925,7516.5684};
+			id=121;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item109
+		{
+			position[]={4458.4932,3.9803925,7516.5728};
+			id=122;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item110
+		{
+			position[]={4453.4673,3.9803925,7516.5508};
+			id=123;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item111
+		{
+			position[]={4448.4453,3.9803925,7516.5552};
+			id=124;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item112
+		{
+			position[]={4443.4194,3.9803925,7516.5522};
+			id=125;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item113
+		{
+			position[]={4438.3975,3.9803925,7516.5566};
+			id=126;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item114
+		{
+			position[]={4433.3711,3.9803925,7516.5508};
+			id=127;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item115
+		{
+			position[]={4428.3491,3.9803925,7516.5552};
+			id=128;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item116
+		{
+			position[]={4423.3218,3.9803925,7516.5347};
+			id=129;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item117
+		{
+			position[]={4418.2998,3.9803925,7516.5391};
+			id=130;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item118
+		{
+			position[]={4413.2739,3.9803925,7516.5171};
+			id=131;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item119
+		{
+			position[]={4408.252,3.9803925,7516.5215};
+			id=132;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item120
+		{
+			position[]={4403.2305,3.9803925,7516.5127};
+			id=133;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item121
+		{
+			position[]={4398.2085,3.9803925,7516.5171};
+			id=134;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item122
+		{
+			position[]={4393.1821,3.9803925,7516.5112};
+			id=135;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item123
+		{
+			position[]={4388.1602,3.9803925,7516.5156};
+			id=136;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item124
+		{
+			position[]={4383.1328,3.9803925,7516.4951};
+			id=137;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item125
+		{
+			position[]={4378.1108,3.9803925,7516.4995};
+			id=138;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item126
+		{
+			position[]={4373.085,3.9803925,7516.4775};
+			id=139;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item127
+		{
+			position[]={4368.063,3.9803925,7516.4819};
+			id=140;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item128
+		{
+			position[]={4363.0371,3.9803925,7516.479};
+			id=141;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item129
+		{
+			position[]={4358.0151,3.9803925,7516.4834};
+			id=142;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item130
+		{
+			position[]={4352.9888,3.9803925,7516.4775};
+			id=143;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item131
+		{
+			position[]={4347.9668,3.9803925,7516.4819};
+			id=144;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item132
+		{
+			position[]={4342.9395,3.9803925,7516.4614};
+			id=145;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item133
+		{
+			position[]={4337.9175,3.9803925,7516.4658};
+			id=146;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item134
+		{
+			position[]={4332.8916,3.9803925,7516.4438};
+			id=147;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item135
+		{
+			position[]={4327.8696,3.9803925,7516.4482};
+			id=148;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item136
+		{
+			position[]={4322.8452,3.9803925,7516.4497};
+			id=149;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item137
+		{
+			position[]={4317.8232,3.9803925,7516.4541};
+			id=150;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item138
+		{
+			position[]={4312.7969,3.9803925,7516.4482};
+			id=151;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item139
+		{
+			position[]={4307.7749,3.9803925,7516.4526};
+			id=152;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item140
+		{
+			position[]={4302.7476,3.9803925,7516.4321};
+			id=153;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item141
+		{
+			position[]={4297.7256,3.9803925,7516.4365};
+			id=154;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item142
+		{
+			position[]={4292.6997,3.9803925,7516.4146};
+			id=155;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item143
+		{
+			position[]={4287.6777,3.9803925,7516.4189};
+			id=156;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item144
+		{
+			position[]={4282.6519,3.9803925,7516.416};
+			id=157;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item145
+		{
+			position[]={4277.6299,3.9803925,7516.4204};
+			id=158;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item146
+		{
+			position[]={4272.6035,3.9803925,7516.4146};
+			id=159;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item147
+		{
+			position[]={4267.5815,3.9803925,7516.4189};
+			id=160;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item148
+		{
+			position[]={4262.5542,3.9803925,7516.3984};
+			id=161;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item149
+		{
+			position[]={4257.5322,3.9803925,7516.4028};
+			id=162;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item150
+		{
+			position[]={4252.5063,3.9803925,7516.3809};
+			id=163;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item151
+		{
+			position[]={4247.4844,3.9803925,7516.3853};
+			id=164;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item152
+		{
+			position[]={4242.4478,3.9803925,7516.3794};
+			id=165;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item153
+		{
+			position[]={4237.4258,3.9803925,7516.3838};
+			id=166;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item154
+		{
+			position[]={4232.3994,3.9803925,7516.3779};
+			id=167;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item155
+		{
+			position[]={4227.3774,3.9803925,7516.3823};
+			id=168;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item156
+		{
+			position[]={4222.3501,3.9803925,7516.3618};
+			id=169;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item157
+		{
+			position[]={4217.3281,3.9803925,7516.3662};
+			id=170;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item158
+		{
+			position[]={4212.3022,3.9803925,7516.3442};
+			id=171;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item159
+		{
+			position[]={4207.2803,3.9803925,7516.3486};
+			id=172;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item160
+		{
+			position[]={4202.2544,3.9803925,7516.3457};
+			id=173;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item161
+		{
+			position[]={4197.2324,3.9803925,7516.3501};
+			id=174;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item162
+		{
+			position[]={4192.2061,3.9803925,7516.3442};
+			id=175;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item163
+		{
+			position[]={4187.1841,3.9803925,7516.3486};
+			id=176;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item164
+		{
+			position[]={4182.1567,3.9803925,7516.3281};
+			id=177;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item165
+		{
+			position[]={4177.1348,3.9803925,7516.3325};
+			id=178;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item166
+		{
+			position[]={4172.1089,3.9803925,7516.3105};
+			id=179;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item167
+		{
+			position[]={4167.0869,3.9803925,7516.3149};
+			id=180;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item168
+		{
+			position[]={4162.0781,3.9803925,7516.3037};
+			id=181;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item169
+		{
+			position[]={4157.0562,3.9803925,7516.3081};
+			id=182;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item170
+		{
+			position[]={4152.0298,3.9803925,7516.3022};
+			id=183;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item171
+		{
+			position[]={4147.0078,3.9803925,7516.3066};
+			id=184;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item172
+		{
+			position[]={4141.9805,3.9803925,7516.2861};
+			id=185;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item173
+		{
+			position[]={4136.9585,3.9803925,7516.2905};
+			id=186;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item174
+		{
+			position[]={4131.9326,3.9803925,7516.2686};
+			id=187;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item175
+		{
+			position[]={4126.9106,3.9803925,7516.2729};
+			id=188;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item176
+		{
+			position[]={4121.8848,3.9803925,7516.27};
+			id=189;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item177
+		{
+			position[]={4116.8628,3.9803925,7516.2744};
+			id=190;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item178
+		{
+			position[]={4111.8364,3.9803925,7516.2686};
+			id=191;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item179
+		{
+			position[]={4106.8145,3.9803925,7516.2729};
+			id=192;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item180
+		{
+			position[]={4101.7871,3.9803925,7516.2524};
+			id=193;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item181
+		{
+			position[]={4096.7651,3.9803925,7516.2568};
+			id=194;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item182
+		{
+			position[]={4091.7393,3.9803925,7516.2349};
+			id=195;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item183
+		{
+			position[]={4086.7173,3.9803925,7516.2393};
+			id=196;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item184
+		{
+			position[]={4081.6824,3.9803925,7516.2095};
+			id=197;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item185
+		{
+			position[]={4076.6604,3.9803925,7516.2139};
+			id=198;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item186
+		{
+			position[]={4071.634,3.9803925,7516.208};
+			id=199;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item187
+		{
+			position[]={4066.6121,3.9803925,7516.2124};
+			id=200;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item188
+		{
+			position[]={4061.5847,3.9803925,7516.1919};
+			id=201;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item189
+		{
+			position[]={4056.5627,3.9803925,7516.1963};
+			id=202;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item190
+		{
+			position[]={4051.5369,3.9803925,7516.1743};
+			id=203;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item191
+		{
+			position[]={4046.5149,3.9803925,7516.1787};
+			id=204;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item192
+		{
+			position[]={4041.489,3.9803925,7516.1758};
+			id=205;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item193
+		{
+			position[]={4036.467,3.9803925,7516.1802};
+			id=206;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item194
+		{
+			position[]={4031.4407,3.9803925,7516.1743};
+			id=207;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item195
+		{
+			position[]={4026.4187,3.9803925,7516.1787};
+			id=208;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item196
+		{
+			position[]={4021.3914,3.9803925,7516.1582};
+			id=209;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item197
+		{
+			position[]={4016.3694,3.9803925,7516.1626};
+			id=210;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item198
+		{
+			position[]={4011.3435,3.9803925,7516.1406};
+			id=211;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item199
+		{
+			position[]={4006.3215,3.9803925,7516.145};
+			id=212;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item200
+		{
+			position[]={4001.2974,3.9803925,7516.1431};
+			id=213;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item201
+		{
+			position[]={3996.2754,3.9803925,7516.1475};
+			id=214;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item202
+		{
+			position[]={3991.249,3.9803925,7516.1416};
+			id=215;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item203
+		{
+			position[]={3986.2271,3.9803925,7516.146};
+			id=216;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item204
+		{
+			position[]={3981.1997,3.9803925,7516.1255};
+			id=217;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item205
+		{
+			position[]={3976.1777,3.9803925,7516.1299};
+			id=218;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item206
+		{
+			position[]={3971.1519,3.9803925,7516.1079};
+			id=219;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item207
+		{
+			position[]={3966.1299,3.9803925,7516.1123};
+			id=220;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item208
+		{
+			position[]={3961.104,3.9803925,7516.1094};
+			id=221;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item209
+		{
+			position[]={3956.082,3.9803925,7516.1138};
+			id=222;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item210
+		{
+			position[]={3951.0557,3.9803925,7516.1079};
+			id=223;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item211
+		{
+			position[]={3946.0337,3.9803925,7516.1123};
+			id=224;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item212
+		{
+			position[]={3941.0063,3.9803925,7516.0918};
+			id=225;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item213
+		{
+			position[]={3935.9844,3.9803925,7516.0962};
+			id=226;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item214
+		{
+			position[]={3930.9585,3.9803925,7516.0742};
+			id=227;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item215
+		{
+			position[]={3925.9365,3.9803925,7516.0786};
+			id=228;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item216
+		{
+			position[]={3920.9111,3.9803925,7516.063};
+			id=229;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item217
+		{
+			position[]={3915.8892,3.9803925,7516.0674};
+			id=230;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item218
+		{
+			position[]={3910.8628,3.9803925,7516.0615};
+			id=231;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item219
+		{
+			position[]={3905.8408,3.9803925,7516.0659};
+			id=232;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item220
+		{
+			position[]={3900.8135,3.9803925,7516.0454};
+			id=233;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item221
+		{
+			position[]={3895.7915,3.9803925,7516.0498};
+			id=234;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item222
+		{
+			position[]={3890.7656,3.9803925,7516.0278};
+			id=235;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item223
+		{
+			position[]={3885.7437,3.9803925,7516.0322};
+			id=236;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item224
+		{
+			position[]={3880.7178,3.9803925,7516.0293};
+			id=237;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item225
+		{
+			position[]={3875.6958,3.9803925,7516.0337};
+			id=238;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item226
+		{
+			position[]={3870.6694,3.9803925,7516.0278};
+			id=239;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item227
+		{
+			position[]={3865.6475,3.9803925,7516.0322};
+			id=240;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item228
+		{
+			position[]={3860.6201,3.9803925,7516.0117};
+			id=241;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item229
+		{
+			position[]={3855.5981,3.9803925,7516.0161};
+			id=242;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item230
+		{
+			position[]={3850.5723,3.9803925,7515.9941};
+			id=243;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item231
+		{
+			position[]={3845.5503,3.9803925,7515.9985};
+			id=244;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item232
+		{
+			position[]={3840.4717,3.9803925,7515.9526};
+			id=245;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item233
+		{
+			position[]={3835.4497,3.9803925,7515.957};
+			id=246;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item234
+		{
+			position[]={3830.4238,3.9803925,7515.9351};
+			id=247;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item235
+		{
+			position[]={3825.4019,3.9803925,7515.9395};
+			id=248;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item236
+		{
+			position[]={3820.3613,3.9803925,7515.9404};
+			id=249;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item237
+		{
+			position[]={3815.3394,3.9803925,7515.9448};
+			id=250;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item238
+		{
+			position[]={3810.313,3.9803925,7515.939};
+			id=251;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item239
+		{
+			position[]={3805.291,3.9803925,7515.9434};
+			id=252;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item240
+		{
+			position[]={3800.2637,3.9803925,7515.9229};
+			id=253;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item241
+		{
+			position[]={3795.2417,3.9803925,7515.9272};
+			id=254;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item242
+		{
+			position[]={3790.2158,3.9803925,7515.9053};
+			id=255;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item243
+		{
+			position[]={3785.1938,3.9803925,7515.9097};
+			id=256;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item244
+		{
+			position[]={3780.168,3.9803925,7515.9067};
+			id=257;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item245
+		{
+			position[]={3775.146,3.9803925,7515.9111};
+			id=258;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item246
+		{
+			position[]={3770.1196,3.9803925,7515.9053};
+			id=259;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item247
+		{
+			position[]={3765.0977,3.9803925,7515.9097};
+			id=260;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item248
+		{
+			position[]={3760.0703,3.9803925,7515.8892};
+			id=261;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item249
+		{
+			position[]={3755.0483,3.9803925,7515.8936};
+			id=262;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item250
+		{
+			position[]={3750.0225,3.9803925,7515.8716};
+			id=263;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item251
+		{
+			position[]={3745.0005,3.9803925,7515.876};
+			id=264;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item252
+		{
+			position[]={3739.979,3.9803925,7515.8672};
+			id=265;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item253
+		{
+			position[]={3734.957,3.9803925,7515.8716};
+			id=266;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item254
+		{
+			position[]={3729.9307,3.9803925,7515.8657};
+			id=267;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item255
+		{
+			position[]={3724.9087,3.9803925,7515.8701};
+			id=268;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item256
+		{
+			position[]={3719.8813,3.9803925,7515.8496};
+			id=269;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item257
+		{
+			position[]={3714.8594,3.9803925,7515.854};
+			id=270;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item258
+		{
+			position[]={3709.8335,3.9803925,7515.832};
+			id=271;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item259
+		{
+			position[]={3704.8115,3.9803925,7515.8364};
+			id=272;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item260
+		{
+			position[]={3699.7856,3.9803925,7515.8335};
+			id=273;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item261
+		{
+			position[]={3694.7637,3.9803925,7515.8379};
+			id=274;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item262
+		{
+			position[]={3689.7373,3.9803925,7515.832};
+			id=275;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item263
+		{
+			position[]={3684.7153,3.9803925,7515.8364};
+			id=276;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item264
+		{
+			position[]={3679.688,3.9803925,7515.8159};
+			id=277;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item265
+		{
+			position[]={3674.666,3.9803925,7515.8203};
+			id=278;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item266
+		{
+			position[]={3669.6401,3.9803925,7515.7983};
+			id=279;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item267
+		{
+			position[]={3664.6182,3.9803925,7515.8027};
+			id=280;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item268
+		{
+			position[]={3659.5938,3.9803925,7515.8042};
+			id=281;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item269
+		{
+			position[]={3654.5718,3.9803925,7515.8086};
+			id=282;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item270
+		{
+			position[]={3649.5454,3.9803925,7515.8027};
+			id=283;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item271
+		{
+			position[]={3644.5234,3.9803925,7515.8071};
+			id=284;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item272
+		{
+			position[]={3639.4961,3.9803925,7515.7866};
+			id=285;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item273
+		{
+			position[]={3634.4741,3.9803925,7515.791};
+			id=286;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item274
+		{
+			position[]={3629.4482,3.9803925,7515.769};
+			id=287;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item275
+		{
+			position[]={3624.4263,3.9803925,7515.7734};
+			id=288;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item276
+		{
+			position[]={3619.4004,3.9803925,7515.7705};
+			id=289;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item277
+		{
+			position[]={3614.3784,3.9803925,7515.7749};
+			id=290;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item278
+		{
+			position[]={3609.3521,3.9803925,7515.769};
+			id=291;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item279
+		{
+			position[]={3604.3301,3.9803925,7515.7734};
+			id=292;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item280
+		{
+			position[]={3599.3027,3.9803925,7515.7529};
+			id=293;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item281
+		{
+			position[]={3594.2808,3.9803925,7515.7573};
+			id=294;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item282
+		{
+			position[]={3589.2549,3.9803925,7515.7354};
+			id=295;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item283
+		{
+			position[]={3584.2329,3.9803925,7515.7397};
+			id=296;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item284
+		{
+			position[]={3579.1963,3.9803925,7515.7339};
+			id=297;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item285
+		{
+			position[]={3574.1743,3.9803925,7515.7383};
+			id=298;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item286
+		{
+			position[]={3569.1479,3.9803925,7515.7324};
+			id=299;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item287
+		{
+			position[]={3564.126,3.9803925,7515.7368};
+			id=300;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item288
+		{
+			position[]={3559.0986,3.9803925,7515.7163};
+			id=301;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item289
+		{
+			position[]={3554.0767,3.9803925,7515.7207};
+			id=302;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item290
+		{
+			position[]={3549.0508,3.9803925,7515.6987};
+			id=303;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item291
+		{
+			position[]={3544.0288,3.9803925,7515.7031};
+			id=304;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item292
+		{
+			position[]={3539.0029,3.9803925,7515.7002};
+			id=305;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item293
+		{
+			position[]={3533.981,3.9803925,7515.7046};
+			id=306;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item294
+		{
+			position[]={3528.9546,3.9803925,7515.6987};
+			id=307;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item295
+		{
+			position[]={3523.9326,3.9803925,7515.7031};
+			id=308;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item296
+		{
+			position[]={3518.9053,3.9803925,7515.6826};
+			id=309;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item297
+		{
+			position[]={3513.8833,3.9803925,7515.687};
+			id=310;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item298
+		{
+			position[]={3508.8574,3.9803925,7515.665};
+			id=311;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item299
+		{
+			position[]={3503.8354,3.9803925,7515.6694};
+			id=312;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item300
+		{
+			position[]={3498.8267,3.9803925,7515.6582};
+			id=313;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item301
+		{
+			position[]={3493.8047,3.9803925,7515.6626};
+			id=314;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item302
+		{
+			position[]={3488.7783,3.9803925,7515.6567};
+			id=315;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item303
+		{
+			position[]={3483.7563,3.9803925,7515.6611};
+			id=316;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item304
+		{
+			position[]={3478.729,3.9803925,7515.6406};
+			id=317;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item305
+		{
+			position[]={3473.707,3.9803925,7515.645};
+			id=318;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item306
+		{
+			position[]={3468.6812,3.9803925,7515.623};
+			id=319;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item307
+		{
+			position[]={3463.6592,3.9803925,7515.6274};
+			id=320;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item308
+		{
+			position[]={3458.6333,3.9803925,7515.6245};
+			id=321;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item309
+		{
+			position[]={3453.6113,3.9803925,7515.6289};
+			id=322;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item310
+		{
+			position[]={3448.585,3.9803925,7515.623};
+			id=323;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item311
+		{
+			position[]={3443.563,3.9803925,7515.6274};
+			id=324;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item312
+		{
+			position[]={3438.5356,3.9803925,7515.6069};
+			id=325;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item313
+		{
+			position[]={3433.5137,3.9803925,7515.6113};
+			id=326;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item314
+		{
+			position[]={3428.4878,3.9803925,7515.5894};
+			id=327;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item315
+		{
+			position[]={3423.4658,3.9803925,7515.5938};
+			id=328;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item316
+		{
+			position[]={3418.4309,3.9803925,7515.564};
+			id=329;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item317
+		{
+			position[]={3413.4089,3.9803925,7515.5684};
+			id=330;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item318
+		{
+			position[]={3408.3826,3.9803925,7515.5625};
+			id=331;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item319
+		{
+			position[]={3403.3606,3.9803925,7515.5669};
+			id=332;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item320
+		{
+			position[]={3398.3333,3.9803925,7515.5464};
+			id=333;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item321
+		{
+			position[]={3393.3113,3.9803925,7515.5508};
+			id=334;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item322
+		{
+			position[]={3388.2854,3.9803925,7515.5288};
+			id=335;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item323
+		{
+			position[]={3383.2634,3.9803925,7515.5332};
+			id=336;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item324
+		{
+			position[]={3378.2375,3.9803925,7515.5303};
+			id=337;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item325
+		{
+			position[]={3373.2156,3.9803925,7515.5347};
+			id=338;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item326
+		{
+			position[]={3368.1892,3.9803925,7515.5288};
+			id=339;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item327
+		{
+			position[]={3363.1672,3.9803925,7515.5332};
+			id=340;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item328
+		{
+			position[]={3358.1399,3.9803925,7515.5127};
+			id=341;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item329
+		{
+			position[]={3353.1179,3.9803925,7515.5171};
+			id=342;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item330
+		{
+			position[]={3348.092,3.9803925,7515.4951};
+			id=343;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item331
+		{
+			position[]={3343.0701,3.9803925,7515.4995};
+			id=344;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item332
+		{
+			position[]={3338.0459,3.9803925,7515.4976};
+			id=345;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item333
+		{
+			position[]={3333.0239,3.9803925,7515.502};
+			id=346;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item334
+		{
+			position[]={3327.9976,3.9803925,7515.4961};
+			id=347;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item335
+		{
+			position[]={3322.9756,3.9803925,7515.5005};
+			id=348;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item336
+		{
+			position[]={3317.9482,3.9803925,7515.48};
+			id=349;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item337
+		{
+			position[]={3312.9263,3.9803925,7515.4844};
+			id=350;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item338
+		{
+			position[]={3307.9004,3.9803925,7515.4624};
+			id=351;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item339
+		{
+			position[]={3302.8784,3.9803925,7515.4668};
+			id=352;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item340
+		{
+			position[]={3297.8525,3.9803925,7515.4639};
+			id=353;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item341
+		{
+			position[]={3292.8306,3.9803925,7515.4683};
+			id=354;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item342
+		{
+			position[]={3287.8042,3.9803925,7515.4624};
+			id=355;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item343
+		{
+			position[]={3282.7822,3.9803925,7515.4668};
+			id=356;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item344
+		{
+			position[]={3277.7549,3.9803925,7515.4463};
+			id=357;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item345
+		{
+			position[]={3272.7329,3.9803925,7515.4507};
+			id=358;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item346
+		{
+			position[]={3267.707,3.9803925,7515.4287};
+			id=359;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item347
+		{
+			position[]={3262.6851,3.9803925,7515.4331};
+			id=360;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item348
+		{
+			position[]={3257.6597,3.9803925,7515.4175};
+			id=361;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item349
+		{
+			position[]={3252.6377,3.9803925,7515.4219};
+			id=362;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item350
+		{
+			position[]={4699.9209,3.9803925,7556.0693};
+			azimut=270;
+			id=363;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item351
+		{
+			position[]={4700.0786,3.9803925,7568.7949};
+			azimut=270;
+			id=364;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item352
+		{
+			position[]={4700.0005,3.9803925,7476.2295};
+			azimut=270;
+			id=365;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item353
+		{
+			position[]={4699.9907,3.9803925,7463.5977};
+			azimut=270;
+			id=366;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item354
+		{
+			position[]={3599.9702,3.9803925,7557.6274};
+			azimut=270;
+			id=367;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item355
+		{
+			position[]={3600.095,3.9803925,7570.3799};
+			azimut=270;
+			id=368;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item356
+		{
+			position[]={3599.9934,3.9803925,7480.2065};
+			azimut=270;
+			id=369;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item357
+		{
+			position[]={3600.0085,3.9803925,7468.019};
+			azimut=270;
+			id=370;
+			side="EMPTY";
+			vehicle="Sign_F";
+			skill=0.60000002;
+		};
+		class Item358
+		{
+			position[]={4700.7305,3.9803925,7623.0767};
+			id=371;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item359
+		{
+			position[]={4695.7046,3.9803925,7623.0547};
+			id=372;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item360
+		{
+			position[]={4690.6826,3.9803925,7623.0591};
+			id=373;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item361
+		{
+			position[]={4685.6567,3.9803925,7623.0562};
+			id=374;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item362
+		{
+			position[]={4680.6348,3.9803925,7623.0605};
+			id=375;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item363
+		{
+			position[]={4675.6084,3.9803925,7623.0547};
+			id=376;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item364
+		{
+			position[]={4670.5864,3.9803925,7623.0591};
+			id=377;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item365
+		{
+			position[]={4665.5591,3.9803925,7623.0386};
+			id=378;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item366
+		{
+			position[]={4660.5371,3.9803925,7623.043};
+			id=379;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item367
+		{
+			position[]={4655.5112,3.9803925,7623.021};
+			id=380;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item368
+		{
+			position[]={4650.4893,3.9803925,7623.0254};
+			id=381;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item369
+		{
+			position[]={4645.4458,3.9803925,7623.0229};
+			id=382;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item370
+		{
+			position[]={4640.4238,3.9803925,7623.0273};
+			id=383;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item371
+		{
+			position[]={4635.3975,3.9803925,7623.0215};
+			id=384;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item372
+		{
+			position[]={4630.3755,3.9803925,7623.0259};
+			id=385;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item373
+		{
+			position[]={4625.3481,3.9803925,7623.0054};
+			id=386;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item374
+		{
+			position[]={4620.3262,3.9803925,7623.0098};
+			id=387;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item375
+		{
+			position[]={4615.3003,3.9803925,7622.9878};
+			id=388;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item376
+		{
+			position[]={4610.2783,3.9803925,7622.9922};
+			id=389;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item377
+		{
+			position[]={4605.2524,3.9803925,7622.9893};
+			id=390;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item378
+		{
+			position[]={4600.2305,3.9803925,7622.9937};
+			id=391;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item379
+		{
+			position[]={4595.2041,3.9803925,7622.9878};
+			id=392;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item380
+		{
+			position[]={4590.1821,3.9803925,7622.9922};
+			id=393;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item381
+		{
+			position[]={4585.1548,3.9803925,7622.9717};
+			id=394;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item382
+		{
+			position[]={4580.1328,3.9803925,7622.9761};
+			id=395;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item383
+		{
+			position[]={4575.1069,3.9803925,7622.9541};
+			id=396;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item384
+		{
+			position[]={4570.085,3.9803925,7622.9585};
+			id=397;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item385
+		{
+			position[]={4565.0537,3.9803925,7622.9404};
+			id=398;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item386
+		{
+			position[]={4560.0317,3.9803925,7622.9448};
+			id=399;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item387
+		{
+			position[]={4555.0054,3.9803925,7622.939};
+			id=400;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item388
+		{
+			position[]={4550.1948,3.9803925,7622.8862};
+			id=401;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item389
+		{
+			position[]={4545.1689,3.9803925,7622.8643};
+			id=402;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item390
+		{
+			position[]={4540.147,3.9803925,7622.8687};
+			id=403;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item391
+		{
+			position[]={4535.1211,3.9803925,7622.8657};
+			id=404;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item392
+		{
+			position[]={4530.0991,3.9803925,7622.8701};
+			id=405;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item393
+		{
+			position[]={4525.0728,3.9803925,7622.8643};
+			id=406;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item394
+		{
+			position[]={4520.0508,3.9803925,7622.8687};
+			id=407;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item395
+		{
+			position[]={4515.0234,3.9803925,7622.8481};
+			id=408;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item396
+		{
+			position[]={4510.0015,3.9803925,7622.8525};
+			id=409;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item397
+		{
+			position[]={4504.9756,3.9803925,7622.8306};
+			id=410;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item398
+		{
+			position[]={4499.9536,3.9803925,7622.835};
+			id=411;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item399
+		{
+			position[]={4494.9102,3.9803925,7622.8325};
+			id=412;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item400
+		{
+			position[]={4489.8882,3.9803925,7622.8369};
+			id=413;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item401
+		{
+			position[]={4484.8618,3.9803925,7622.8311};
+			id=414;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item402
+		{
+			position[]={4479.8398,3.9803925,7622.8354};
+			id=415;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item403
+		{
+			position[]={4474.8125,3.9803925,7622.8149};
+			id=416;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item404
+		{
+			position[]={4469.7905,3.9803925,7622.8193};
+			id=417;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item405
+		{
+			position[]={4464.7646,3.9803925,7622.7974};
+			id=418;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item406
+		{
+			position[]={4459.7427,3.9803925,7622.8018};
+			id=419;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item407
+		{
+			position[]={4454.7168,3.9803925,7622.7988};
+			id=420;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item408
+		{
+			position[]={4449.6948,3.9803925,7622.8032};
+			id=421;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item409
+		{
+			position[]={4444.6685,3.9803925,7622.7974};
+			id=422;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item410
+		{
+			position[]={4439.6465,3.9803925,7622.8018};
+			id=423;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item411
+		{
+			position[]={4434.6191,3.9803925,7622.7813};
+			id=424;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item412
+		{
+			position[]={4429.5972,3.9803925,7622.7856};
+			id=425;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item413
+		{
+			position[]={4424.5713,3.9803925,7622.7637};
+			id=426;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item414
+		{
+			position[]={4419.5493,3.9803925,7622.7681};
+			id=427;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item415
+		{
+			position[]={4414.5181,3.9803925,7622.75};
+			id=428;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item416
+		{
+			position[]={4409.4961,3.9803925,7622.7544};
+			id=429;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item417
+		{
+			position[]={4404.4697,3.9803925,7622.7485};
+			id=430;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item418
+		{
+			position[]={4399.2974,3.9803925,7622.7827};
+			id=431;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item419
+		{
+			position[]={4394.2715,3.9803925,7622.7607};
+			id=432;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item420
+		{
+			position[]={4389.2495,3.9803925,7622.7651};
+			id=433;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item421
+		{
+			position[]={4384.2236,3.9803925,7622.7622};
+			id=434;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item422
+		{
+			position[]={4379.2017,3.9803925,7622.7666};
+			id=435;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item423
+		{
+			position[]={4374.1753,3.9803925,7622.7607};
+			id=436;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item424
+		{
+			position[]={4369.1533,3.9803925,7622.7651};
+			id=437;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item425
+		{
+			position[]={4364.126,3.9803925,7622.7446};
+			id=438;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item426
+		{
+			position[]={4359.104,3.9803925,7622.749};
+			id=439;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item427
+		{
+			position[]={4354.0781,3.9803925,7622.7271};
+			id=440;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item428
+		{
+			position[]={4349.0562,3.9803925,7622.7314};
+			id=441;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item429
+		{
+			position[]={4344.0127,3.9803925,7622.729};
+			id=442;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item430
+		{
+			position[]={4338.9907,3.9803925,7622.7334};
+			id=443;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item431
+		{
+			position[]={4333.9644,3.9803925,7622.7275};
+			id=444;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item432
+		{
+			position[]={4328.9424,3.9803925,7622.7319};
+			id=445;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item433
+		{
+			position[]={4323.915,3.9803925,7622.7114};
+			id=446;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item434
+		{
+			position[]={4318.8931,3.9803925,7622.7158};
+			id=447;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item435
+		{
+			position[]={4313.8672,3.9803925,7622.6938};
+			id=448;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item436
+		{
+			position[]={4308.8452,3.9803925,7622.6982};
+			id=449;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item437
+		{
+			position[]={4303.8193,3.9803925,7622.6953};
+			id=450;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item438
+		{
+			position[]={4298.7974,3.9803925,7622.6997};
+			id=451;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item439
+		{
+			position[]={4293.771,3.9803925,7622.6938};
+			id=452;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item440
+		{
+			position[]={4288.749,3.9803925,7622.6982};
+			id=453;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item441
+		{
+			position[]={4283.7217,3.9803925,7622.6777};
+			id=454;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item442
+		{
+			position[]={4278.6997,3.9803925,7622.6821};
+			id=455;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item443
+		{
+			position[]={4273.6738,3.9803925,7622.6602};
+			id=456;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item444
+		{
+			position[]={4268.6519,3.9803925,7622.6646};
+			id=457;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item445
+		{
+			position[]={4263.6206,3.9803925,7622.6465};
+			id=458;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item446
+		{
+			position[]={4258.5986,3.9803925,7622.6509};
+			id=459;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item447
+		{
+			position[]={4253.5723,3.9803925,7622.645};
+			id=460;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item448
+		{
+			position[]={4248.7617,3.9803925,7622.5923};
+			id=461;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item449
+		{
+			position[]={4243.7358,3.9803925,7622.5703};
+			id=462;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item450
+		{
+			position[]={4238.7139,3.9803925,7622.5747};
+			id=463;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item451
+		{
+			position[]={4233.688,3.9803925,7622.5718};
+			id=464;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item452
+		{
+			position[]={4228.666,3.9803925,7622.5762};
+			id=465;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item453
+		{
+			position[]={4223.6396,3.9803925,7622.5703};
+			id=466;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item454
+		{
+			position[]={4218.6177,3.9803925,7622.5747};
+			id=467;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item455
+		{
+			position[]={4213.5903,3.9803925,7622.5542};
+			id=468;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item456
+		{
+			position[]={4208.5684,3.9803925,7622.5586};
+			id=469;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item457
+		{
+			position[]={4203.5425,3.9803925,7622.5366};
+			id=470;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item458
+		{
+			position[]={4198.5205,3.9803925,7622.541};
+			id=471;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item459
+		{
+			position[]={4193.4771,3.9803925,7622.5386};
+			id=472;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item460
+		{
+			position[]={4188.4551,3.9803925,7622.543};
+			id=473;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item461
+		{
+			position[]={4183.4287,3.9803925,7622.5371};
+			id=474;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item462
+		{
+			position[]={4178.4067,3.9803925,7622.5415};
+			id=475;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item463
+		{
+			position[]={4173.3794,3.9803925,7622.521};
+			id=476;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item464
+		{
+			position[]={4168.3574,3.9803925,7622.5254};
+			id=477;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item465
+		{
+			position[]={4163.3315,3.9803925,7622.5034};
+			id=478;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item466
+		{
+			position[]={4158.3096,3.9803925,7622.5078};
+			id=479;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item467
+		{
+			position[]={4153.2837,3.9803925,7622.5049};
+			id=480;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item468
+		{
+			position[]={4148.2617,3.9803925,7622.5093};
+			id=481;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item469
+		{
+			position[]={4143.2354,3.9803925,7622.5034};
+			id=482;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item470
+		{
+			position[]={4138.2134,3.9803925,7622.5078};
+			id=483;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item471
+		{
+			position[]={4133.186,3.9803925,7622.4873};
+			id=484;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item472
+		{
+			position[]={4128.1641,3.9803925,7622.4917};
+			id=485;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item473
+		{
+			position[]={4123.1382,3.9803925,7622.4697};
+			id=486;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item474
+		{
+			position[]={4118.1162,3.9803925,7622.4741};
+			id=487;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item475
+		{
+			position[]={4113.085,3.9803925,7622.4561};
+			id=488;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item476
+		{
+			position[]={4108.063,3.9803925,7622.4604};
+			id=489;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item477
+		{
+			position[]={4103.0366,3.9803925,7622.4546};
+			id=490;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item478
+		{
+			position[]={4092.8184,3.9803925,7622.4434};
+			id=491;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item479
+		{
+			position[]={4087.7925,3.9803925,7622.4214};
+			id=492;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item480
+		{
+			position[]={4082.7705,3.9803925,7622.4258};
+			id=493;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item481
+		{
+			position[]={4077.7446,3.9803925,7622.4229};
+			id=494;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item482
+		{
+			position[]={4072.7227,3.9803925,7622.4272};
+			id=495;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item483
+		{
+			position[]={4067.6963,3.9803925,7622.4214};
+			id=496;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item484
+		{
+			position[]={4062.6743,3.9803925,7622.4258};
+			id=497;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item485
+		{
+			position[]={4057.647,3.9803925,7622.4053};
+			id=498;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item486
+		{
+			position[]={4052.625,3.9803925,7622.4097};
+			id=499;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item487
+		{
+			position[]={4047.5991,3.9803925,7622.3877};
+			id=500;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item488
+		{
+			position[]={4042.5771,3.9803925,7622.3921};
+			id=501;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item489
+		{
+			position[]={4037.5337,3.9803925,7622.3896};
+			id=502;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item490
+		{
+			position[]={4032.5117,3.9803925,7622.394};
+			id=503;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item491
+		{
+			position[]={4027.4854,3.9803925,7622.3882};
+			id=504;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item492
+		{
+			position[]={4022.4634,3.9803925,7622.3926};
+			id=505;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item493
+		{
+			position[]={4017.436,3.9803925,7622.3721};
+			id=506;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item494
+		{
+			position[]={4012.4141,3.9803925,7622.3765};
+			id=507;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item495
+		{
+			position[]={4007.3882,3.9803925,7622.3545};
+			id=508;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item496
+		{
+			position[]={4002.3662,3.9803925,7622.3589};
+			id=509;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item497
+		{
+			position[]={3997.3403,3.9803925,7622.356};
+			id=510;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item498
+		{
+			position[]={3992.3184,3.9803925,7622.3604};
+			id=511;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item499
+		{
+			position[]={3987.292,3.9803925,7622.3545};
+			id=512;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item500
+		{
+			position[]={3982.27,3.9803925,7622.3589};
+			id=513;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item501
+		{
+			position[]={3977.2427,3.9803925,7622.3384};
+			id=514;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item502
+		{
+			position[]={3972.2207,3.9803925,7622.3428};
+			id=515;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item503
+		{
+			position[]={3967.1948,3.9803925,7622.3208};
+			id=516;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item504
+		{
+			position[]={3962.1729,3.9803925,7622.3252};
+			id=517;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item505
+		{
+			position[]={3957.1416,3.9803925,7622.3071};
+			id=518;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item506
+		{
+			position[]={3952.1196,3.9803925,7622.3115};
+			id=519;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item507
+		{
+			position[]={3947.0933,3.9803925,7622.3057};
+			id=520;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item508
+		{
+			position[]={3942.2827,3.9803925,7622.2529};
+			id=521;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item509
+		{
+			position[]={3937.2568,3.9803925,7622.231};
+			id=522;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item510
+		{
+			position[]={3932.2349,3.9803925,7622.2354};
+			id=523;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item511
+		{
+			position[]={3927.209,3.9803925,7622.2324};
+			id=524;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item512
+		{
+			position[]={3922.187,3.9803925,7622.2368};
+			id=525;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item513
+		{
+			position[]={3917.1606,3.9803925,7622.231};
+			id=526;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item514
+		{
+			position[]={3912.1387,3.9803925,7622.2354};
+			id=527;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item515
+		{
+			position[]={3907.1113,3.9803925,7622.2148};
+			id=528;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item516
+		{
+			position[]={3902.0894,3.9803925,7622.2192};
+			id=529;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item517
+		{
+			position[]={3897.0635,3.9803925,7622.1973};
+			id=530;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item518
+		{
+			position[]={3892.0415,3.9803925,7622.2017};
+			id=531;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item519
+		{
+			position[]={3886.998,3.9803925,7622.1992};
+			id=532;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item520
+		{
+			position[]={3881.9761,3.9803925,7622.2036};
+			id=533;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item521
+		{
+			position[]={3876.9497,3.9803925,7622.1978};
+			id=534;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item522
+		{
+			position[]={3871.9277,3.9803925,7622.2021};
+			id=535;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item523
+		{
+			position[]={3866.9004,3.9803925,7622.1816};
+			id=536;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item524
+		{
+			position[]={3861.8784,3.9803925,7622.186};
+			id=537;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item525
+		{
+			position[]={3856.8525,3.9803925,7622.1641};
+			id=538;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item526
+		{
+			position[]={3851.8306,3.9803925,7622.1685};
+			id=539;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item527
+		{
+			position[]={3846.8047,3.9803925,7622.1655};
+			id=540;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item528
+		{
+			position[]={3841.7827,3.9803925,7622.1699};
+			id=541;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item529
+		{
+			position[]={3836.7563,3.9803925,7622.1641};
+			id=542;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item530
+		{
+			position[]={3831.7344,3.9803925,7622.1685};
+			id=543;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item531
+		{
+			position[]={3826.707,3.9803925,7622.1479};
+			id=544;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item532
+		{
+			position[]={3821.6851,3.9803925,7622.1523};
+			id=545;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item533
+		{
+			position[]={3816.6592,3.9803925,7622.1304};
+			id=546;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item534
+		{
+			position[]={3811.6372,3.9803925,7622.1348};
+			id=547;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item535
+		{
+			position[]={3806.606,3.9803925,7622.1167};
+			id=548;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item536
+		{
+			position[]={3801.584,3.9803925,7622.1211};
+			id=549;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item537
+		{
+			position[]={3796.5576,3.9803925,7622.1152};
+			id=550;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item538
+		{
+			position[]={3786.3484,3.9803925,7621.9072};
+			id=551;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item539
+		{
+			position[]={3781.3225,3.9803925,7621.8853};
+			id=552;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item540
+		{
+			position[]={3776.3005,3.9803925,7621.8896};
+			id=553;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item541
+		{
+			position[]={3771.2747,3.9803925,7621.8867};
+			id=554;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item542
+		{
+			position[]={3766.2527,3.9803925,7621.8911};
+			id=555;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item543
+		{
+			position[]={3761.2263,3.9803925,7621.8853};
+			id=556;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item544
+		{
+			position[]={3756.2043,3.9803925,7621.8896};
+			id=557;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item545
+		{
+			position[]={3751.177,3.9803925,7621.8691};
+			id=558;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item546
+		{
+			position[]={3746.155,3.9803925,7621.8735};
+			id=559;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item547
+		{
+			position[]={3741.1292,3.9803925,7621.8516};
+			id=560;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item548
+		{
+			position[]={3736.1072,3.9803925,7621.856};
+			id=561;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item549
+		{
+			position[]={3731.0637,3.9803925,7621.8535};
+			id=562;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item550
+		{
+			position[]={3726.0417,3.9803925,7621.8579};
+			id=563;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item551
+		{
+			position[]={3721.0154,3.9803925,7621.8521};
+			id=564;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item552
+		{
+			position[]={3715.9934,3.9803925,7621.8564};
+			id=565;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item553
+		{
+			position[]={3710.9661,3.9803925,7621.8359};
+			id=566;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item554
+		{
+			position[]={3705.9441,3.9803925,7621.8403};
+			id=567;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item555
+		{
+			position[]={3700.9182,3.9803925,7621.8184};
+			id=568;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item556
+		{
+			position[]={3695.8962,3.9803925,7621.8228};
+			id=569;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item557
+		{
+			position[]={3690.8704,3.9803925,7621.8198};
+			id=570;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item558
+		{
+			position[]={3685.8484,3.9803925,7621.8242};
+			id=571;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item559
+		{
+			position[]={3680.822,3.9803925,7621.8184};
+			id=572;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item560
+		{
+			position[]={3675.8,3.9803925,7621.8228};
+			id=573;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item561
+		{
+			position[]={3670.7727,3.9803925,7621.8022};
+			id=574;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item562
+		{
+			position[]={3665.7507,3.9803925,7621.8066};
+			id=575;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item563
+		{
+			position[]={3660.7249,3.9803925,7621.7847};
+			id=576;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item564
+		{
+			position[]={3655.7029,3.9803925,7621.7891};
+			id=577;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item565
+		{
+			position[]={3650.6716,3.9803925,7621.771};
+			id=578;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item566
+		{
+			position[]={3645.6497,3.9803925,7621.7754};
+			id=579;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item567
+		{
+			position[]={3640.6233,3.9803925,7621.7695};
+			id=580;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item568
+		{
+			position[]={3635.8127,3.9803925,7621.7168};
+			id=581;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item569
+		{
+			position[]={3630.7869,3.9803925,7621.6948};
+			id=582;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item570
+		{
+			position[]={3625.7649,3.9803925,7621.6992};
+			id=583;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item571
+		{
+			position[]={3620.739,3.9803925,7621.6963};
+			id=584;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item572
+		{
+			position[]={3615.717,3.9803925,7621.7007};
+			id=585;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item573
+		{
+			position[]={3610.6907,3.9803925,7621.6948};
+			id=586;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item574
+		{
+			position[]={3605.6687,3.9803925,7621.6992};
+			id=587;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item575
+		{
+			position[]={3600.6414,3.9803925,7621.6787};
+			id=588;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item576
+		{
+			position[]={3595.6194,3.9803925,7621.6831};
+			id=589;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item577
+		{
+			position[]={3590.5935,3.9803925,7621.6611};
+			id=590;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item578
+		{
+			position[]={3585.5715,3.9803925,7621.6655};
+			id=591;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item579
+		{
+			position[]={3580.5281,3.9803925,7621.6631};
+			id=592;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item580
+		{
+			position[]={3575.5061,3.9803925,7621.6675};
+			id=593;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item581
+		{
+			position[]={3570.4797,3.9803925,7621.6616};
+			id=594;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item582
+		{
+			position[]={3565.4578,3.9803925,7621.666};
+			id=595;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item583
+		{
+			position[]={3560.4304,3.9803925,7621.6455};
+			id=596;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item584
+		{
+			position[]={3555.4084,3.9803925,7621.6499};
+			id=597;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item585
+		{
+			position[]={3550.3826,3.9803925,7621.6279};
+			id=598;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item586
+		{
+			position[]={3545.3606,3.9803925,7621.6323};
+			id=599;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item587
+		{
+			position[]={3540.3347,3.9803925,7621.6294};
+			id=600;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item588
+		{
+			position[]={3535.3127,3.9803925,7621.6338};
+			id=601;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item589
+		{
+			position[]={3530.2864,3.9803925,7621.6279};
+			id=602;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item590
+		{
+			position[]={3525.2644,3.9803925,7621.6323};
+			id=603;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item591
+		{
+			position[]={3520.2371,3.9803925,7621.6118};
+			id=604;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item592
+		{
+			position[]={3515.2151,3.9803925,7621.6162};
+			id=605;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item593
+		{
+			position[]={3510.1892,3.9803925,7621.5942};
+			id=606;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item594
+		{
+			position[]={3505.1672,3.9803925,7621.5986};
+			id=607;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item595
+		{
+			position[]={3500.136,3.9803925,7621.5806};
+			id=608;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item596
+		{
+			position[]={3495.114,3.9803925,7621.585};
+			id=609;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item597
+		{
+			position[]={3490.0876,3.9803925,7621.5791};
+			id=610;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item598
+		{
+			position[]={3484.9575,3.9803925,7621.3223};
+			id=611;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item599
+		{
+			position[]={3479.9316,3.9803925,7621.3003};
+			id=612;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item600
+		{
+			position[]={3474.9097,3.9803925,7621.3047};
+			id=613;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item601
+		{
+			position[]={3469.8838,3.9803925,7621.3018};
+			id=614;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item602
+		{
+			position[]={3464.8618,3.9803925,7621.3062};
+			id=615;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item603
+		{
+			position[]={3459.8354,3.9803925,7621.3003};
+			id=616;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item604
+		{
+			position[]={3454.8135,3.9803925,7621.3047};
+			id=617;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item605
+		{
+			position[]={3449.7861,3.9803925,7621.2842};
+			id=618;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item606
+		{
+			position[]={3444.7642,3.9803925,7621.2886};
+			id=619;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item607
+		{
+			position[]={3439.7383,3.9803925,7621.2666};
+			id=620;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item608
+		{
+			position[]={3434.7163,3.9803925,7621.271};
+			id=621;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item609
+		{
+			position[]={3429.6729,3.9803925,7621.2686};
+			id=622;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item610
+		{
+			position[]={3424.6509,3.9803925,7621.2729};
+			id=623;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item611
+		{
+			position[]={3419.6245,3.9803925,7621.2671};
+			id=624;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item612
+		{
+			position[]={3414.6025,3.9803925,7621.2715};
+			id=625;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item613
+		{
+			position[]={3409.5752,3.9803925,7621.251};
+			id=626;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item614
+		{
+			position[]={3404.5532,3.9803925,7621.2554};
+			id=627;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item615
+		{
+			position[]={3399.5273,3.9803925,7621.2334};
+			id=628;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item616
+		{
+			position[]={3394.5054,3.9803925,7621.2378};
+			id=629;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item617
+		{
+			position[]={3389.4795,3.9803925,7621.2349};
+			id=630;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item618
+		{
+			position[]={3384.4575,3.9803925,7621.2393};
+			id=631;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item619
+		{
+			position[]={3379.4312,3.9803925,7621.2334};
+			id=632;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item620
+		{
+			position[]={3374.4092,3.9803925,7621.2378};
+			id=633;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item621
+		{
+			position[]={3369.3818,3.9803925,7621.2173};
+			id=634;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item622
+		{
+			position[]={3364.3599,3.9803925,7621.2217};
+			id=635;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item623
+		{
+			position[]={3359.334,3.9803925,7621.1997};
+			id=636;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item624
+		{
+			position[]={3354.312,3.9803925,7621.2041};
+			id=637;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item625
+		{
+			position[]={3349.2808,3.9803925,7621.186};
+			id=638;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item626
+		{
+			position[]={3344.2588,3.9803925,7621.1904};
+			id=639;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item627
+		{
+			position[]={3339.2324,3.9803925,7621.1846};
+			id=640;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item628
+		{
+			position[]={3334.4219,3.9803925,7621.1318};
+			id=641;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item629
+		{
+			position[]={3329.396,3.9803925,7621.1099};
+			id=642;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item630
+		{
+			position[]={3324.374,3.9803925,7621.1143};
+			id=643;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item631
+		{
+			position[]={3319.3481,3.9803925,7621.1113};
+			id=644;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item632
+		{
+			position[]={3314.3262,3.9803925,7621.1157};
+			id=645;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item633
+		{
+			position[]={3309.2998,3.9803925,7621.1099};
+			id=646;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item634
+		{
+			position[]={3304.2778,3.9803925,7621.1143};
+			id=647;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item635
+		{
+			position[]={3299.2505,3.9803925,7621.0938};
+			id=648;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item636
+		{
+			position[]={3294.2285,3.9803925,7621.0981};
+			id=649;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item637
+		{
+			position[]={3289.2026,3.9803925,7621.0762};
+			id=650;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item638
+		{
+			position[]={3284.1807,3.9803925,7621.0806};
+			id=651;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item639
+		{
+			position[]={3279.1372,3.9803925,7621.0781};
+			id=652;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item640
+		{
+			position[]={3274.1152,3.9803925,7621.0825};
+			id=653;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item641
+		{
+			position[]={3269.0889,3.9803925,7621.0767};
+			id=654;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item642
+		{
+			position[]={3264.0669,3.9803925,7621.0811};
+			id=655;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item643
+		{
+			position[]={3259.0396,3.9803925,7621.0605};
+			id=656;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item644
+		{
+			position[]={3254.0176,3.9803925,7621.0649};
+			id=657;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item645
+		{
+			position[]={3248.9917,3.9803925,7621.043};
+			id=658;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item646
+		{
+			position[]={4701.2334,3.9803925,7402.2739};
+			id=659;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item647
+		{
+			position[]={4696.2114,3.9803925,7402.2783};
+			id=660;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item648
+		{
+			position[]={4691.1851,3.9764309,7402.2725};
+			id=661;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item649
+		{
+			position[]={4686.1631,3.9803925,7402.2769};
+			id=662;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item650
+		{
+			position[]={4681.1357,3.9803925,7402.2563};
+			id=663;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item651
+		{
+			position[]={4676.1138,3.9803925,7402.2607};
+			id=664;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item652
+		{
+			position[]={4671.0879,3.9803925,7402.2388};
+			id=665;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item653
+		{
+			position[]={4666.0659,3.9803925,7402.2432};
+			id=666;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item654
+		{
+			position[]={4661.0347,3.9803925,7402.2251};
+			id=667;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item655
+		{
+			position[]={4656.0127,3.9803925,7402.2295};
+			id=668;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item656
+		{
+			position[]={4650.9863,3.9803925,7402.2236};
+			id=669;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item657
+		{
+			position[]={4646.1758,3.9803925,7402.1709};
+			id=670;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item658
+		{
+			position[]={4641.1499,3.9803925,7402.1489};
+			id=671;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item659
+		{
+			position[]={4636.1279,3.9803925,7402.1533};
+			id=672;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item660
+		{
+			position[]={4631.1021,3.9803925,7402.1504};
+			id=673;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item661
+		{
+			position[]={4626.0801,3.9803925,7402.1548};
+			id=674;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item662
+		{
+			position[]={4621.0537,3.9803925,7402.1489};
+			id=675;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item663
+		{
+			position[]={4616.0317,3.9803925,7402.1533};
+			id=676;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item664
+		{
+			position[]={4611.0044,3.9803925,7402.1328};
+			id=677;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item665
+		{
+			position[]={4605.9824,3.9803925,7402.1372};
+			id=678;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item666
+		{
+			position[]={4600.9565,3.9803925,7402.1152};
+			id=679;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item667
+		{
+			position[]={4595.9346,3.9803925,7402.1196};
+			id=680;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item668
+		{
+			position[]={4590.8911,3.9803925,7402.1172};
+			id=681;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item669
+		{
+			position[]={4585.8691,3.9803925,7402.1216};
+			id=682;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item670
+		{
+			position[]={4580.8428,3.9803925,7402.1157};
+			id=683;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item671
+		{
+			position[]={4575.8208,3.9803925,7402.1201};
+			id=684;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item672
+		{
+			position[]={4570.7935,3.9803925,7402.0996};
+			id=685;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item673
+		{
+			position[]={4565.7715,3.9803925,7402.104};
+			id=686;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item674
+		{
+			position[]={4560.7456,3.9803925,7402.082};
+			id=687;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item675
+		{
+			position[]={4555.7236,3.9803925,7402.0864};
+			id=688;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item676
+		{
+			position[]={4550.6978,3.9803925,7402.0835};
+			id=689;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item677
+		{
+			position[]={4545.6758,3.9803925,7402.0879};
+			id=690;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item678
+		{
+			position[]={4540.6494,3.9803925,7402.082};
+			id=691;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item679
+		{
+			position[]={4535.6274,3.9803925,7402.0864};
+			id=692;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item680
+		{
+			position[]={4530.6001,3.9803925,7402.0659};
+			id=693;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item681
+		{
+			position[]={4525.5781,3.9803925,7402.0703};
+			id=694;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item682
+		{
+			position[]={4520.5522,3.9803925,7402.0483};
+			id=695;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item683
+		{
+			position[]={4515.5303,3.9803925,7402.0527};
+			id=696;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item684
+		{
+			position[]={4510.499,3.9803925,7402.0347};
+			id=697;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item685
+		{
+			position[]={4505.4771,3.9803925,7402.0391};
+			id=698;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item686
+		{
+			position[]={4500.4507,3.9803925,7402.0332};
+			id=699;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item687
+		{
+			position[]={4490.2324,3.9803925,7402.022};
+			id=700;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item688
+		{
+			position[]={4485.2065,3.9803925,7402};
+			id=701;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item689
+		{
+			position[]={4480.1846,3.9803925,7402.0044};
+			id=702;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item690
+		{
+			position[]={4475.1587,3.9803925,7402.0015};
+			id=703;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item691
+		{
+			position[]={4470.1367,3.9803925,7402.0059};
+			id=704;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item692
+		{
+			position[]={4465.1104,3.9803925,7402};
+			id=705;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item693
+		{
+			position[]={4460.0884,3.9803925,7402.0044};
+			id=706;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item694
+		{
+			position[]={4455.061,3.9803925,7401.9839};
+			id=707;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item695
+		{
+			position[]={4450.0391,3.9803925,7401.9883};
+			id=708;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item696
+		{
+			position[]={4445.0132,3.9803925,7401.9663};
+			id=709;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item697
+		{
+			position[]={4439.9912,3.9803925,7401.9707};
+			id=710;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item698
+		{
+			position[]={4434.9478,3.9803925,7401.9683};
+			id=711;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item699
+		{
+			position[]={4429.9258,3.9803925,7401.9727};
+			id=712;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item700
+		{
+			position[]={4424.8994,3.9803925,7401.9668};
+			id=713;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item701
+		{
+			position[]={4419.8774,3.9803925,7401.9712};
+			id=714;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item702
+		{
+			position[]={4414.8501,3.9803925,7401.9507};
+			id=715;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item703
+		{
+			position[]={4409.8281,3.9803925,7401.9551};
+			id=716;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item704
+		{
+			position[]={4404.8022,3.9803925,7401.9331};
+			id=717;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item705
+		{
+			position[]={4399.7803,3.9803925,7401.9375};
+			id=718;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item706
+		{
+			position[]={4394.7544,3.9803925,7401.9346};
+			id=719;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item707
+		{
+			position[]={4389.7324,3.9803925,7401.939};
+			id=720;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item708
+		{
+			position[]={4384.7061,3.9803925,7401.9331};
+			id=721;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item709
+		{
+			position[]={4379.6841,3.9803925,7401.9375};
+			id=722;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item710
+		{
+			position[]={4374.6567,3.9803925,7401.917};
+			id=723;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item711
+		{
+			position[]={4369.6348,3.9803925,7401.9214};
+			id=724;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item712
+		{
+			position[]={4364.6089,3.9803925,7401.8994};
+			id=725;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item713
+		{
+			position[]={4359.5869,3.9803925,7401.9038};
+			id=726;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item714
+		{
+			position[]={4354.5557,3.9803925,7401.8857};
+			id=727;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item715
+		{
+			position[]={4349.5337,3.9803925,7401.8901};
+			id=728;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item716
+		{
+			position[]={4344.5073,3.9803925,7401.8843};
+			id=729;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item717
+		{
+			position[]={4339.6968,3.9803925,7401.8315};
+			id=730;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item718
+		{
+			position[]={4334.6709,3.9803925,7401.8096};
+			id=731;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item719
+		{
+			position[]={4329.6489,3.9803925,7401.814};
+			id=732;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item720
+		{
+			position[]={4324.623,3.9803925,7401.811};
+			id=733;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item721
+		{
+			position[]={4319.6011,3.9803925,7401.8154};
+			id=734;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item722
+		{
+			position[]={4314.5747,3.9803925,7401.8096};
+			id=735;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item723
+		{
+			position[]={4309.5527,3.9803925,7401.814};
+			id=736;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item724
+		{
+			position[]={4304.5254,3.9803925,7401.7935};
+			id=737;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item725
+		{
+			position[]={4299.5034,3.9803925,7401.7979};
+			id=738;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item726
+		{
+			position[]={4294.4775,3.9803925,7401.7759};
+			id=739;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item727
+		{
+			position[]={4289.4556,3.9803925,7401.7803};
+			id=740;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item728
+		{
+			position[]={4284.4121,3.9803925,7401.7778};
+			id=741;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item729
+		{
+			position[]={4279.3901,3.9803925,7401.7822};
+			id=742;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item730
+		{
+			position[]={4274.3638,3.9803925,7401.7764};
+			id=743;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item731
+		{
+			position[]={4269.3418,3.9803925,7401.7808};
+			id=744;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item732
+		{
+			position[]={4264.3145,3.9803925,7401.7603};
+			id=745;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item733
+		{
+			position[]={4259.2925,3.9803925,7401.7646};
+			id=746;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item734
+		{
+			position[]={4254.2666,3.9803925,7401.7427};
+			id=747;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item735
+		{
+			position[]={4249.2446,3.9803925,7401.7471};
+			id=748;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item736
+		{
+			position[]={4244.2188,3.9803925,7401.7441};
+			id=749;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item737
+		{
+			position[]={4239.1968,3.9803925,7401.7485};
+			id=750;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item738
+		{
+			position[]={4234.1704,3.9803925,7401.7427};
+			id=751;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item739
+		{
+			position[]={4229.1484,3.9803925,7401.7471};
+			id=752;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item740
+		{
+			position[]={4224.1211,3.9803925,7401.7266};
+			id=753;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item741
+		{
+			position[]={4219.0991,3.9803925,7401.731};
+			id=754;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item742
+		{
+			position[]={4214.0732,3.9803925,7401.709};
+			id=755;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item743
+		{
+			position[]={4209.0513,3.9803925,7401.7134};
+			id=756;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item744
+		{
+			position[]={4204.02,3.9803925,7401.6953};
+			id=757;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item745
+		{
+			position[]={4198.998,3.9803925,7401.6997};
+			id=758;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item746
+		{
+			position[]={4193.9717,3.9803925,7401.6938};
+			id=759;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item747
+		{
+			position[]={4183.7622,3.9803925,7401.4858};
+			id=760;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item748
+		{
+			position[]={4178.7368,3.9803925,7401.4639};
+			id=761;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item749
+		{
+			position[]={4173.7148,3.9803925,7401.4683};
+			id=762;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item750
+		{
+			position[]={4168.6885,3.9803925,7401.4653};
+			id=763;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item751
+		{
+			position[]={4163.6665,3.9803925,7401.4697};
+			id=764;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item752
+		{
+			position[]={4158.6401,3.9803925,7401.4639};
+			id=765;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item753
+		{
+			position[]={4153.6187,3.9803925,7401.4683};
+			id=766;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item754
+		{
+			position[]={4148.5913,3.9803925,7401.4478};
+			id=767;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item755
+		{
+			position[]={4143.5693,3.9803925,7401.4521};
+			id=768;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item756
+		{
+			position[]={4138.5435,3.9803925,7401.4302};
+			id=769;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item757
+		{
+			position[]={4133.5215,3.9803925,7401.4346};
+			id=770;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item758
+		{
+			position[]={4128.478,3.9803925,7401.4321};
+			id=771;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item759
+		{
+			position[]={4123.4556,3.9803925,7401.4365};
+			id=772;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item760
+		{
+			position[]={4118.4292,3.9803925,7401.4307};
+			id=773;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item761
+		{
+			position[]={4113.4072,3.9803925,7401.4351};
+			id=774;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item762
+		{
+			position[]={4108.3804,3.9803925,7401.4146};
+			id=775;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item763
+		{
+			position[]={4103.3584,3.9803925,7401.4189};
+			id=776;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item764
+		{
+			position[]={4098.3325,3.9803925,7401.397};
+			id=777;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item765
+		{
+			position[]={4093.3101,3.9803925,7401.4014};
+			id=778;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item766
+		{
+			position[]={4088.2842,3.9803925,7401.3984};
+			id=779;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item767
+		{
+			position[]={4083.2625,3.9803925,7401.4028};
+			id=780;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item768
+		{
+			position[]={4078.2361,3.9803925,7401.397};
+			id=781;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item769
+		{
+			position[]={4073.2141,3.9803925,7401.4014};
+			id=782;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item770
+		{
+			position[]={4068.1868,3.9803925,7401.3809};
+			id=783;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item771
+		{
+			position[]={4063.1648,3.9803925,7401.3853};
+			id=784;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item772
+		{
+			position[]={4058.1389,3.9803925,7401.3633};
+			id=785;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item773
+		{
+			position[]={4053.1169,3.9803925,7401.3677};
+			id=786;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item774
+		{
+			position[]={4048.0857,3.9803925,7401.3496};
+			id=787;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item775
+		{
+			position[]={4043.0637,3.9803925,7401.354};
+			id=788;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item776
+		{
+			position[]={4038.0374,3.9803925,7401.3481};
+			id=789;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item777
+		{
+			position[]={4033.2268,3.9803925,7401.2954};
+			id=790;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item778
+		{
+			position[]={4028.2009,3.9803925,7401.2734};
+			id=791;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item779
+		{
+			position[]={4023.179,3.9803925,7401.2778};
+			id=792;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item780
+		{
+			position[]={4018.1531,3.9803925,7401.2749};
+			id=793;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item781
+		{
+			position[]={4013.1311,3.9803925,7401.2793};
+			id=794;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item782
+		{
+			position[]={4008.1047,3.9803925,7401.2734};
+			id=795;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item783
+		{
+			position[]={4003.0828,3.9803925,7401.2778};
+			id=796;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item784
+		{
+			position[]={3998.0554,3.9803925,7401.2573};
+			id=797;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item785
+		{
+			position[]={3993.0334,3.9803925,7401.2617};
+			id=798;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item786
+		{
+			position[]={3988.0076,3.9803925,7401.2397};
+			id=799;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item787
+		{
+			position[]={3982.9856,3.9803925,7401.2441};
+			id=800;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item788
+		{
+			position[]={3977.9421,3.9803925,7401.2417};
+			id=801;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item789
+		{
+			position[]={3972.9202,3.9803925,7401.2461};
+			id=802;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item790
+		{
+			position[]={3967.8938,3.9954882,7401.2402};
+			id=803;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item791
+		{
+			position[]={3962.8718,4.0022931,7401.2446};
+			id=804;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item792
+		{
+			position[]={3957.8445,3.9803925,7401.2241};
+			id=805;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item793
+		{
+			position[]={3952.8225,3.9803925,7401.2285};
+			id=806;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item794
+		{
+			position[]={3947.7966,3.9803925,7401.2065};
+			id=807;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item795
+		{
+			position[]={3942.7747,3.9803925,7401.2109};
+			id=808;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item796
+		{
+			position[]={3937.7488,3.9621265,7401.208};
+			id=809;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item797
+		{
+			position[]={3932.7268,3.957845,7401.2124};
+			id=810;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item798
+		{
+			position[]={3927.7004,3.9803925,7401.2065};
+			id=811;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item799
+		{
+			position[]={3922.6785,3.9803925,7401.2109};
+			id=812;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item800
+		{
+			position[]={3917.6511,3.9803925,7401.1904};
+			id=813;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item801
+		{
+			position[]={3912.6292,3.9803925,7401.1948};
+			id=814;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item802
+		{
+			position[]={3907.6033,3.9590509,7401.1729};
+			id=815;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item803
+		{
+			position[]={3902.5813,3.9573176,7401.1772};
+			id=816;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item804
+		{
+			position[]={3897.55,3.9569147,7401.1592};
+			id=817;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item805
+		{
+			position[]={3892.5281,3.9798062,7401.1636};
+			id=818;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item806
+		{
+			position[]={3887.5017,3.9803009,7401.1577};
+			id=819;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item807
+		{
+			position[]={3882.3716,3.9525013,7400.9009};
+			id=820;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item808
+		{
+			position[]={3877.3457,3.9803925,7400.8789};
+			id=821;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item809
+		{
+			position[]={3872.3237,3.9803925,7400.8833};
+			id=822;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item810
+		{
+			position[]={3867.2979,3.9803925,7400.8804};
+			id=823;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item811
+		{
+			position[]={3862.2759,3.9803925,7400.8848};
+			id=824;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item812
+		{
+			position[]={3857.2495,3.9803925,7400.8789};
+			id=825;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item813
+		{
+			position[]={3852.2275,3.9802823,7400.8833};
+			id=826;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item814
+		{
+			position[]={3847.2002,3.9517188,7400.8628};
+			id=827;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item815
+		{
+			position[]={3842.1782,3.9517992,7400.8672};
+			id=828;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item816
+		{
+			position[]={3837.1523,3.9514141,7400.8452};
+			id=829;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item817
+		{
+			position[]={3832.1304,3.9514945,7400.8496};
+			id=830;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item818
+		{
+			position[]={3827.0869,3.9514463,7400.8472};
+			id=831;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item819
+		{
+			position[]={3822.0649,3.9516387,7400.8516};
+			id=832;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item820
+		{
+			position[]={3817.0386,3.951535,7400.8457};
+			id=833;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item821
+		{
+			position[]={3812.0166,3.9516149,7400.8501};
+			id=834;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item822
+		{
+			position[]={3806.9893,3.9803925,7400.8296};
+			id=835;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item823
+		{
+			position[]={3801.9673,3.9803925,7400.834};
+			id=836;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item824
+		{
+			position[]={3796.9414,3.9803925,7400.812};
+			id=837;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item825
+		{
+			position[]={3791.9194,3.9803925,7400.8164};
+			id=838;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item826
+		{
+			position[]={3786.8936,3.9802775,7400.8135};
+			id=839;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item827
+		{
+			position[]={3781.8716,3.9802778,7400.8179};
+			id=840;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item828
+		{
+			position[]={3776.8452,3.9803925,7400.812};
+			id=841;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item829
+		{
+			position[]={3771.8232,3.9803925,7400.8164};
+			id=842;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item830
+		{
+			position[]={3766.7959,3.9803925,7400.7959};
+			id=843;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item831
+		{
+			position[]={3761.7739,3.9803925,7400.8003};
+			id=844;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item832
+		{
+			position[]={3756.748,3.9803925,7400.7783};
+			id=845;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item833
+		{
+			position[]={3751.7261,3.9803925,7400.7827};
+			id=846;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item834
+		{
+			position[]={3746.6948,3.9803925,7400.7646};
+			id=847;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item835
+		{
+			position[]={3741.6729,3.9803925,7400.769};
+			id=848;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item836
+		{
+			position[]={3736.6465,3.9803925,7400.7632};
+			id=849;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item837
+		{
+			position[]={3731.8359,3.9803925,7400.7104};
+			id=850;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item838
+		{
+			position[]={3726.8101,3.980269,7400.6885};
+			id=851;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item839
+		{
+			position[]={3721.7881,3.9802706,7400.6929};
+			id=852;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item840
+		{
+			position[]={3716.7622,3.9803925,7400.6899};
+			id=853;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item841
+		{
+			position[]={3711.7402,3.9803925,7400.6943};
+			id=854;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item842
+		{
+			position[]={3706.7139,3.9820883,7400.6885};
+			id=855;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item843
+		{
+			position[]={3701.6919,4.0120406,7400.6929};
+			id=856;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item844
+		{
+			position[]={3696.6646,4.0124016,7400.6724};
+			id=857;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item845
+		{
+			position[]={3691.6426,4.0091662,7400.6768};
+			id=858;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item846
+		{
+			position[]={3686.6167,3.9803925,7400.6548};
+			id=859;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item847
+		{
+			position[]={3681.5947,3.9803925,7400.6592};
+			id=860;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item848
+		{
+			position[]={3676.5513,3.9803925,7400.6567};
+			id=861;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item849
+		{
+			position[]={3671.5293,3.9803925,7400.6611};
+			id=862;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item850
+		{
+			position[]={3666.5029,3.9802668,7400.6553};
+			id=863;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item851
+		{
+			position[]={3661.481,3.9740336,7400.6597};
+			id=864;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item852
+		{
+			position[]={3656.4536,3.9479327,7400.6392};
+			id=865;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item853
+		{
+			position[]={3651.4316,3.9803925,7400.6436};
+			id=866;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item854
+		{
+			position[]={3646.4058,3.9803925,7400.6216};
+			id=867;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item855
+		{
+			position[]={3639.2844,3.9803925,7400.5171};
+			id=868;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item856
+		{
+			position[]={3634.2625,3.9803925,7400.5215};
+			id=869;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item857
+		{
+			position[]={3629.2361,3.9803925,7400.5156};
+			id=870;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item858
+		{
+			position[]={3624.2141,3.9850352,7400.52};
+			id=871;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item859
+		{
+			position[]={3619.1868,4.0154247,7400.4995};
+			id=872;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item860
+		{
+			position[]={3614.1648,4.0153522,7400.5039};
+			id=873;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item861
+		{
+			position[]={3609.1389,4.0157371,7400.4819};
+			id=874;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item862
+		{
+			position[]={3604.1169,4.0156569,7400.4863};
+			id=875;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item863
+		{
+			position[]={3599.0857,4.0159779,7400.4683};
+			id=876;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item864
+		{
+			position[]={3594.0637,4.0158978,7400.4727};
+			id=877;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item865
+		{
+			position[]={3589.0374,4.0160017,7400.4668};
+			id=878;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item866
+		{
+			position[]={3584.2268,4.0169239,7400.4141};
+			id=879;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item867
+		{
+			position[]={3579.2009,4.0101886,7400.3921};
+			id=880;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item868
+		{
+			position[]={3574.179,3.9803925,7400.3965};
+			id=881;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item869
+		{
+			position[]={3569.1531,3.9802489,7400.3936};
+			id=882;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item870
+		{
+			position[]={3564.1311,3.9802814,7400.3979};
+			id=883;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item871
+		{
+			position[]={3559.1047,3.9803925,7400.3921};
+			id=884;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item872
+		{
+			position[]={3554.0828,3.9803925,7400.3965};
+			id=885;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item873
+		{
+			position[]={3549.0554,3.9803925,7400.376};
+			id=886;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item874
+		{
+			position[]={3544.0334,3.9803925,7400.3804};
+			id=887;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item875
+		{
+			position[]={3539.0076,3.9803925,7400.3584};
+			id=888;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item876
+		{
+			position[]={3533.9856,3.9803925,7400.3628};
+			id=889;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item877
+		{
+			position[]={3528.9421,3.9803925,7400.3604};
+			id=890;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item878
+		{
+			position[]={3523.9202,3.9805379,7400.3647};
+			id=891;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item879
+		{
+			position[]={3518.8938,3.9935653,7400.3589};
+			id=892;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item880
+		{
+			position[]={3513.8718,4.0178142,7400.3633};
+			id=893;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item881
+		{
+			position[]={3508.8445,3.9803925,7400.3428};
+			id=894;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item882
+		{
+			position[]={3503.8225,3.9803925,7400.3472};
+			id=895;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item883
+		{
+			position[]={3498.7966,3.9803925,7400.3252};
+			id=896;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item884
+		{
+			position[]={3493.7747,3.9802446,7400.3296};
+			id=897;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item885
+		{
+			position[]={3488.7488,3.9641223,7400.3267};
+			id=898;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item886
+		{
+			position[]={3483.7268,3.9424095,7400.3311};
+			id=899;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item887
+		{
+			position[]={3478.7004,3.9423053,7400.3252};
+			id=900;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item888
+		{
+			position[]={3473.6785,3.9424531,7400.3296};
+			id=901;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item889
+		{
+			position[]={3468.6511,3.942174,7400.3091};
+			id=902;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item890
+		{
+			position[]={3463.6292,3.942246,7400.3135};
+			id=903;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item891
+		{
+			position[]={3458.6033,3.9611394,7400.2915};
+			id=904;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item892
+		{
+			position[]={3453.5813,3.9803925,7400.2959};
+			id=905;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item893
+		{
+			position[]={3448.55,3.9803925,7400.2778};
+			id=906;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item894
+		{
+			position[]={3443.5281,3.9803925,7400.2822};
+			id=907;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item895
+		{
+			position[]={3438.5017,3.9803925,7400.2764};
+			id=908;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item896
+		{
+			position[]={3428.2834,3.9550812,7400.2651};
+			id=909;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item897
+		{
+			position[]={3423.2576,3.9410238,7400.2432};
+			id=910;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item898
+		{
+			position[]={3418.2356,3.9409423,7400.2476};
+			id=911;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item899
+		{
+			position[]={3413.2097,3.9409995,7400.2446};
+			id=912;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item900
+		{
+			position[]={3408.1877,3.9411278,7400.249};
+			id=913;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item901
+		{
+			position[]={3403.1614,3.9410238,7400.2432};
+			id=914;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item902
+		{
+			position[]={3398.1394,3.9692345,7400.2476};
+			id=915;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item903
+		{
+			position[]={3393.1121,3.9803925,7400.2271};
+			id=916;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item904
+		{
+			position[]={3388.0901,3.980547,7400.2314};
+			id=917;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item905
+		{
+			position[]={3383.0642,4.0107775,7400.2095};
+			id=918;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item906
+		{
+			position[]={3378.0422,4.0208874,7400.2139};
+			id=919;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item907
+		{
+			position[]={3372.9988,4.1008625,7400.2114};
+			id=920;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item908
+		{
+			position[]={3367.9768,4.1002798,7400.2158};
+			id=921;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item909
+		{
+			position[]={3362.9504,4.1005597,7400.21};
+			id=922;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item910
+		{
+			position[]={3357.9285,4.0204201,7400.2144};
+			id=923;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item911
+		{
+			position[]={3352.9011,3.9871609,7400.1938};
+			id=924;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item912
+		{
+			position[]={3347.8792,3.9800787,7400.1982};
+			id=925;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item913
+		{
+			position[]={3342.8533,3.8578498,7400.1763};
+			id=926;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item914
+		{
+			position[]={3337.8313,3.8229091,7400.1807};
+			id=927;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item915
+		{
+			position[]={3332.8054,3.7349801,7400.1777};
+			id=928;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item916
+		{
+			position[]={3327.7834,3.6054387,7400.1821};
+			id=929;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item917
+		{
+			position[]={3322.7571,3.6048613,7400.1763};
+			id=930;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item918
+		{
+			position[]={3317.7351,3.6052942,7400.1807};
+			id=931;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item919
+		{
+			position[]={3312.7078,3.6432772,7400.1602};
+			id=932;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item920
+		{
+			position[]={3307.6858,3.7320204,7400.1646};
+			id=933;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item921
+		{
+			position[]={3302.6599,3.6482172,7400.1426};
+			id=934;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item922
+		{
+			position[]={3297.6379,3.7667682,7400.147};
+			id=935;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item923
+		{
+			position[]={3292.6067,3.7658525,7400.1289};
+			id=936;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item924
+		{
+			position[]={3287.5847,3.7656572,7400.1333};
+			id=937;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item925
+		{
+			position[]={3282.5583,3.5993903,7400.1274};
+			id=938;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item926
+		{
+			position[]={3277.7478,3.5178847,7400.0747};
+			id=939;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item927
+		{
+			position[]={3272.7219,3.5061555,7400.0527};
+			id=940;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item928
+		{
+			position[]={3267.7,3.507056,7400.0571};
+			id=941;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item929
+		{
+			position[]={3262.6741,3.5864253,7400.0542};
+			id=942;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item930
+		{
+			position[]={3257.6521,3.6775918,7400.0586};
+			id=943;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item931
+		{
+			position[]={3252.6257,3.7664356,7400.0527};
+			id=944;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item932
+		{
+			position[]={3247.6038,3.889693,7400.0571};
+			id=945;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item933
+		{
+			position[]={3242.5764,3.8944504,7400.0366};
+			id=946;
+			side="EMPTY";
+			vehicle="mbg_cinderwall_5_low_InEditor";
+			skill=0.60000002;
+		};
+		class Item934
+		{
+			position[]={4819.1377,-0.038188897,7351.6431};
+			azimut=157.96748;
+			special="NONE";
+			id=947;
+			side="EMPTY";
+			vehicle="B_Boat_Armed_01_minigun_F";
+			skill=0.60000002;
+		};
+		class Item935
+		{
+			position[]={4833.917,0.0025719223,7357.2388};
+			azimut=157.96768;
+			special="NONE";
+			id=948;
+			side="EMPTY";
+			vehicle="I_Boat_Armed_01_minigun_F";
+			skill=0.60000002;
+		};
+		class Item936
+		{
+			position[]={4853.7412,0,7366.3535};
+			azimut=157.96768;
+			special="NONE";
+			id=949;
+			side="EMPTY";
+			vehicle="O_Boat_Armed_01_hmg_F";
+			skill=0.60000002;
+		};
+		class Item937
+		{
+			position[]={4892.6406,0,7379.6855};
+			azimut=152.006;
+			special="NONE";
+			id=950;
+			side="EMPTY";
+			vehicle="C_Rubberboat";
+			skill=0.60000002;
+		};
+		class Item938
+		{
+			position[]={4898.5249,0,7382.8535};
+			azimut=152.006;
+			special="NONE";
+			id=951;
+			side="EMPTY";
+			vehicle="C_Rubberboat";
+			skill=0.60000002;
+		};
+	};
+	class Markers
+	{
+		items=7;
+		class Item0
+		{
+			position[]={4789.0801,3.9803925,7612.958};
+			name="mkrBase";
+			text="Escuderias";
+			type="mil_marker";
+			colorName="ColorBlue";
+		};
+		class Item1
+		{
+			position[]={4837.8696,3.9803925,7493.3501};
+			name="mkrBase_1";
+			text="Largada do Rally";
+			type="mil_marker";
+			colorName="ColorBlue";
+		};
+		class Item2
+		{
+			position[]={4703.9028,3.9803925,7517.4551};
+			name="mkrDrag";
+			text="Largada Drag Racing";
+			type="mil_start";
+			colorName="ColorGreen";
+		};
+		class Item3
+		{
+			position[]={6012.5776,-0.39750832,894.922};
+			name="mkrSpeedend";
+			text="Fim da Corrida de Speed Boat";
+			type="mil_end";
+			colorName="ColorYellow";
+		};
+		class Item4
+		{
+			position[]={4827.6831,3.4024343,7377.2671};
+			name="mkrDrag_2";
+			text="Largada da Speed Boad Racing";
+			type="mil_start";
+			colorName="ColorYellow";
+		};
+		class Item5
+		{
+			position[]={909.53198,3.4634147,1843.2289};
+			name="mkrRallyend";
+			text="Fim do Rally";
+			type="mil_end";
+			colorName="ColorBlue";
+		};
+		class Item6
+		{
+			position[]={3600.6826,3.9803925,7519.7866};
+			name="mkrDrag_1";
+			text="Chegada Drag Racing";
+			type="mil_end";
+			colorName="ColorGreen";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"koplic"
+	};
+	addOnsAuto[]=
+	{
+		"koplic"
+	};
+	randomSeed=13491232;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"koplic"
+	};
+	addOnsAuto[]=
+	{
+		"koplic"
+	};
+	randomSeed=9686956;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"koplic"
+	};
+	addOnsAuto[]=
+	{
+		"koplic"
+	};
+	randomSeed=4200461;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049999999;
+		forecastFogDecay=0.0049999999;
+	};
+};
