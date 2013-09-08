@@ -22,8 +22,8 @@ class Mission
 	randomSeed=11663778;
 	class Intel
 	{
-		briefingName="MILSIM Template 0.15";
-		overviewText="MILSIM Template 0.15";
+		briefingName="MILSIM Template 0.16";
+		overviewText="MILSIM Template 0.16";
 		startWeather=0.29999998;
 		startWind=0.099999994;
 		startWaves=0.099999994;

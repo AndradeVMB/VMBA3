@@ -111,8 +111,8 @@ class Mission
 	randomSeed=3525649;
 	class Intel
 	{
-		briefingName="Operation HammerHead 0.1";
-		overviewText="Operation HammerHead 0.1";
+		briefingName="Operation HammerHead 0.2";
+		overviewText="Operation HammerHead 0.2";
 		resistanceEast=1;
 		startWeather=0.29999998;
 		startFog=0.39999998;

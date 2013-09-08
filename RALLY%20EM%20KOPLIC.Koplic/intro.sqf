@@ -5,6 +5,8 @@
  * Date: 05/09/13 10:43
  */
 
+if !isserver exitwith{};
+
 _westHQ = createCenter west;
 _eastHQ = createCenter east;
 _guerHQ = createCenter resistance;

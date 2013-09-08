@@ -32,7 +32,8 @@ class Mission
 		"A3_armor_f_beta_APC_Tracked_02",
 		"A3_Armor_F_Panther",
 		"A3_Signs_F",
-		"A3_Soft_F_HEMTT"
+		"A3_Soft_F_HEMTT",
+		"jsrs2_wheeled_apc1"
 	};
 	addOnsAuto[]=
 	{
@@ -50,6 +51,7 @@ class Mission
 		"A3_Structures_F_Mil_Fortification",
 		"A3_Air_F_Heli_Light_01",
 		"A3_Armor_F_AMV",
+		"jsrs2_wheeled_apc1",
 		"acre_sys_antenna",
 		"A3_Structures_F_Households_House_Small01",
 		"A3_Structures_F_Households_House_Big02",
@@ -70,7 +72,7 @@ class Mission
 	randomSeed=8776283;
 	class Intel
 	{
-		briefingName="Operacao SOCRATES n2.99";
+		briefingName="Operacao SOCRATES n2.991";
 		overviewText="A alguns dias o Comandante do I.S.A (INDEPENDENT STRATIS ARMY)tomou a ilha com um golpe de estado. Não podemos perder essa enorme fonte de recursos. O alto comando convocou o TATICAL TEAM [MILSIM] para retomar a ilha por ser o grupo mais eficaz em combate. Partindo do posto de infiltrado ao Sul de Stratis,nossas tropas devem romper as linhas inimigas para sabotar os suprimentos de armamento do inimigo e eliminar o comando do I.S.A";
 		resistanceEast=1;
 		startWeather=0.25;
