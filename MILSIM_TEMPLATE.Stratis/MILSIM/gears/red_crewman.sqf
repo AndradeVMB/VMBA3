@@ -1,4 +1,4 @@
-wwwwaitUntil {!isNull player};
+waitUntil {!isNull player};
 
 _unit = _this select 1;
 
