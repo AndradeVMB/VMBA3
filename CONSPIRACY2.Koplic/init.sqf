@@ -7,6 +7,9 @@ if (!isDedicated) then {waitUntil {!isNull player && isPlayer player};};
 // Wait until BIS Functions Initialized
 waitUntil{!isNil "BIS_fnc_init"};
 
+// Init MILSIM Template
+0 = [] execVM "MILSIM\MILSIM_init.sqf";
+
 //groo_INIT
 #include "groo\groo_init.sqf"
 

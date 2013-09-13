@@ -1,3 +1,7 @@
+// MILSIM LOADOUT MENU
+#include "MILSIM\dialog\defines.hpp"
+#include "MILSIM\dialog\dialog.hpp"
+
 //-------------------------------------------LOADING INFO--------------------------------------------------------------------
 		author = "MILSIM S3";
 		onLoadName = "CONSPIRACY Ep.2 Wolfslair";
@@ -38,21 +42,17 @@ class Header
 // Include for NORRN_cam
 #include "scripts\NORRN_cam\NORRN_cam_dialog.hpp"
 
-// Include for Vehicle HUD
-#include "scripts\Veh_Hud\Dialogs\common.hpp"
-
-
 // ----------------------------------------DEFINE MUSIC-------------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//class CfgMusic
-//{
-//   tracks[]={deixaosgarotobrincar};
-//   class deixaosgarotobrincar
-//  {
-//    name = "deixaosgarotobrincar";
-//    sound[] = {\Music\deixaosgarotobrincar.ogg, db+1, 1.0};
-//	};
-//};
+class CfgMusic
+{
+   tracks[]={balalaika};
+   class balalaika
+  {
+    name = "balalaika";
+    sound[] = {\Music\balalaika.ogg, db+1, 1.0};
+    };
+};
 
 
 //--------------------------------------------DEFINE SOUNDS-------------------------------------------------------------------
