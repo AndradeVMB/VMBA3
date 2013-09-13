@@ -41,18 +41,17 @@ class Header
 // Include for Vehicle HUD
 #include "scripts\Veh_Hud\Dialogs\common.hpp"
 
-
 // ----------------------------------------DEFINE MUSIC-------------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//class CfgMusic
-//{
-//   tracks[]={deixaosgarotobrincar};
-//   class deixaosgarotobrincar
-//  {
-//    name = "deixaosgarotobrincar";
-//    sound[] = {\Music\deixaosgarotobrincar.ogg, db+1, 1.0};
-//	};
-//};
+class CfgMusic
+{
+   tracks[]={balalaika};
+   class balalaika
+  {
+    name = "balalaika";
+    sound[] = {\Music\balalaika.ogg, db+1, 1.0};
+    };
+};
 
 
 //--------------------------------------------DEFINE SOUNDS-------------------------------------------------------------------
