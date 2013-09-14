@@ -22,6 +22,8 @@ _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addWeapon "AR_GoldTeam";
 _unit addWeapon "hgun_ACPC2_F";
 
+_unit addPrimaryWeaponItem "optic_Hamr";
+_unit addItem "optic_Aco";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_H";
 _unit addHandgunItem "muzzle_snds_acp";
@@ -44,13 +46,10 @@ _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 
-_unit addWeapon "Binocular";
-
 _unit addmagazine "SatchelCharge_Remote_Mag";
 _unit addmagazine "SatchelCharge_Remote_Mag";
 _unit addmagazine "DemoCharge_Remote_Mag";
 _unit addmagazine "DemoCharge_Remote_Mag";
-_unit addmagazine "HandGrenade";
 
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
@@ -59,7 +58,13 @@ _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "SmokeShell";
 _unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
+_unit addmagazine "SmokeShellOrange";
+_unit addmagazine "SmokeShellOrange";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
 
 _unit additem "NVGoggles";
 _unit assignItem "NVGoggles";
@@ -80,7 +85,6 @@ _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 
-_unit addGoggles "G_Combat";
 _unit addItem "ToolKit";
 _unit addItem "MineDetector";
 _unit addGoggles "G_Tactical_Clear";

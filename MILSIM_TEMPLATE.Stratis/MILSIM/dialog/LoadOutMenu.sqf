@@ -89,15 +89,17 @@ MILSIM_var_LoadOutMenu_GOLD_Classes = [
 										["Team Gold Captain Medic","MILSIM\gears\gold_CPT_Medic_tg.sqf"],
 
 										["Team Gold Lieutenant GL","MILSIM\gears\gold_Liutenent_GL_tg.sqf"],
+										["Team Gold Lieutenant Assault","MILSIM\gears\gold_Liutenent_assault.sqf"],
+										["Team Gold Lieutenant Support","MILSIM\gears\gold_Liutenent_Support.sqf"],
 										["Team Gold Lieutenant Medic","MILSIM\gears\gold_Liutenent_medic_tg.sqf"],										
 										
 										["Team Gold Sargent Assault","MILSIM\gears\gold_SGT_Assault_tg.sqf"],
-										["Team Gold Sargent Marksman","MILSIM\gears\gold_SGT_Marksman.sqf"],
+										["Team Gold Sargent Engenheiro","MILSIM\gears\gold_SGT_Engineer.sqf"],
+										["Team Gold Sargent Support","MILSIM\gears\gold_SGT_Support.sqf"],
 										
 										["Team Gold Operator Assault","MILSIM\gears\gold_CPL_Assault.sqf"],
 										["Team Gold Operator Medic","MILSIM\gears\gold_CPL_medic.sqf"],
 										["Team Gold Operator Support","MILSIM\gears\gold_CPL_support.sqf"],
-										["Team Gold Operator Marksman","MILSIM\gears\gold_CPL_marksman.sqf"],
 										["Team Gold Operator Engineer","MILSIM\gears\gold_CPL_Engineer.sqf"],
 										["Team Gold Recruit","MILSIM\gears\gold_REC_Recruit.sqf"]
 										];

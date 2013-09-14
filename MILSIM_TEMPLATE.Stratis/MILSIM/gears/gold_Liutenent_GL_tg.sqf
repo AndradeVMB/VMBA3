@@ -30,7 +30,7 @@ _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit additem "muzzle_snds_H";
 _unit addItem "muzzle_snds_acp";
-_unit addItem "optic_MRCO";
+_unit addItem "optic_Aco";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
@@ -52,11 +52,24 @@ _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 
-_unit addWeapon "Binocular";
+_unit addmagazine "Titan_AT";
 
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+
 
 _unit addmagazine "SmokeShell";
 _unit addmagazine "SmokeShell";
@@ -107,7 +120,6 @@ _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 
 _unit addWeapon "rangefinder";
-_unit addGoggles "G_Combat";
 _unit addGoggles "G_Tactical_Clear";
 
 if(true) exitWith{};

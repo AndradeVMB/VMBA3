@@ -27,6 +27,9 @@ _unit addHandgunItem "muzzle_snds_acp";
 _unit addmagazine "Titan_AT";
 _unit addmagazine "Titan_AT";
 _unit addmagazine "Titan_AT";
+_unit addmagazine "Titan_AT";
+_unit addmagazine "Titan_AA";
+_unit addmagazine "Titan_AA";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
@@ -52,24 +55,14 @@ _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 
-_unit addmagazine "HandGrenade";
-_unit addmagazine "HandGrenade";
-_unit addmagazine "HandGrenade";
-_unit addmagazine "HandGrenade";
-_unit addmagazine "HandGrenade";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
 
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-
-_unit addmagazine "SmokeShellOrange";
-_unit addmagazine "SmokeShellOrange";
-_unit addmagazine "SmokeShellOrange";
-_unit addmagazine "SmokeShellOrange";
-_unit addmagazine "SmokeShellOrange";
-
+_unit additem "NVGoggles";
+_unit assignItem "NVGoggles";
 _unit additem "ItemMap";
 _unit assignItem "ItemMap";
 _unit additem "ItemGPS";
@@ -82,9 +75,6 @@ _unit addItem "ACRE_PRC343_ID_13";
 _unit assignItem "ACRE_PRC343_ID_13";
 _unit addWeapon "Binocular";
 
-_unit addItem "FirstAidKit";
-_unit addItem "FirstAidKit";
-_unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
