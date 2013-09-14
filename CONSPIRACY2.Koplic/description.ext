@@ -1,0 +1,123 @@
+// MILSIM LOADOUT MENU
+#include "MILSIM\dialog\defines.hpp"
+#include "MILSIM\dialog\dialog.hpp"
+
+//-------------------------------------------LOADING INFO--------------------------------------------------------------------
+		author = "MILSIM S3";
+		onLoadName = "CONSPIRACY Ep.2 Wolfslair";
+		onLoadMission = "CONSPIRACY Ep.2 Wolfslair";
+//		loadScreen = "pictures\sw_ed.jpg";
+		disabledAI = 1;
+
+		overviewText = "Localize e resgate os agentes desaparecidos. Investigue o envolvimento russo no conflito. Elimine os blindados inimigos.";
+//		overviewTextLocked = "Lock Text";
+//		overviewPicture = "";
+
+//-------------------------------------------GAMETYPE-----------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Header
+	{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 64;
+	};
+//-------------------------------------------RESPAWN SETTINGS----------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	respawn = "BIRD";
+	respawndelay = 10;
+
+
+//------------------------------------------ INCLUDES FOR SCRIPTS-------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// GVS Vehicle REPAIR
+#include "scripts\gvs\colors_include.hpp"
+#include "scripts\gvs\control_include.hpp"
+#include "scripts\gvs\stc_include.hpp"
+#include "scripts\gvs\sound_include.hpp"
+
+// Include for TAW Viewdistance Script
+#include "scripts\taw_vd\dialog.hpp"
+
+// Include for NORRN_cam
+#include "scripts\NORRN_cam\NORRN_cam_dialog.hpp"
+
+
+// ----------------------------------------DEFINE MUSIC-------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class CfgMusic
+{
+   tracks[]={balalaika};
+   class balalaika
+  {
+    name = "balalaika";
+    sound[] = {\Music\balalaika.ogg, db+1, 1.0};
+    };
+};
+
+
+//--------------------------------------------DEFINE SOUNDS-------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class CfgSounds
+{
+	sounds[]={NoSOund};
+	class NoSound
+	{
+		name = "NoSound";
+		sound[] = {"scripts\gvs\Dummy.ogg", 0, 1};
+		titles[] = {};
+	};
+
+};
+
+
+//-------------------------------------------------DEFINE TITLE RESOURCES-----------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class RscTitles
+{
+	titles[]={};
+	#include "scripts\gvs\stc_displays.hpp"
+	#include "scripts\=BTC=_Logistic\=BTC=_Lift\=BTC=_Hud.h"
+	#include "scripts\Veh_Hud\Dialogs\namesright.hpp"
+};
+
+
+//-----------------------------------------------DEFINE PARAMS----------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class Params
+{
+        //paramsArray[0]
+        class ShowIntro {
+                title = "Exibir Intro";
+                values[] = {1,0};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 1;
+        };
+        //paramsArray[1]
+        class TestMode {
+                title = "Modo Edicao";
+                values[] = {1,0};
+                texts[] = {"ENABLED","DISABLED"};
+                default = 0;
+        };
+        //paramsArray[2]
+         class TimeOfDay {
+	      title = "Hora do dia";
+	      values[] = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23};
+	      texts[] = {"00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00","09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00","23:00"};
+	      default = 12;
+       };
+      //paramsArray[3]
+         class Weather {
+         	     title = "Clima";
+                values[] = {1,2,3,4};
+                texts[] = {"Limpo", "Tempestuoso", "Nublado", "Nebuloso"};
+               default = 1;
+     };
+};
+
+//----------------------------------------------SCRIPT INCLUDES---------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
