@@ -13,7 +13,7 @@ removeallcontainers _unit;
 
 _unit addUniform "MILSIM_BDU";
 _unit addvest "GOLDTEAM_VEST";
-_unit addHeadgear "GoldTeam_Helmet"; 
+_unit addHeadgear "GoldTeam_Helmet_LEADER";
 _unit addbackpack "GoldTeam_BP_Heavy_Base";
 
 _unit addmagazine "150Rnd_762x51_Box";
@@ -22,11 +22,8 @@ _unit addWeapon "LMG_Zafir_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_B";
-_unit addHandgunItem "muzzle_snds_acp";
 _unit addItem "optic_Aco";
 
-_unit addmagazine "150Rnd_762x51_Box";
-_unit addmagazine "150Rnd_762x51_Box";
 _unit addmagazine "150Rnd_762x51_Box";
 _unit addmagazine "150Rnd_762x51_Box";
 _unit addmagazine "150Rnd_762x51_Box";
@@ -65,7 +62,9 @@ _unit assignItem "ItemWatch";
 
 _unit addItem "ACRE_PRC343_ID_13";
 _unit assignItem "ACRE_PRC343_ID_13";
+_unit addItem "ACRE_PRC148_UHF_ID_11";
 
+_unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";

@@ -27,7 +27,7 @@ _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_H";
 _unit addHandgunItem "muzzle_snds_acp";
-_unit addItem "optic_MRCO";
+_unit addItem "optic_Aco";
 
 _unit addmagazine "Titan_AT";
 _unit addmagazine "Titan_AT";
@@ -51,7 +51,6 @@ _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 
-_unit addWeapon "Binocular";
 
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
@@ -60,13 +59,15 @@ _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
 
 _unit addmagazine "SmokeShell";
 _unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
 
+_unit addmagazine "REV1_flash";
+_unit addmagazine "REV1_flash";
 _unit addmagazine "REV1_flash";
 _unit addmagazine "REV1_flash";
 _unit addmagazine "REV1_flash";
