@@ -14,10 +14,9 @@ removeallcontainers _unit;
 _unit addUniform "MILSIM_BDU";
 _unit addvest "GOLDTEAM_VEST";
 _unit addHeadgear "GoldTeam_Helmet_LEADER";
-_unit addbackpack "GoldTeam_BP_Base";
+_unit addbackpack "GoldTeam_BP_Leader_Base";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
-_unit addmagazine "1Rnd_HE_Grenade_shell";
 _unit addmagazine "Titan_AT";
 _unit addmagazine "9Rnd_45ACP_Mag";
 
@@ -29,7 +28,7 @@ _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addItem "muzzle_snds_H";
 _unit addHandgunItem "muzzle_snds_acp";
-_unit addItem "optic_MRCO";
+_unit addItem "optic_Aco";
 
 _unit addmagazine "Titan_AT";
 _unit addmagazine "Titan_AT";
@@ -54,20 +53,21 @@ _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 _unit addmagazine "9Rnd_45ACP_Mag";
 
-_unit addWeapon "Binocular";
 
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
 _unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+_unit addmagazine "HandGrenade";
+
 
 _unit addmagazine "SmokeShell";
 _unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShell";
-_unit addmagazine "SmokeShellOrange";
-_unit addmagazine "SmokeShellOrange";
-_unit addmagazine "SmokeShellOrange";
 _unit addmagazine "SmokeShellOrange";
 _unit addmagazine "SmokeShellOrange";
 
@@ -100,7 +100,7 @@ _unit addItem "FirstAidKit";
 _unit addItem "FirstAidKit";
 
 _unit addWeapon "rangefinder";
-_unit addGoggles "G_Combat";
 _unit addGoggles "G_Tactical_Clear";
 
 if(true) exitWith{};
+
