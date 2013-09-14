@@ -1,3 +1,6 @@
+// Make sure BIS functions have been initialized at this point
+waitUntil {!isNil "BIS_fnc_init"};
+
 //PARAMS
 // Mission Params
 if isMultiplayer then {
@@ -63,6 +66,7 @@ switch groo_param_weather do {
 
 // INICIALIZACAO UPSMON
 //Init UPSMON scritp (must be run on all clients)
+call compile preprocessFileLineNumbers "scripts\UPSMON\!R\markerAlpha.sqf";
 call compile preprocessFileLineNumbers "scripts\Init_UPSMON.sqf";
 
 // INICIALIZACAO FHQ Task Tracker
@@ -95,6 +99,11 @@ call compileFinal preprocessFileLineNumbers "scripts\FAR_revive\FAR_revive_init.
 
 // Zuff Group Maneagement Script
 [player] execVM "scripts\groupsMenu\initGroups.sqf";
+
+// Compile the air patrol script to be able to call it as a function
+DMC_Air_Patrol = compile preprocessFileLineNumbers "scripts\DMC_airPatrol.sqf";
+
+
 
 
 [] execVM "groo\occupation.sqf";
