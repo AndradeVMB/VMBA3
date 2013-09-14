@@ -32,8 +32,6 @@ _unit addItem "optic_Aco";
 
 _unit addmagazine "Titan_AT";
 _unit addmagazine "Titan_AT";
-_unit addmagazine "Titan_AT";
-_unit addmagazine "Titan_AA";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "30Rnd_65x39_caseless_mag";
