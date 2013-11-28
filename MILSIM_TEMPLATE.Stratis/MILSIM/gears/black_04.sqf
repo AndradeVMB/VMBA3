@@ -14,7 +14,7 @@ removeallcontainers _unit;
 _unit addUniform "MILSIM_BDU";
 _unit addvest "BLACKTEAM_VEST";
 _unit addHeadgear "BlackTeam_Helmet_A04";
-_unit addbackpack "BlackTeam_BP_EOD_base";
+_unit addbackpack "BlackTeam_BP_EOD";
 
 _unit addmagazine "30Rnd_65x39_caseless_mag";
 _unit addmagazine "1Rnd_HE_Grenade_shell";

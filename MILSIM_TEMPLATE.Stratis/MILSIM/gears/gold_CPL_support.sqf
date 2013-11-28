@@ -4,7 +4,7 @@ _unit = _this select 1;
 
 removeAllItems _unit;
 removeVest _unit;
-removeUniform _unit; 
+removeUniform _unit;
 removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
@@ -13,8 +13,8 @@ removeallcontainers _unit;
 
 _unit addUniform "MILSIM_BDU";
 _unit addvest "GOLDTEAM_VEST";
-_unit addHeadgear "GoldTeam_Helmet"; 
-_unit addbackpack "GoldTeam_BP_Heavy_Base";
+_unit addHeadgear "GoldTeam_Helmet";
+_unit addbackpack "GoldTeam_BP_Heavy";
 
 _unit addmagazine "150Rnd_762x51_Box";
 

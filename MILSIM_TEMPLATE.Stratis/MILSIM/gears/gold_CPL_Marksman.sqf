@@ -13,7 +13,7 @@ removeallcontainers _unit;
 _unit addUniform "MILSIM_BDU";
 _unit addvest "GOLDTEAM_VEST";
 _unit addHeadgear "GoldTeam_Helmet";
-_unit addbackpack "GoldTeam_BP_base";
+_unit addbackpack "GoldTeam_BP";
 
 _unit addWeapon "Binocular";
 _unit addWeapon "srifle_EBR_F";

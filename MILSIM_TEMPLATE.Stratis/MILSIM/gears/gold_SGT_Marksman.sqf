@@ -14,7 +14,7 @@ removeallcontainers _unit;
 _unit addUniform "MILSIM_BDU";
 _unit addvest "GOLDTEAM_VEST";
 _unit addHeadgear "GoldTeam_Helmet_LEADER";
-_unit addbackpack "GoldTeam_BP_Base";
+_unit addbackpack "GoldTeam_BP";
 _unit addWeapon "Binocular";
 
 _unit addmagazine "20Rnd_762x51_Mag";
