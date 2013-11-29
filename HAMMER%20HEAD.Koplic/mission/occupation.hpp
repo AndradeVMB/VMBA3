@@ -14,12 +14,6 @@ nul=["mkrURBAN10",350,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN11",350,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN12",350,"garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrURBAN13",350,"garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrURBAN14",350,"garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrURBAN15",350,"garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrURBAN16",350,"garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrURBAN17",350,"garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrURBAN18",350,"garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrURBAN19",350,"garrison"] execVM "scripts\GrooEOS.sqf";
 
 
 
@@ -38,9 +32,6 @@ nul=["mkrRoadblock11",450,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrRoadblock12",450,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrRoadblock13",450,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrRoadblock14",450,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrRoadblock15",450,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrRoadblock16",450,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrRoadblock17",450,"garrison","garrison"] execVM "scripts\GrooEOS.sqf";
 
 
 
@@ -51,7 +42,7 @@ nul=["mkrSpecop2",450,"SpecOps"] execVM "scripts\GrooEOS.sqf";
 
 
 
-nul=["mkrHillPatrol1",500,"squad"] execVM "scripts\GrooEOS.sqf";
+nul=["mkrHillPatrol1",600,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol2",500,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol3",500,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol4",500,"squad"] execVM "scripts\GrooEOS.sqf";
@@ -72,9 +63,6 @@ nul=["mkrHillPatrol18",500,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol19",500,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol20",500,"squad"] execVM "scripts\GrooEOS.sqf";
 nul=["mkrHillPatrol21",500,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol22",500,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol23",500,"squad"] execVM "scripts\GrooEOS.sqf";
-nul=["mkrHillPatrol24",500,"squad"] execVM "scripts\GrooEOS.sqf";
 
 
 Sleep 120;

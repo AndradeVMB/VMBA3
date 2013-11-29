@@ -2543,7 +2543,7 @@ class Mission
 			vehicle="B_MRAP_01_gmg_F";
 			skill=0.60000002;
 			text="v2";
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf""; 0 = this execVM ""MILSIM\Hunter_munition.sqf"";";
 		};
 		class Item2
 		{
@@ -2554,7 +2554,7 @@ class Mission
 			vehicle="B_MRAP_01_gmg_F";
 			skill=0.60000002;
 			text="v1";
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf""; 0 = this execVM ""MILSIM\Hunter_munition.sqf"";";
 		};
 		class Item3
 		{
@@ -2682,22 +2682,22 @@ class Mission
 		class Item15
 		{
 			position[]={4102.2178,3.9803925,7540.2725};
-			azimut=179.34818;
+			azimut=179.34801;
 			id=156;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			skill=0.60000002;
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf""; 0 = this execVM ""MILSIM\Hunter_munition.sqf"";";
 		};
 		class Item16
 		{
 			position[]={4106.5366,3.9803925,7540.3306};
-			azimut=181.18842;
+			azimut=181.188;
 			id=157;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			skill=0.60000002;
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf""; 0 = this execVM ""MILSIM\Hunter_munition.sqf"";";
 		};
 		class Item17
 		{
@@ -2713,24 +2713,24 @@ class Mission
 		class Item18
 		{
 			position[]={4084.239,3.9803925,7538.6528};
-			azimut=180.75117;
+			azimut=180.75101;
 			id=159;
 			side="EMPTY";
 			vehicle="B_Truck_01_transport_F";
 			skill=0.60000002;
 			text="v1_1";
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf""; 0 = this execVM ""MILSIM\Hunter_munition.sqf"";";
 		};
 		class Item19
 		{
 			position[]={4088.584,3.9803925,7538.6836};
-			azimut=540.61597;
+			azimut=540.61603;
 			id=160;
 			side="EMPTY";
 			vehicle="B_Truck_01_transport_F";
 			skill=0.60000002;
 			text="v1_1_1";
-			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf"";";
+			init="0 = [this, 15, 0] execVM ""MILSIM\vehicle_respawn.sqf""; 0 = this execVM ""MILSIM\Hunter_munition.sqf"";";
 		};
 		class Item20
 		{

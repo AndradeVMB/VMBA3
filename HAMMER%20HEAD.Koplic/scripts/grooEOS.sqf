@@ -35,11 +35,13 @@ if !isServer exitwith {};
 private ["_garrison","_garrisonRanks","_garrisonSkills","_scouts","_scoutsRanks","_scoutsSkills","_Patrol","_PatrolRanks","_PatrolSkills","_Squad","_SquadRanks","_squadSkills","_Platoon","_PlatoonRanks","_PlatoonSkills","_ATTEAM","_ATTEAMRanks","_ATTEAMSkills","_AATEAM","_AATEAMRanks","_AATEAMSkills","_Snipers","_SniperRanks","_SniperSkills","_SpecOps","_SpecOpsRanks","_specOpsSkills","_Armour","_markerPosition","_mkrName","_enemySide","_loop","_debugHint","_debug","_mkrAreaX","_mkrAreaY","_mkrSize","_detectionDistanceY","_detectionDistanceX","_cacheDistanceY","_cacheDistanceX","_radiusPlacement","_reinforcementPlacement","_SideAdjust","_aiSide","_detectionSide","_sideAdjust","_spotFriendlies","_spotEnemies","_UCthis","_i","_e","_Tanks","_crewTanks","_Groups","_UCThis","_spwnposnew","_ranks","_skills","_upsParam","_patrolRanks","_patrolSkills","_patrol","_spwnposNew","_squad","_platton","_atteamSkills","_atteam","_aateamSkills","_aateam","_snipersSkills","_snipers","_SpecOpsSkills","_newGroup","_param","_mkrname","_tankType","_tank","_tanks","_Tank","_crewTank","_spotFriendlyLeaving","_units"];
 
 _garrison 			= [
-						"O_mas_afr_Soldier_lite_F",
-						"O_mas_afr_soldier_LAT_F",	
-						"O_mas_afr_soldier_LAA_F",	
-						"O_mas_afr_soldier_MG_F",
-						"O_mas_afr_soldier_AR_F"
+						"O_soldierU_TL_F",
+						"O_soldierU_F",	
+						"O_soldierU_AR_F",	
+						"O_soldierU_AAT_F",
+						"O_soldierU_AA_F",
+						"O_soldierU_M_F",
+						"O_SoldierU_GL_F"
 						
 					];
 
@@ -51,11 +53,16 @@ _scoutsRanks 		=[];
 _scoutsSkills		=[0.2,0.5];
 
 _Patrol 			=[
-						"O_mas_afr_Soldier_lite_F",
-						"O_mas_afr_soldier_LAT_F",	
-						"O_mas_afr_soldier_LAA_F",	
-						"O_mas_afr_soldier_MG_F",
-						"O_mas_afr_soldier_AR_F"
+						"O_soldierU_TL_F",
+						"O_soldierU_F",	
+						"O_soldierU_AR_F",	
+						"O_soldierU_AAT_F",
+						"O_soldierU_AA_F",
+						"O_soldierU_M_F",
+						"O_SoldierU_GL_F",
+						"O_soldierU_AAR_F",
+						"O_soldierU_AT_F",
+						"O_soldierU_AR_F"
 						
 						
 					];
@@ -64,11 +71,16 @@ _PatrolRanks 		=[];
 _PatrolSkills		=[0.2,0.4];
 
 _Squad 				=[
-						"O_mas_afr_Soldier_lite_F",
-						"O_mas_afr_soldier_LAT_F",	
-						"O_mas_afr_soldier_LAA_F",	
-						"O_mas_afr_soldier_MG_F",
-						"O_mas_afr_soldier_AR_F"
+						"O_soldierU_TL_F",
+						"O_soldierU_F",	
+						"O_soldierU_AR_F",	
+						"O_soldierU_AAT_F",
+						"O_soldierU_AA_F",
+						"O_soldierU_M_F",
+						"O_SoldierU_GL_F",
+						"O_soldierU_AAR_F",
+						"O_soldierU_AT_F",
+						"O_soldierU_AR_F"
 						
 						
 					];
@@ -104,13 +116,13 @@ _SniperRanks = [];
 _SniperSkills = [0.7,0.9];
 
 _SpecOps 	=[
-			"O_mas_rus_Soldier_lite_F_u",
-			"O_mas_rus_Soldier_lite_F_u",
-			"O_mas_rus_Soldier_lite_F_u",
-			"O_mas_rus_Soldier_lite_F_u",
-			"O_mas_rus_Soldier_lite_F_u",
-			"O_mas_rus_Soldier_lite_F_u"
-			
+			"O_recon_TL_F",
+			"O_recon_LAT_F",
+			"O_recon_F",
+			"O_recon_medic_F",
+			"O_recon_M_F",
+			"O_recon_JTAC_F",
+			"O_recon_exp_F"
 			
 			];
 			
@@ -268,7 +280,7 @@ for [{_i=2},{_i<count _UCthis},{_i=_i+1}] do {
 			case "SPECOPS":{
 							_spwnposnew = [_markerPosition, random _radiusPlacement, random 359] call BIS_fnc_relPos;
 							_skills = 	_SpecOpsSkills;
-							_upsParam =	["FORTIFY","SHOWMARKER","SPAWNED","DELETE:",60];								
+							_upsParam =	["AMBUSH","SHOWMARKER","SPAWNED","DELETE:",60];								
 							_units = _SpecOps;
 							}; 
 		};

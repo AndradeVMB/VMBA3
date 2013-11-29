@@ -1,6 +1,6 @@
 ﻿//-------------------------------------------LOADING INFO--------------------------------------------------------------------
 		author = "Virtual MilSim 3º Seção";
-		onLoadName = "HAMMER HEAD";
+		onLoadName = "HUNTDOWN";
 		onLoadMission = "Virtual Milsim Brasil S3 Team";
 //		loadScreen = "pictures\sw_ed.jpg";
 		disabledAI = 1;
@@ -42,18 +42,15 @@ class CfgSounds
 		sound[] = {"gvs\Dummy.ogg", 0, 1};
 		titles[] = {};
 	};
-	class Fogos
-	{
-		name = "fogos";
-		sound[] = {"mission\fogos.ogg", 5, 1};
-		titles[] = {};
-	};
 
 };
 
-// MILSIM LOADOUT MENU
-#include "MILSIM\dialog\defines.hpp"
-#include "MILSIM\dialog\dialog.hpp"
+#include "VAS\menu.hpp"
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+};
+
 //--
 // GVS Vehicle REPAIR
 #include "gvs\colors_include.hpp"

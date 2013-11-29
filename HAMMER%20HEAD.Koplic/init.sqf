@@ -19,6 +19,22 @@ MAC_fnc_switchMove = {
 PARAMEDITMODE = false;
 PARAMSHOWINTRO = false;
 
+// IED'S
+iedcounter = 0;
+
+
+Disarm = {
+         _unit = _this select 0;
+		 _b = _this select 1;
+		 _unit addAction ["Disarm", "IED\Disarm.sqf", ( _b), 0, false, true, "", "(_target distance _this) < 3"];
+
+};
+
+removeAct = {
+             _unit = _this select 0;
+			 _unit removeaction 0;
+			 };
+
 // Init Groo Framework Scripts
 call compile preprocessFileLineNumbers "groo\groo_init.sqf";
 [format["INFO: Starting %1 version %2 init Script",_missionName,_missionVersion],"green"] spawn groo_fnc_consoleMSG;
@@ -34,27 +50,6 @@ if (PARAMEDITMODE) then {
 
 // TAW Viewdistance
 [] execVM "taw_vd\init.sqf";
-
-// MILSIM LoadOut Script
-MILSIM_Ammo_action = player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 40"];
-
-[] spawn
-{
-	private["_old","_recorded"];
-	while {true} do
-	{
-		_recorded = vehicle player;
-		if(!alive player) then
-		{
-			_old = player;
-			_old removeAction MILSIM_Ammo_action;
-			waitUntil {alive player};
-			MILSIM_Ammo_action = player addAction ["<t color='#0000FF'>" + "MILSIM LoadOut Menu" + "</t>","MILSIM\dialog\LoadOutMenu.sqf",[],10,false,false,"","_this distance MILSIMBox < 40"];
-		};
-
-		waitUntil {_recorded != vehicle player || !alive player};
-	};
-};
 
 // MILSIM playernames
 [] execVM "MILSIM\scripts\playernames.sqf";

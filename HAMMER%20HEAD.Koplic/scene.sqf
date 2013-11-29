@@ -49,7 +49,7 @@ _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 10;
 waitUntil {camCommitted _camera;};
 
-titletext ["***OPERAÇÃO HAMMER HEAD***","PLAIN"];
+titletext ["***OPERAÇÃO HUNTDOWN***","PLAIN"];
 
 ;comment "0:45:27";
 _camera camPrepareTarget [103018.55,16855.95,7.02];
@@ -94,7 +94,7 @@ _camera camCommitPrepared 0;
 waitUntil {camCommitted _camera;};
 
 
-titletext ["O TERRITORIO É EXTREMAMENTE HOSTIL, MANTENHA SE ATENTO!!","PLAIN"];
+titletext ["SE QUER MOLESA SENTA NO PUDIM","PLAIN"];
 
 
 
@@ -118,4 +118,4 @@ waitUntil {camCommitted _camera;};
 _camera cameraeffect ["terminate","back"];
 camdestroy _camera;
 
-[str ("HAMMER HEAD") ,  str(date select 1) + "." + str(date select 2) + "." + str(date select 0), str("Koplic")] spawn BIS_fnc_infoText;
+[str ("HUNTDOWN") ,  str(date select 1) + "." + str(date select 2) + "." + str(date select 0), str("Koplic")] spawn BIS_fnc_infoText;
