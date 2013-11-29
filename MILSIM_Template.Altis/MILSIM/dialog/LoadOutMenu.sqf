@@ -48,16 +48,16 @@ MILSIM_fnc_LoadOutMenu_FillTeams = {
 	
 	ctrlEnable [1600,false]; // Wait Combo box fill before Button Activation
 	
-	_index = lbAdd [2100, "GOLD"];
+	_index = lbAdd [2100, "RANGERS"];
 	lbSetColor [2100, _index, [0, 0.5, 0.5, 1]];
 	
-	_index = lbAdd [2100, "BLACK"];
+	_index = lbAdd [2100, "DELTAS"];
 	lbSetColor [2100, _index, [0, 0, 0, 1]];
 	
-	_index = lbAdd [2100, "RED"];
+	_index = lbAdd [2100, "ARMOURED"];
 	lbSetColor [2100, _index, [1, 0, 0, 1]];
 	
-	_index = lbAdd [2100, "BLUE"];
+	_index = lbAdd [2100, "AIR FORCE"];
 	lbSetColor [2100, _index, [0, 0, 1, 1]];
 	
 	ctrlEnable [1600,true]; // Wait Combo box fill before Button Activation
